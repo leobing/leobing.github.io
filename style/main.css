@@ -9,44 +9,9 @@
 
 ul{
   margin: 0;
-  padding: 0;
-  list-style: none;
-}
-li{
-  padding:0;
 }
 h1{
   margin: 0;
-}
-h2{
-  font-size: 30px;
-  margin: 0;
-}
-h3{
-  font-size: 24px;
-}
-p{
-  font-size: 18px;
-  letter-spacing: 1px;
-}
-button{
-  background-color: #333;
-  color: #fff;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-}
-.hr{
-  width: 100%;
-  height: 2px;
-  background-color: #fff;
-  margin: 20px auto;
-}
-dl{
-  /*margin:0;*/
-}
-dd{
-  margin:0;
 }
 
 /*公共样式 结束*/
@@ -54,16 +19,14 @@ dd{
 /*页头开始*/
 header{
   background-color: rgba(0, 0, 0, 0.4);
+  height: 50px;
 }
 nav{
-  height: 50px;
   letter-spacing: 1px;
 }
 nav .logo{
   display: inline-block;
   padding-left: 10px;
-  font-size: 20px;
-  font-weight: 700px;
 }
 
 .navbar{
@@ -80,124 +43,18 @@ nav .logo{
   color: #fff;
   height: inherit;
 }
-.active{
-  border-bottom: 4px solid #fff;
-}
 
 .banner{
-  background: transparent;
-  height: 900px;
+  background: gray;
+  height: 700px;
   color: #fff;
 }
 .banner .inner{
-  max-width: 350px;
+  max-width: 300px;
   margin: 0 auto;
   text-align: center;
   position: relative;
   top: 160px;
-  background-color: rgba(0,0,0,0.4);
+  background-color: blue;
 }
-.banner .inner h1{
-  margin: 0 auto;
-  padding: 12px;
-  border-top: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-}
-.sub_heading{
-  line-height: 30px;
-  margin: 30px 0;
-  font-size: 18px;
-}
-.banner .inner .main-btn{
-  padding: 14px 60px;
-  font-size: 20px;
-  letter-spacing: 4px;
-  position: relative;
-  top: 180px;
-}
-.banner .inner .more{
-  margin-top: 240px;
-  font-size: 18px;
-  padding: 10px;
-}
-.banner .more .fa{
-  display: block;
-  padding-top: 10px;
-}
-
 /*页头结束*/
-
-/*内容 开始*/
-.work_list_section{
-  background-color: #089DB0;
-  padding: 100px 0;
-  text-align: center;
-  color: #fff;
-}
-.work_list_section .wrapper{
-  max-width: 1080px;
-  margin: 0 auto;
-}
-.work_list_section .hr{
-  background-color: #078494;
-  width: 60%;
-}
-.work_group{
-  /*background-color: #777;*/
-}
-.work_group ul{
-  width: 1080px;
-}
-.work_group li{
-  width: 240px;
-  background-color: transparent;
-  height: 380px;
-  display: inline-block;
-  margin-right: 10px;
-  border: 1px solid #068090;
-}
-.work_group li:last-child{
-  margin-right: 0;
-}
-.work_group li img{
-  width: 200px;
-  height: 300px;
-  border-radius: 5px;
-}
-.work_group li dd{
-  /*height: 80px;*/
-  padding-top: 13px;
-}
-
-/*内容 结束*/
-
-/*页脚开始*/
-
-footer{
-  background-color: #333;
-  min-height: 150px;
-  color: #fff;
-  text-align: center;
-}
-ul.share_group{
-  /*width: 1080px;*/
-  margin: 0 auto;
-  padding:40px;
-}
-.share_group li{
-  display: inline-block;
-  padding: 10px;
-}
-.copy{
-  /*padding-bottom: 20px;*/
-}
-
-/*页脚结束*/
-
-.main_wrapper{
-  background: #444 url(../images/moon.jpg) no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center bottom;
-  overflow: hidden;
-}
