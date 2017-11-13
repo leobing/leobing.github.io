@@ -1,0 +1,386 @@
+/*
+* @Author: Administrator
+* @Date:   2017-11-11 11:13:17
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-11-12 20:52:36
+*/
+
+/* 公共样式 开始*/
+body{
+	font-family: "Microsoft Yahei";
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+h1{
+	margin:0;
+}
+.inner{
+	width: 1000px;
+	margin: 0 auto;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+.line{
+	display: inline-block;
+	width: 1px;
+	height: 12px;
+	background-color: #999;
+	vertical-align: middle;
+}
+/* 公共样式 结束 */
+
+/* 头部开始 */
+
+.solutions .header{
+	border-bottom: 1px solid #ddd;
+}
+
+.container{
+	height: 54px;
+	padding: 23px 0;
+	line-height: 54px;
+}
+.container .logo{
+	float: left;
+	margin-top: 6px;
+}
+.logo h1{
+	height:42px;
+	width: 173px;
+}
+
+.navbar li{
+	float: left;
+}
+.navbar .navbar_left li{
+	margin-left: 40px;
+}
+.navbar .navbar_left li a{
+	display: inline-block;
+}
+.navbar .navbar_left li a:hover{
+	color: #DD1111;
+}
+.navbar_left .current a{
+	color: #DD1111;
+	position: relative;
+}
+.navbar_left .current a:after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	margin-right: -3px;
+	width: 6px;
+	height: 6px;
+	background-color: #DD1111;
+	border-radius: 50%;
+}
+
+.navbar_right li {
+	margin-right: 9px;
+	font-size: 12px;
+}
+.navbar_right li a:hover{
+	text-decoration: underline;
+}
+.navbar_right li.icon{
+	/* padding-left: 20px; */
+}
+.navbar_right li .earth_icon{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: url(../images/qiu.png) center center;
+	background-repeat: no-repeat;
+	margin-right: 7px;
+	position: relative;
+	top: 3px;
+}
+
+
+.banner{
+	height: 460px;
+	background: #999 url(../images/1448520375.jpg);
+	background-size: auto 460px;
+}
+.slider{
+	height: inherit;
+	position: relative;
+}
+.slider ul{
+	position: absolute;
+	bottom: -30px;
+	left: 500px;
+	margin-left: -55px;
+	color: #eee;
+}
+.slider li{
+	display: inline-block;
+	margin-right:10px; 
+	cursor: pointer;
+}
+.slider li:nth-child(4){
+	margin-right: 0;
+}
+.slider .slider_current{
+	color: #DD1111;
+}
+/* 头部结束 */
+
+/* 内容主体开始 */
+.main{
+	text-align: center;
+}
+
+.main .plan h1{
+	padding-top: 60px;
+}
+.main .plan_item_list{
+	padding-top: 50px;
+	display: inline-block;
+}
+
+.main .plan_item{
+	float: left;
+}
+
+.solutions .dataplan{
+	display: inline-block;
+}
+.solutions .dataplan dl{
+	float: left;
+	margin: 10px 0;
+	padding: 10px 62px;
+	width: 171px;
+
+}
+.solutions .dataplan dl:nth-child(2){
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.solutions .dataplan a:hover dt{
+	text-decoration: underline;
+}
+.solutions .dataplan dt{
+	color: #ee1111;
+}
+.solutions .dataplan dd{
+	font-size: 12px;
+	color: #666;
+	margin-left: 0;
+	padding-top: 10px;
+	line-height: 18px;
+}
+
+.solutions .content{
+	text-align: left;
+	color: #444;
+	padding-top: 40px;
+}
+.solutions .content .con{
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+.solutions .content .con h3{
+	background: white;
+	margin: 0;
+	position: relative;
+	top: 10px;
+	display: inline-block;
+	padding: 0 10px;
+	font-weight: normal;
+}
+.solutions .content_list{
+	padding: 50px 0;
+	border-bottom: 1px solid #ccc;
+}
+.solutions .content_list.last{
+	border-bottom:none;
+}
+.solutions .content_list dt{
+	float: left;
+}
+.solutions .content_list dd{
+	float: left;
+	margin-left: 20px;
+}
+.solutions .content_list h2{
+	margin: 0;
+}
+.solutions .content_list dd p{
+	font-size: 16px;
+}
+.solutions .content_list .txt{
+	font-size: 12px;
+	margin-left: 80px;
+}
+.solutions .content_list .txt span{
+	display: block;
+	line-height: 24px;
+}
+.solutions .content_list .txt span i{
+	font-weight: bold;
+}
+.solutions .content_list .txt .lookup{
+	margin-top: 20px;
+}
+.solutions .content_list .txt .lookup a{
+	display: inline-block;
+	padding: 10px 15px;
+	border: 1px solid #999;
+	color: #333;
+}
+.solutions .content_list .txt .lookup a:hover{
+	color: #000;
+}
+
+.plan_item a{
+	display: inline-block;
+	width: 198px;
+	height: 146px;
+}
+.plan_item a:hover p{
+	color: #CC1111;
+}
+.main .plan_item:nth-child(2) dd{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.main .plan_item h2{
+	font-size: 16px;
+	margin: 10px auto 7px auto;
+	color: #333;
+}
+.main .plan_item p{
+	font-size: 12px;
+}
+.plan_item dd{
+	margin: 0;
+	padding: 0 20px;
+}
+
+.main .news{
+	display: inline-block;
+}
+.news dl{
+	float: left;
+	width: 320px;
+	height: 350px;
+	margin-right: 20px;
+	margin-top: 60px;
+	margin-bottom: 0;
+	background-color: rgba(244,244,255,0.6);
+}
+
+.news dl a:hover p{
+	color: #000;
+}
+.news dl.last{
+	margin-right: 0;
+}
+.news dl dd{
+	margin: 0;
+	font-size: 12px;
+}
+.news dl p{
+	margin-top: 15px;
+	line-height: 24px;
+	color: #777;
+	padding: 0 20px;
+	text-align: left;
+}
+.news dl span{
+	color: #cc1111;
+}
+/* 内容主体结束 */
+
+/* 页脚开始 */
+.footer{
+	background-color: rgba(244,244,255,0.6);
+	margin-bottom: 30px;
+}
+.foot{
+	margin-top: 80px;
+	padding-top: 30px;
+}
+.foot dl{
+	width: 150px;
+	float: left;
+	margin: 0;
+	margin-right: 50px;
+}
+.foot dl.last{
+	margin-right: 0;
+}
+.foot dl h2{
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 0;
+}
+.foot dd{
+	margin: 0;
+	font-size: 12px;
+	line-height: 25px;
+}
+.foot dd a{
+	color: #555;
+}
+.foot dd a:hover{
+	text-decoration: underline;
+}
+
+.foot .fr a{
+	font-size: 23px;
+	padding-right: 10px;
+	color: #aa1111;
+}
+
+.bottom{
+	font-size: 12px;
+	margin-top: 30px;
+	line-height: 24px;
+	border-top: 1px solid #bbb;
+	color: #999;
+	padding-top: 25px;
+}
+.bottom .foot_logo{
+	float: left;
+	height: 24px;
+}
+.bottom p{
+	float: left;
+	margin-left: 100px;
+	margin: 0 0 0 120px;
+}
+.bottom p a{
+	color: #999;
+	padding: 0 7px;
+}
+.bottom p a:hover{
+	text-decoration: underline;
+}
+.bottom span{
+	float: right;
+	padding-right: 10px;
+}
+
+
+
+/* 页脚结束 */
