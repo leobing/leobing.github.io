@@ -1,8 +1,8 @@
-/*
+
 * @Author: Administrator
 * @Date:   2017-11-11 11:13:17
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-11-12 20:52:36
+* @Last Modified time: 2017-11-14 17:15:32
 */
 
 /* 公共样式 开始*/
@@ -241,15 +241,29 @@ a{
 .solutions .content_list .txt .lookup{
 	margin-top: 20px;
 }
-.solutions .content_list .txt .lookup a{
-	display: inline-block;
-	padding: 10px 15px;
-	border: 1px solid #999;
-	color: #333;
-}
-.solutions .content_list .txt .lookup a:hover{
-	color: #000;
-}
+.solutions .content_list .txt .lookup a{display: inline-block;padding: 10px 15px;border: 1px solid #ccc;color: #333;margin-right: 10px;}
+.lookup a i{display: inline-block;font-size: 14px;padding-right: 5px;}
+.solutions .content_list .txt .lookup a:hover{color: #000;}
+
+/* 市场洞察页面 开始 */
+.market .news_market{text-align: left;}
+.market .news_market .list{padding: 30px 0;}
+.market .news_market .list dt{float: left;width: 320px; height: 178px;}
+.market .news_market .list dt img{width: inherit; height: inherit;}
+.market .news_market .list dd{float: left;width: 650px;margin-left: 25px;}
+.market .news_market .list dd h2{font-size: 20px;font-weight: normal;margin-top: 0;}
+.market .news_market .list dd h2 a:hover{color: red;}
+.market .news_market .list dd span.date,p{font-size: 12px;color: #999;}
+.market .news_market .list dd p{line-height: 24px;}
+.market .news_market .list dd p a{color: red;}
+.market .news_market .list dd p a:hover{text-decoration: underline;}
+.market .news_market .page{padding: 40px;text-align: center;}
+.market .news_market .page span{padding: 5px 10px;background:red;margin-right: 10px;border-radius: 5px;}
+.market .news_market .page a{padding: 5px 10px;margin-right: 10px;border: 1px solid #ddd;border-radius: 5px;}
+.market .news_market .page a:hover{background:red;}
+/* 市场洞察页面 结束 */
+
+
 
 .plan_item a{
 	display: inline-block;
@@ -383,4 +397,4 @@ a{
 
 
 
-/* 页脚结束 */
+/* 页脚结束 
