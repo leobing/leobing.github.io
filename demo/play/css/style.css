@@ -58,7 +58,8 @@ header aside p em{display:inline-block;width:1px;height:8px;background:#c9c9c9;m
 .play dl dd li{font-size:12px;line-height:26px;}
 .play dl dd li span{margin-right:8px;display:inline-block;width:16px;height:16px;background:#e6e6e6;color:#818181;border-radius:50%;text-align:center;line-height:16px;}
 
-.activity{/* height:679px; */background:url(../images/banner2.png) no-repeat center top;background-size:cover;}
+.activity{background:url(../images/banner2.png) no-repeat center top;background-size:cover;}
+
 .activity .top{margin:111px 0 70px 0;}
 .activity h2{color:#e65e15;font-size:30px;line-height:54px;text-align:center;}
 .activity .con .bottom dl{width:562px;padding:30px 0 37px 30px;}
@@ -67,9 +68,12 @@ header aside p em{display:inline-block;width:1px;height:8px;background:#c9c9c9;m
 .activity .con .bottom dl dd h3 a{line-height:20px;font-size:18px;color:#ccc;}
 .activity .con .bottom dl dd h3 a:hover{color:#e65e15;}
 .activity .con .bottom dl dd p{font-size:12px;line-height:22px;color:#999;margin-top:6px;}
+
+.activity .con .bottom .pic{margin-bottom:20px;}
 .activity .con .bottom .pic img{max-height:280px;max-width:510px;}
 
-/* .case{height:568px;} */
+.case{margin-bottom:20px;}
+
 .case .top{margin:94px 0 50px 0;text-align:center;}
 .case .top h2{font-size:30px;line-height:31px;color:#444;font-weight:normal;}
 .case .bottom dl{float:left;margin-right:40px;width:270px;text-align:center;}
@@ -95,7 +99,8 @@ footer .footer_con .contact span.last{margin-right:0;}
 .corner a img{vertical-align:-14px;}
 .corner .back_to_top{background:#555;}
 
-	/* .mainbox{background:red;} */
+
+/* ----- responsive-design start ----- */
 
 @media screen and (max-width:1230px){
 	.mainbox{width:90%;}
@@ -122,7 +127,6 @@ footer .footer_con .contact span.last{margin-right:0;}
 
 	.corner a{width:40px;height:40px;}
 }
-
 @media screen and (max-width:1030px){
 	header .con .left{width:100%;}
 	header .con .nav{float:right;}
@@ -143,15 +147,20 @@ footer .footer_con .contact span.last{margin-right:0;}
 	.activity .con .bottom dl{width:562px;margin:0 auto;}
 	.activity .con .bottom dl dd{width:431px;}
 
+	.activity .top{margin:30px 0 10px 0;}
+	.activity .con .bottom .pic{margin-bottom:20px;}
+
 	.case .bottom{width:580px;margin:0 auto;}
-	.case .bottom dl{margin-right:40px;width:270px;}
+	.case .bottom dl{margin:20px 40px 0 0;width:270px;}
 	.case .bottom dl:nth-child(2){margin-right:0;}
-
+	.case .top{margin:34px 0 20px 0;}
 }
-
 @media screen and (max-width:768px){
+	.logo{margin:23px 0 0 9px;}
+	header{height:80px;}
 	header .con .nav{display:none;}
-	header .con a.menubtn{display:block;}
+	header .con a.menubtn{display:block;margin-top:26px;}
+
 	.banner{height:500px;}
 	.banner .con .fl{width:45%;}
 	.banner .con .txt{width:45%;margin-top:240px;}
@@ -159,7 +168,8 @@ footer .footer_con .contact span.last{margin-right:0;}
 	.banner .con .txt h2 span{font-size:35px;line-height:37px;}
 	.banner .con .txt p{font-size:12px;line-height:24px;margin-top:16px;}
 
-	.play dl{width:100%;} /*每个dl独占一行*/
+	.play dl{width:100%;margin:30px 0 20px 0;} /*每个dl独占一行*/
+
 
 	.activity .con .bottom .pic,
 	.activity .con .bottom dl{width:431px;}
@@ -205,5 +215,6 @@ footer .footer_con .contact span.last{margin-right:0;}
 @media screen and (max-width:320px){
 	footer .footer_con .link em{}
 	footer .footer_con .link em:last-of-type{margin:0 5px;color:transparent;}
-	
 }
+/* ----- responsive-design end ----- */
+
