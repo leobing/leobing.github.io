@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>index</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta name="format-detection" content="telephone=no">
+	<meta content="email=no" name="format-detection">
+
+	<script>
+	(function (doc, win) {
+	       var docEl = doc.documentElement,
+	               resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+	               recalc = function () {
+	                   var clientWidth = docEl.clientWidth;
+	                   if (!clientWidth) return;
+	                   if(clientWidth >=750){
+	                	   clientWidth = 750;
+	                   }
+	                   docEl.style.fontSize = 20 * ( clientWidth/ 375) + 'px';
+	               };
+	       if (!doc.addEventListener) return;
+	       win.addEventListener(resizeEvt, recalc, false);
+	       doc.addEventListener('DOMContentLoaded', recalc, false);
+	})(document, window); 
+	</script>
+
+	<style>
+		@font-face {
+	      font-family: 'fontello';
+	      src: url('font/fontello.eot?97279278');
+	      src: url('font/fontello.eot?97279278#iefix') format('embedded-opentype'),
+	           url('font/fontello.woff?97279278') format('woff'),
+	           url('font/fontello.ttf?97279278') format('truetype'),
+	           url('font/fontello.svg?97279278#fontello') format('svg');
+	      font-weight: normal;
+	      font-style: normal;
+	    }
+	</style>
+
+	<link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+	<header>
+		<span class="back_wechat"><i>&#xf007;</i>返回</span>
+		<h1>全部品类</h1>
+	</header>
+
+	<div class="main">
+		<section class="serve">
+			<div class="top">
+				<h3>清洁服务</h3>
+			</div>
+			<div class="bottom serve_items">
+				<dl>
+					<dt>					
+						<a href="#"><i><img src="images/serve_01.png" height="44" width="44" alt=""></i></a>
+					</dt>
+					<dd><a href="#">驻场保洁</a></dd>
+				</dl>
+				<dl>
+					<dt>					
+						<a href="#"><i><img src="images/serve_02.png" height="44" width="44" alt=""></i></a>
+					</dt>
+					<dd><a href="#">开荒保洁</a></dd>
+				</dl>
+				<dl>
+					<dt>					
+						<a href="#"><i><img src="images/serve_03.png" height="44" width="44" alt=""></i></a>
+					</dt>
+					<dd><a href="#">钟点保洁</a></dd>
+				</dl>
+				<dl>
+					<dt>					
+						<a href="#"><i><img src="images/serve_04.png" height="44" width="44" alt=""></i></a>
+					</dt>
+					<dd><a href="#">地毯清洗</a></dd>
+				</dl>
+				<dl>
+					<dt>					
+						<a href="#"><i><img src="images/serve_05.png" height="44" width="44" alt=""></i></a>
+					</dt>
+					<dd><a href="#">地毯打蜡</a></dd>
+				</dl>
+				<dl>
+					<dt>					
+						<a href="#"><i><img src="images/all_serve_01.png" height="44" width="44" alt=""></i></a>
+					</dt>
+					<dd><a href="#">石材养护</a></dd>
+				</dl>
+				<dl>
+					<dt>					
+						<a href="#"><i><img src="images/all_serve_02.png" height="44" width="44" alt=""></i></a>
+					</dt>
+					<dd><a href="#">消杀除虫</a></dd>
+				</dl>
+			</div>
+		</section>
+
+		<section class="serve">
+			<div class="top">
+				<h3>团餐服务</h3>
+			</div>
+			<div class="bottom serve_items">
+				<dl>
+					<dt>					
+						<a href="#"><i><img src="images/all_serve_02.png" height="44" width="44" alt=""></i></a>
+					</dt>
+					<dd><a href="#">团餐服务</a></dd>
+				</dl>
+			</div>
+		</section>
+
+		<section class="serve">
+			<div class="top">
+				<h3>安保服务</h3>
+			</div>
+			<div class="bottom serve_items">
+				<dl>
+					<dt>					
+						<a href="#"><i><img src="images/all_serve_02.png" height="44" width="44" alt=""></i></a>
+					</dt>
+					<dd><a href="#">安保服务</a></dd>
+				</dl>
+			</div>
+		</section>
+
+		<section class="serve">
+			<div class="top">
+				<h3>其他服务</h3>
+			</div>
+			<div class="bottom serve_items">
+				<dl>
+					<dt>					
+						<a href="#"><i><img src="images/all_serve_02.png" height="44" width="44" alt=""></i></a>
+					</dt>
+					<dd><a href="#">安保服务</a></dd>
+				</dl>
+				<dl>
+					<dt>					
+						<a href="#"><i><img src="images/all_serve_02.png" height="44" width="44" alt=""></i></a>
+					</dt>
+					<dd><a href="#">安保服务</a></dd>
+				</dl>
+				<dl>
+					<dt>					
+						<a href="#"><i><img src="images/all_serve_02.png" height="44" width="44" alt=""></i></a>
+					</dt>
+					<dd><a href="#">安保服务</a></dd>
+				</dl>
+				<dl>
+					<dt>					
+						<a href="#"><i><img src="images/all_serve_02.png" height="44" width="44" alt=""></i></a>
+					</dt>
+					<dd><a href="#">安保服务</a></dd>
+				</dl>
+			</div>
+		</section>
+	</div>
+</body>
+</html>
