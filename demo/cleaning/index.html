@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>index</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta name="format-detection" content="telephone=no">
+	<meta content="email=no" name="format-detection">
+
+	<script>
+	(function (doc, win) {
+	       var docEl = doc.documentElement,
+	               resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+	               recalc = function () {
+	                   var clientWidth = docEl.clientWidth;
+	                   if (!clientWidth) return;
+	                   if(clientWidth >=750){
+	                	   clientWidth = 750;
+	                   }
+	                   docEl.style.fontSize = 20 * ( clientWidth/ 375) + 'px';
+	               };
+	       if (!doc.addEventListener) return;
+	       win.addEventListener(resizeEvt, recalc, false);
+	       doc.addEventListener('DOMContentLoaded', recalc, false);
+	})(document, window); 
+	</script>
+
+	<style>
+		@font-face {
+	      font-family: 'fontello';
+	      src: url('font/fontello.eot?97279278');
+	      src: url('font/fontello.eot?97279278#iefix') format('embedded-opentype'),
+	           url('font/fontello.woff?97279278') format('woff'),
+	           url('font/fontello.ttf?97279278') format('truetype'),
+	           url('font/fontello.svg?97279278#fontello') format('svg');
+	      font-weight: normal;
+	      font-style: normal;
+	    }
+	</style>
+
+	<link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+	<header>
+		<span class="back_wechat"><i>&#xf007;</i>微信(1)</span>
+		<h1>生活助手</h1>
+	</header>
+
+	<section class="main">
+		<div class="banner">
+			<a href="#"></a>
+			<div class="txt">
+				<p>引领企业后勤服务新时代</p>
+			</div>
+			<div class="tab">
+				<i class="active"></i>
+				<i></i>
+				<i></i>
+			</div>
+		</div>
+
+		<div class="serve_items">
+			<dl>
+				<dt>
+					<a href="#"><i><img src="images/serve_01.png" alt=""></i></a>
+				</dt>
+				<dd><a href="#">驻场保洁</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="#"><i><img src="images/serve_02.png" alt=""></i></a>
+				</dt>
+				<dd><a href="#">开荒保洁</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="#"><i><img src="images/serve_03.png" alt=""></i></a>
+				</dt>
+				<dd><a href="#">钟点保洁</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="#"><i><img src="images/serve_04.png" alt=""></i></a>
+				</dt>
+				<dd><a href="#">地毯清洗</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="#"><i><img src="images/serve_05.png" alt=""></i></a>
+				</dt>
+				<dd><a href="#">地板打蜡</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="#"><i><img src="images/serve_06.png" alt=""></i></a>
+				</dt>
+				<dd><a href="#">团餐服务</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="#"><i><img src="images/serve_07.png" alt=""></i></a>
+				</dt>
+				<dd><a href="#">安保服务</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="#"><i><img src="images/serve_08.png" alt=""></i></a>
+				</dt>
+				<dd><a href="#">绿植租摆</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="#"><i><img src="images/serve_09.png" alt=""></i></a>
+				</dt>
+				<dd><a href="#">甲醛治理</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="category.html"><i><img src="images/serve_10.png" alt=""></i></a>
+				</dt>
+				<dd><a href="category.html">全部服务</a></dd>
+			</dl>
+		</div>
+
+		<div class="why">
+			<div class="ask tit">
+				<h2>为什么选择我们</h2>
+			</div>
+			<div class="answer">
+				<div class="answer_item or">
+					<div class="pic"><span><img src="images/why_01.png" height="58" width="65" alt=""></span></div>
+					<div class="details">
+						<h3>一站式全品类覆盖</h3>
+						<p>围绕企业生命全周期，打造一站式企业后勤服务平台，满足企业全方位需求</p>
+					</div>
+				</div>
+				<div class="answer_item or">
+					<div class="pic"><span><img src="images/tie.png" height="56" width="65" alt=""></span></div>
+					<div class="details">
+						<h3>全方位服务管家</h3>
+						<p>将为每个客户配备一名服务管家，一个窗口对接客户所有服务</p>
+					</div>
+				</div>
+				<div class="answer_item or">
+					<div class="pic"><span><img src="images/money.png" height="58" width="65" alt=""></span></div>
+					<div class="details">
+						<h3>最优成本效益</h3>
+						<p>通过对服务供应商的集中采购，优化成本 提高我们为客户带来的服务价值</p>
+					</div>
+				</div>
+				<div class="answer_item or">
+					<div class="pic"><span><img src="images/click.png" height="64" width="65" alt=""></span></div>
+					<div class="details">
+						<h3>全流程信息化管理</h3>
+						<p>全服务流程信息化管，理打通线上、线下服务闭环，服务体验升级</p>
+					</div>
+				</div>
+				<div class="answer_item or">
+					<div class="pic"><span><img src="images/gold.png" height="64" width="65" alt=""></span></div>
+					<div class="details">
+						<h3>实力品牌保障</h3>
+						<p>力品牌保障，中国平安全程承保，服务无忧</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="we_custom">
+			<div class="tit">
+				<h2>我们的客户</h2>
+			</div>
+			<div class="links">
+				<a href="#"><img src="images/we_01.jpg" height="69" width="174" alt=""></a>
+				<a href="#"><img src="images/we_02.jpg" height="69" width="174" alt=""></a>
+				<a href="#"><img src="images/we_03.jpg" height="69" width="174" alt=""></a>
+				<a href="#"><img src="images/we_04.jpg" height="69" width="174" alt=""></a>
+				<a href="#"><img src="images/we_05.jpg" height="69" width="174" alt=""></a>
+				<a href="#"><img src="images/we_06.jpg" height="69" width="174" alt=""></a>
+				<a href="#"><img src="images/we_07.jpg" height="69" width="174" alt=""></a>
+				<a href="#"><img src="images/we_08.jpg" height="69" width="174" alt=""></a>
+				<a href="#"><img src="images/we_09.jpg" height="69" width="174" alt=""></a>
+				<a href="#"><img src="images/we_10.jpg" height="69" width="174" alt=""></a>
+				<a href="#"><img src="images/we_11.jpg" height="69" width="174" alt=""></a>
+				<a href="#"><img src="images/we_12.jpg" height="69" width="174" alt=""></a>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<dl>
+			<dt><a href="#"><img src="images/home.png" height="44" width="42" alt=""></a></dt>
+			<dd class="active"><a href="#">首页</a></dd>
+		</dl>
+		<dl>
+			<dt><a href="#"><img src="images/order.png" height="44" width="42" alt=""></a></dt>
+			<dd><a href="#">订单管理</a></dd>
+		</dl>
+		<dl>
+			<dt><a href="#"><img src="images/poeple.png" height="44" width="42" alt=""></a></dt>
+			<dd><a href="#">管理中心</a></dd>
+		</dl>
+	</footer>
+</body>
+</html>
