@@ -6,8 +6,6 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
     <title>高德地图使用文档</title>
     <script src="http://cache.amap.com/lbs/static/es5.min.js"></script>
-    <!-- 在页面中引入高德地图JavaScript API入口脚本 -->
-    <script src="http://webapi.amap.com/maps?v=1.4.2&key=53ce72c615c3680f3e94581de02f99e0"></script>
 
     
     <style>
@@ -22,7 +20,9 @@
 
 
 <!-- 1、顺序加载方式 -->
-<script>
+<!-- 在页面中引入高德地图JavaScript API入口脚本 -->
+<!--     <script src="http://webapi.amap.com/maps?v=1.4.2&key=53ce72c615c3680f3e94581de02f99e0"></script> -->
+<!-- <script>
     // 创建地图 
     var map = new AMap.Map('container', {
         resizeEnable: true,
@@ -36,10 +36,10 @@
         var toolbar = new AMap.ToolBar();
         map.addControl(toolbar);
     })
-</script>
+</script> -->
 
 <!-- 2、异步加载方式（推荐） -->
-<!-- <script>
+<script>
     window.init = function(){
         // 创建地图 
         var map = new AMap.Map('container', {
@@ -56,6 +56,6 @@
     };
 </script>
 <script src="http://webapi.amap.com/maps?v=1.4.2&key=53ce72c615c3680f3e94581de02f99e0&callback=init"></script>
- -->
+
 </body>
 </html>
