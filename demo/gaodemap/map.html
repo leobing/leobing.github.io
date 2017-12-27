@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>高德地图使用文档</title>
+    <script src="http://cache.amap.com/lbs/static/es5.min.js"></script>
+    <!-- 在页面中引入高德地图JavaScript API入口脚本 -->
+    <script src="http://webapi.amap.com/maps?v=1.4.2&key=53ce72c615c3680f3e94581de02f99e0"></script>
+
+    
+    <style>
+        #container{width:500px;height:300px;margin:90px auto;}
+    </style>
+</head>
+<body>
+<!-- 创建地图容器 -->
+<div id="container"></div>
+
+
+
+
+<!-- 1、顺序加载方式 -->
+<script>
+    // 创建地图 
+    var map = new AMap.Map('container', {
+        resizeEnable: true,
+        zoom:11, //地图级别
+        center: [113.665412, 34.757975] //地图显示基点，若不设置将自动定位
+    });
+    map.setMapStyle('amap://styles/darkblue'); //设置地图样式
+    
+    //工具条插件
+    AMap.plugin('AMap.ToolBar',function(){
+        var toolbar = new AMap.ToolBar();
+        map.addControl(toolbar);
+    })
+</script>
+
+<!-- 2、异步加载方式（推荐） -->
+<!-- <script>
+    window.init = function(){
+        // 创建地图 
+        var map = new AMap.Map('container', {
+            resizeEnable: true,
+            zoom:11, //地图级别
+            center: [113.665412, 34.757975] //地图显示基点，若不设置将自动定位
+        });
+        map.setMapStyle('amap://styles/darkblue'); //设置地图样式
+
+        AMap.plugin('AMap.ToolBar',function(){
+            var toolbar = new AMap.ToolBar();
+            map.addControl(toolbar);
+        })
+    };
+</script>
+<script src="http://webapi.amap.com/maps?v=1.4.2&key=53ce72c615c3680f3e94581de02f99e0&callback=init"></script>
+ -->
+</body>
+</html>
