@@ -1,4 +1,4 @@
-// 轮播图
+// banner轮播图
 $(function(){
     var box_roll = $('#box_roll');
     var dots = $('#box_roll .focus_s ul li'); //焦点

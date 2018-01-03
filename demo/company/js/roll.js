@@ -15,9 +15,8 @@ $(function(){
     var now = 0; //指定移动到第几张图片
     var len = 1; //指定第一次全部展示一遍后，第二次先展示第几张图片
     var li_w = 0; //li的宽度
-    img[0].onload = function(){
-        li_w = lis[1].offsetWidth;
-    }
+
+    li_w = lis[1].offsetWidth;
 
     //自动滚动到下一张图片
     function auto(){
@@ -59,7 +58,9 @@ $(function(){
 
     //滚动
     function scroll(){
+
         act(ul, 'left', -li_w * (now));
+        
     }
 
     //获得obj的属性值
