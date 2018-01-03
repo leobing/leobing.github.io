@@ -18,3 +18,13 @@ h1,h2,h3,h4,h5,h6{font-weight:normal;}
 .fl{float:left;}
 .fr{float:right;}
 .or{overflow:hidden;}
+
+/* 字体图标 */
+@font-face {
+	font-family: 'fontello';
+	src: url('../font/fontello.eot?19123895');
+	src: url('../font/fontello.eot?19123895#iefix') format('embedded-opentype'),
+	   url('../font/fontello.woff?19123895') format('woff'),
+	   url('../font/fontello.ttf?19123895') format('truetype'),
+	   url('../font/fontello.svg?19123895#fontello') format('svg');
+}

@@ -67,9 +67,9 @@ header .nav>ul.navitems>li ul li a:hover{color:#fa1600;}
 .parkIntro_content .nav ul li a{padding-left:20px;font-size:14px;display:block;line-height:48px;}
 .parkIntro_content .nav ul li.active a,
 .parkIntro_content .nav ul li a:hover,
-.parkIntro_content .nav ul li a:hover i.fa,
-.parkIntro_content .nav ul li.active a i.fa{color:#fa1600;background:#f6f6f6;}
-.parkIntro_content .nav ul li a i.fa{float:right;line-height:48px;color:#ccc;margin-right:20px;}
+.parkIntro_content .nav ul li a:hover i.nav_icon,
+.parkIntro_content .nav ul li.active a i.nav_icon{color:#fa1600;background:#f6f6f6;}
+.parkIntro_content .nav ul li a i.nav_icon{font-family:fontello;float:right;line-height:48px;color:#ccc;margin-right:20px;}
 
 
 .parkIntro_content .intro{width:760px;}
@@ -231,8 +231,8 @@ header .nav>ul.navitems>li ul li a:hover{color:#fa1600;}
 .search .intro .bottom .search_company .company_item{padding-bottom:24px;border-bottom:1px solid #f2f2f2}
 .search .intro .bottom .search_company .company_item a{display:inline-block;width:150px;height:98px;text-align:center;border:1px solid #ccc;margin-right:20px;}
 .search .intro .bottom .search_company .company_item a img{vertical-align:-60px;}
-.search .intro .bottom .search_company a.more{transition:all 1s;-webkit-transition:all 1s;-moz-transition:all 1s;font-size:14px;display:block;width:200px;height:34px;border-radius:2px;margin:40px auto 0 auto;text-align:center;line-height:34px;background:-webkit-linear-gradient(right,#fa1600 0,#fff 50%,#fa1600 100%);}
-.search .intro .bottom .search_company a.more:hover{color:#fff;background:-webkit-linear-gradient(right,#fff 0,#fa1600 50%,#fff 100%);}
+.search .intro .bottom .search_company a.more{transition:all 1s;-webkit-transition:all 1s;background:#ccc;-moz-transition:all 1s;font-size:14px;display:block;width:200px;height:34px;border-radius:2px;margin:40px auto 0 auto;text-align:center;line-height:34px;}
+.search .intro .bottom .search_company a.more:hover{color:#fa1600;background:#eee;}
 /* 搜索页 页面 end */
 
 /* notice start */
@@ -257,8 +257,9 @@ header .nav>ul.navitems>li ul li a:hover{color:#fa1600;}
 .news .news_con .top h2{font-size:18px;float:left;}
 .news .news_con .top h2:before{float:left;content:'';display:inline-block;width:4px;height:20px;background:#e05b3d;margin-right:10px;}
 .news .news_con .top h2 span{text-transform:uppercase;font-size:14px;color:#999;margin-left:11px;letter-spacing:1px;}
-.news .news_con .top .switch a{display:inline-block;width:38px;height:22px;border:1px solid #e9e9e9;margin-top:1px;text-align:center;color:#ccc;font-size:14px;margin-left:7px;}
+.news .news_con .top .switch a{transition:all 1s;display:inline-block;width:38px;height:22px;border:1px solid #e9e9e9;margin-top:1px;text-align:center;color:#ccc;font-size:14px;margin-left:7px;}
 .news .news_con .top .switch a:hover{background:#fa1600;color:#fff;}
+.news .news_con .top .switch a i{font-family:fontello;vertical-align:0;}
 
 .news .news_con .park .bottom dl dt img{max-width:307px;max-height:201px;}
 .news .news_con .park .bottom dl dd{width:325px;padding-left:20px;}
@@ -283,12 +284,12 @@ header .nav>ul.navitems>li ul li a:hover{color:#fa1600;}
 
 /* service start */
 .service{padding:60px 0 56px 0;min-width:1001px;background:#5a5b59 url(../images/service_bg.jpg) no-repeat center;}
-.service .service_con{text-align:center;display:-webkit-box;-webkit-box-orient:horizontal;-webkit-box-pack:justify;}
-.service .service_con dl{color:#fff;}
+.service .service_con{text-align:center;}
+.service .service_con dl{color:#fff;display:inline-block;margin:0 15px;width:175px;}
 .service .service_con dl dt{width:100px;margin:0 auto;}
-.service .service_con dl dt span{box-sizing:border-box;display:table-cell;width:100px;height:100px;border:1px solid #fff;border-radius:50%;vertical-align:middle;}
+.service .service_con dl dt span{transition:all 1s;box-sizing:border-box;display:table-cell;width:100px;height:100px;border:1px solid #fff;border-radius:50%;vertical-align:middle;}
 .service .service_con dl a:hover span{border-color:#fa1600;background:#fa1600;}
-.service .service_con dl h2{padding-top:16px;font-size:18px;color:#fff;}
+.service .service_con dl h2{transition:all 1s;padding-top:16px;font-size:18px;color:#fff;}
 .service .service_con dl a:hover h2{color:#fa1600;}
 /* service end */
 
@@ -298,9 +299,9 @@ header .nav>ul.navitems>li ul li a:hover{color:#fa1600;}
 .friendlink .top h2 em{margin-right:10px;display:inline-block;width:4px;height:20px;background:#e05b3d;vertical-align:-2px;}
 .friendlink .top h2 span{text-transform:uppercase;font-size:16px;color:#999;margin-left:10px;letter-spacing:1px;}
 .friendlink .bottom{margin-top:11px;font-size:14px;}
-.friendlink .bottom p{display:-webkit-box;-webkit-box-orient:horizontal;-webkit-box-pack:justify;}
-.friendlink .bottom p a{display:block;}
-.friendlink .bottom p a:hover{text-decoration:underline;}
+.friendlink .bottom ul li{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;/* 单行文本省略 */width:124px;margin-right:105px;display:inline-block;}
+.friendlink .bottom ul li a{}
+.friendlink .bottom ul li a:hover{text-decoration:underline;}
 /* friendlink end */
 
 /* footer start */
@@ -314,8 +315,8 @@ footer .footer_con .right dl{float:right;margin-left:20px;}
 
 /* back to top  start */
 aside.back_to_top{display:none;position:fixed;bottom:100px;left:50%;margin-left:550px;z-index:300;}
-aside.back_to_top span{display:inline-block;font-family:fontello;font-size:30px;cursor:pointer;text-align:center;width:42px;height:42px;border:1px solid #e3e3e3;border-radius:50%;margin:0 auto;}
-aside.back_to_top span i{color:#959595;vertical-align:-8px;}
+aside.back_to_top span{transition:all 1s;display:inline-block;font-family:fontello;font-size:30px;cursor:pointer;text-align:center;width:42px;height:42px;border:1px solid #e3e3e3;border-radius:50%;margin:0 auto;}
+aside.back_to_top span i{transition:all 1s;color:#959595;vertical-align:-8px;}
 aside.back_to_top span:hover i{color:#fff;}
 aside.back_to_top span:hover{background:#fa1600;border-color:#fa1600;}
 /* back to top  end */
