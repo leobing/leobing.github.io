@@ -12,6 +12,15 @@ $(function(){
 		$('html,body').animate({"scrollTop":0},500);
 	});
 
+	// 向下滚动显示“回到顶部”图标
+	$(window).scroll(function(){
+		if($(window).scrollTop() > 400){
+			$('.extra').slideDown();
+		}else{
+			$('.extra').slideUp();
+		}
+	});
+
 	// 窄屏情况下，导航栏切换	
 	var flag = true;
 	$('header .con .left .menu').click(function(event) {
