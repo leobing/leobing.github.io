@@ -1,0 +1,21 @@
+/*
+* @Author: Administrator
+* @Date:   2018-04-02 09:17:49
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-04-03 14:50:12
+*/
+.advantage .banner{height:200px;}
+.advantage .banner a{background:url(../images/advantage_banner.jpg) no-repeat center;}
+
+.advantage .content{height:976px;}
+
+.advantage .items_body{margin-top:72px;}
+.advantage .items_body ul li{float:left;margin-right:-1px;width:398px;height:338px;border:1px solid #f0f0f0;}
+
+
+.advantage .items_body ul li dl{text-align:center;}
+.advantage .items_body ul li dl dt{margin:76px 0 20px 0;}
+.advantage .items_body ul li dl .tit_a{font-size:18px;line-height:28px;color:#333;}
+.advantage .items_body ul li dl .line_s{display:inline-block;width:34px;height:1px;background:#eee;}
+
+.des_a{font-size:12px;line-height:21px;color:#999;}

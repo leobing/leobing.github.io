@@ -1,0 +1,23 @@
+/*
+* @Author: Administrator
+* @Date:   2018-04-02 09:17:49
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-04-03 14:32:04
+*/
+
+.news_page .banner a{background:url(../images/news_banner.jpg) no-repeat center;}
+
+.news_page .content{height:976px;}
+.news_page .items_body li{margin-bottom:16px;}
+.news_page .items_body li:nth-child(6){margin-right:-2px;}
+
+
+/* 分页功能 */
+.news_page .pagination{margin-top:16px;text-align: center;font-size: 14px;}
+.news_page .pagination .M-box{display:inline-block;}
+.news_page .pagination .M-box a:first-child,
+.news_page .pagination .M-box a:last-child{font-size:21px;color:#666682;}
+.news_page .pagination .M-box *{display:inline-block;width:21px;height:21px;line-height:21px;margin:0 4px;}
+.news_page .pagination .M-box .active{background:#ffbd3f;border-radius:50%;}
+.news_page i{font-style:normal;}
+

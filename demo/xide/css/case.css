@@ -1,0 +1,43 @@
+/*
+* @Author: Administrator
+* @Date:   2018-04-02 10:10:46
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-04-03 14:36:08
+*/
+
+.case .banner a{background:url(../images/case_banner.jpg) no-repeat center;background-size:cover;}
+
+.case .content{height:1208px;}
+.case .jobs_tit{margin-top:58px;}
+.case .line_c{width:828px;margin-left:-414px;font-size:18px;}
+.case .line_text{padding:0;}
+
+.case .diagonal{color:#ddd;margin:0 33px;}
+
+.case .v_left{margin-right:36px;}
+.case .v_right{margin-left:36px;}
+
+
+.case .items_body{margin-top:75px;}
+.case .items_body li{height:404px;float: left;width:283px;margin-right:22px;}
+.case .items_body li:nth-child(4n){margin-right:0;margin-left:2px;}
+.case .items_body li dl:hover{background:black;color:white;cursor:pointer;}
+.case .items_body li dl:hover h2{color:white;}
+.case .items_body li dl:hover p{color:white;}
+.case .items_body li dl .circle_arrow{background-color:#fff;}
+.case .items_body li dl:hover .circle_arrow{background-color:#000;}
+
+.case .items_body li dt{height:200px;}
+.case .items_body li dd{height:100px;line-height:28px;padding:10px 15px;}
+.case .items_body li dd h2{font-size:16px;margin-top:10px;color:#333;}
+.case .items_body li dd p{font-size:12px;color:#999;line-height:18px;}
+
+/* 分页 */
+
+.case .pagination{margin-top:26px;text-align: center;font-size: 14px;}
+.case .pagination .M-box{display:inline-block;}
+.case .pagination .M-box a:first-child,
+.case .pagination .M-box a:last-child{font-size:21px;color:#666682;}
+.case .pagination .M-box *{display:inline-block;width:21px;height:21px;line-height:21px;margin:0 4px;}
+.case .pagination .M-box .active{background:#ffbd3f;border-radius:50%;}
+.case i{font-style:normal;}

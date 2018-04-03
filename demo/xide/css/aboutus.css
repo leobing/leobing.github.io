@@ -1,0 +1,27 @@
+/*
+* @Author: Administrator
+* @Date:   2018-04-02 10:10:46
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-04-03 17:12:06
+*/
+.about_us .banner a{display:block;width:100%;height:100%;background:url(../images/about_banner.jpg) no-repeat center;}
+.about_us .article{margin-top:50px;}
+.about_us .article img{margin-bottom:36px;}
+.about_us .article p{margin-bottom:27px;font-size:14px;line-height:30px;color:#666;}
+.about_us .article p.last{margin-bottom:56px;}
+
+
+.company{margin:52px 0 100px 0;}
+
+/* 底部轮播 */
+.scroll_about{height:43px;}
+.scroll_about .swiper-wrapper{width:1120px;margin:0 auto;}
+.scroll_about .swiper-slide{width:auto!important;margin-right:40px;}
+.scroll_about .swiper-slide img{height:43px;}
+.scroll_about .swiper-button-prev{background:url(../images/arrow_left_sm.png) no-repeat center;}
+.scroll_about .swiper-button-next{background:url(../images/arrow_right_sm.png) no-repeat center;}
+.scroll_about .btn_s{width:40px;height:43px;background-color:#fff;}
+.scroll_about .swiper-button-next{right:0;}
+.scroll_about .swiper-button-prev{left:0;}
+
+

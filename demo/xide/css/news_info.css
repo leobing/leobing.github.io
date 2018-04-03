@@ -1,0 +1,29 @@
+/*
+* @Author: Administrator
+* @Date:   2018-04-02 09:17:49
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-04-03 10:08:26
+*/
+
+.news_info .content{height:1762px;}
+
+
+.news_info .news_a .title_n{height:235px;text-align:center;}
+.news_info .news_a .title_n h2{margin-bottom:20px;font-size:30px;line-height:28px;padding-top:117px;}
+.news_info .news_a .title_n>div{font-size:14px;line-height:28px;color:#999;}
+
+.news_info .title_n .share_a a{vertical-align:-4px;margin-left:8px;display:inline-block;width:19px;height:19px;border-radius:50%;}
+.news_info .title_n .share_a a:nth-child(1){background:url(../images/share_1.jpg) no-repeat center;}
+.share_a a:nth-child(2){background:url(../images/share_2.jpg) no-repeat center;}
+.share_a a:nth-child(3){background:url(../images/share_3.png) no-repeat center;}
+.share_a a:nth-child(4){background:url(../images/share_4.jpg) no-repeat center;}
+
+.news_info .news_a p{padding:0 1px;letter-spacing: 1px;margin:32px 0;color:#666;font-size:14px;line-height:32px;}
+.news_info .news_a .pic{text-align: center;}
+.news_info .news_a .pic>img{margin-bottom:16px;}
+.news_info .news_a .pic img.last{margin-left:14px;}
+
+.news_info .new_nav{color:#666;font-size:14px;height:58px;line-height:58px;}
+.news_info .new_nav span{color:#999;}
+.news_info .new_nav a{font-size:14px;color:#666;}
+.news_info .new_nav a:hover{ color:#ffbd3f;}
