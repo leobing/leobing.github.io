@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-04-02 10:10:46
 * @Last Modified by:   leo
-* @Last Modified time: 2018-04-04 10:32:01
+* @Last Modified time: 2018-04-04 13:43:02
 */
 .join_us .banner a{display:block;width:100%;height:100%;background:url(../images/join_banner.jpg) no-repeat center;}
 .join_us .content{height:1100px;}
@@ -18,7 +18,7 @@
 .line_text{display:inline;padding:0 13px;line-height:19px;}
 .line_text li{display:inline-block;}
 
-.line_text>.text{cursor:pointer;}
+.line_text>.text{cursor:pointer;font-size: 14px;}
 .line_text>.text.selectActive{color:#ffbd3f;}
 
 

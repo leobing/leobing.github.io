@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-03-31 15:06:12
 * @Last Modified by:   leo
-* @Last Modified time: 2018-04-04 11:40:13
+* @Last Modified time: 2018-04-04 13:48:31
 */
 
 
@@ -80,14 +80,14 @@
 .news .items_body li dd .time{font-style:italic;font-size:12px;}
 .news .items_body li dd>p{font-size:14px;margin-top:2px;}
 .news .items_body .circle_arrow{margin-top:20px;background:#fff url(../images/arrow_grey.png) no-repeat center;}
-.news .items_body li:hover .circle_arrow{background-color:#ffbd3f;}
+.news .items_body li:hover .circle_arrow{background:#ffbd3f url(../images/arrow_white.png) no-repeat center;}
 
 
 
 /* 页脚 */
 footer{height:182px;background:#283443;color:red;color:#5e6977;}
 footer a{color:#5e6977;}
-footer a:hover{color:#eb1500;}
+footer a:hover{color:#7b8592;}
 
 
 footer .top{padding-top:48px;padding-bottom:34px;}
