@@ -1,16 +1,17 @@
 /*
 * @Author: Administrator
 * @Date:   2018-04-02 10:10:46
-* @Last Modified by:   Administrator
-* @Last Modified time: 2018-04-03 14:36:08
+* @Last Modified by:   leo
+* @Last Modified time: 2018-04-04 11:34:17
 */
 
 .case .banner a{background:url(../images/case_banner.jpg) no-repeat center;background-size:cover;}
 
-.case .content{height:1208px;}
-.case .jobs_tit{margin-top:58px;}
-.case .line_c{width:828px;margin-left:-414px;font-size:18px;}
+.case .content{height:1100px;}
+.case .jobs_tit{margin-top:58px;position:relative;height:auto;}
+.case .line_c>ul{background:#fff;position:absolute;width:706px;left:50%;top:0;margin-left:-353px;font-size:14px;}
 .case .line_text{padding:0;}
+
 
 .case .diagonal{color:#ddd;margin:0 33px;}
 
@@ -18,19 +19,19 @@
 .case .v_right{margin-left:36px;}
 
 
-.case .items_body{margin-top:75px;}
-.case .items_body li{height:404px;float: left;width:283px;margin-right:22px;}
-.case .items_body li:nth-child(4n){margin-right:0;margin-left:2px;}
-.case .items_body li dl:hover{background:black;color:white;cursor:pointer;}
-.case .items_body li dl:hover h2{color:white;}
-.case .items_body li dl:hover p{color:white;}
-.case .items_body li dl .circle_arrow{background-color:#fff;}
-.case .items_body li dl:hover .circle_arrow{background-color:#000;}
-
-.case .items_body li dt{height:200px;}
-.case .items_body li dd{height:100px;line-height:28px;padding:10px 15px;}
-.case .items_body li dd h2{font-size:16px;margin-top:10px;color:#333;}
-.case .items_body li dd p{font-size:12px;color:#999;line-height:18px;}
+/* 案例表 */
+.case .items{padding-top:75px;}
+.case .items>li{height:350px;float: left;width:283px;margin-right:22px;}
+.case .items>li:nth-child(4n){margin-right:0;margin-left:2px;}
+.case .items>li dl:hover{background:black;color:white;cursor:pointer;}
+.case .items>li dl:hover h2{color:white;}
+.case .items>li dl:hover p{color:white;}
+.case .items>li dl .circle_arrow{background-color:#fff;}
+.case .items>li dl:hover .circle_arrow{background-color:#000;}
+.case .items li dt{height:200px;}
+.case .items li dd{height:100px;line-height:28px;padding:10px 15px;}
+.case .items li dd h2{font-size:16px;margin-top:10px;color:#333;}
+.case .items li dd p{font-size:12px;color:#999;line-height:18px;}
 
 /* 分页 */
 

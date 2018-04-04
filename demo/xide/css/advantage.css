@@ -1,13 +1,13 @@
 /*
 * @Author: Administrator
 * @Date:   2018-04-02 09:17:49
-* @Last Modified by:   Administrator
-* @Last Modified time: 2018-04-03 14:50:12
+* @Last Modified by:   leo
+* @Last Modified time: 2018-04-04 09:41:53
 */
 .advantage .banner{height:200px;}
 .advantage .banner a{background:url(../images/advantage_banner.jpg) no-repeat center;}
 
-.advantage .content{height:976px;}
+.advantage .content{height:800px;}
 
 .advantage .items_body{margin-top:72px;}
 .advantage .items_body ul li{float:left;margin-right:-1px;width:398px;height:338px;border:1px solid #f0f0f0;}

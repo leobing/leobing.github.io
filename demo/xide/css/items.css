@@ -1,12 +1,12 @@
 /*
 * @Author: Administrator
 * @Date:   2018-04-02 09:17:49
-* @Last Modified by:   Administrator
-* @Last Modified time: 2018-04-02 18:49:40
+* @Last Modified by:   leo
+* @Last Modified time: 2018-04-04 09:39:55
 */
 
 .items .banner a{background:url(../images/items_banner.jpg) no-repeat center;}
-.items .content{height:976px;}
+.items .content{height:700px;}
 
 .items .items_body{margin-top:70px;}
 .items .items_body li{float: left;width:283px;margin-right:22px;}

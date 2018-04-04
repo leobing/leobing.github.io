@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2018-03-31 15:06:12
-* @Last Modified by:   Administrator
-* @Last Modified time: 2018-04-03 16:32:13
+* @Last Modified by:   leo
+* @Last Modified time: 2018-04-04 11:40:13
 */
 
 
@@ -63,7 +63,7 @@
 .about_c>dl dd>h3{font-size:18px;line-height:28px;letter-spacing:2px;margin-top:60px;}
 .about_c>dl dd>p{color:#999;font-size:14px;line-height:24px;margin:25px 70px 0 0;}
 .about_c>dl .circle_arrow{margin-top:30px;background:#fff url(../images/arrow_grey.png) no-repeat center;}
-.about_c>dl .circle_arrow:hover{background-color:#ffbd3f;}
+.about_c>dl .circle_arrow:hover{background:#ffbd3f url(../images/arrow_white.png) no-repeat center;}
 
 /* 新闻动态 */
 .news{height:618px;}
@@ -80,14 +80,14 @@
 .news .items_body li dd .time{font-style:italic;font-size:12px;}
 .news .items_body li dd>p{font-size:14px;margin-top:2px;}
 .news .items_body .circle_arrow{margin-top:20px;background:#fff url(../images/arrow_grey.png) no-repeat center;}
-.news .items_body .circle_arrow:hover{background-color:#ffbd3f;}
+.news .items_body li:hover .circle_arrow{background-color:#ffbd3f;}
 
 
 
 /* 页脚 */
 footer{height:182px;background:#283443;color:red;color:#5e6977;}
 footer a{color:#5e6977;}
-footer a:hover{color:#cc1200;}
+footer a:hover{color:#eb1500;}
 
 
 footer .top{padding-top:48px;padding-bottom:34px;}
@@ -100,7 +100,7 @@ footer .top .phone_num{color:#ffbd3f;font-size:22px;line-height:34px;}
 .foot_right a.icon{padding:0 5px;}
 .foot_right a.icon>img{width:34px;height:34px;}
 .foot_right a.email{margin-left:30px;font-weight:bold;}
-.join{text-align:right;display:block;}
+.join{text-align:right;display:block;cursor: pointer;}
 
 footer .line{border-color:#2e3a48;}
 footer .bottom{font-size:12px;line-height:34px;}

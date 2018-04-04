@@ -1,13 +1,13 @@
 /*
 * @Author: Administrator
 * @Date:   2018-04-02 09:17:49
-* @Last Modified by:   Administrator
-* @Last Modified time: 2018-04-02 10:11:18
+* @Last Modified by:   leo
+* @Last Modified time: 2018-04-04 09:40:54
 */
 .contact_us .banner{height:200px;}
 .contact_us .banner a{display:block;width:100%;height:100%;background:url(../images/contact_banner.jpg) no-repeat center;}
 
-.contact_us .content{height:1208px;}
+.contact_us .content{height:908px;}
 
 .contact_tit{margin-top:38px;}
 
