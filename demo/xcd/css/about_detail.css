@@ -1,0 +1,23 @@
+/* .about_main .slogen{background-image:url(../images/slogen_service_main.jpg);} */
+
+.about_main .team_a{margin-bottom:170px;}
+.about_main .about_tit{padding-top:30px;}
+.about_main .about_tit h2{font-size:36px;line-height:38px;}
+.about_main .about_tit .en{display:block;color:#e61717;font-size:30px;font-weight:bold;line-height: 30px;padding-top:15px;padding-bottom:22px;}
+
+
+.about_main .expert_img{background:pink;width:347px;height:445px;}
+.about_main .expert_img>img{width:100%;height:100%;}
+
+
+.about_main .expert_intro{width:767px;margin-left:55px;}
+
+.expert_intro>dl dt>h3{font-size:30px;margin-bottom:5px;line-height:30px;font-weight:bold;}
+.expert_intro>dl dt>span{font-size:20px;}
+.expert_intro>dl dd>p{margin-top:20px;font-size:20px;line-height:32px;}
+
+.expert_intro .intro_item{line-height:39px;}
+.expert_intro .intro_item dt{margin:50px 0 25px 0;font-size:24px;}
+.expert_intro .intro_item dd{font-size:20px;}
+
+
