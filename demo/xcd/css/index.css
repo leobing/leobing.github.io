@@ -23,7 +23,7 @@
 /*service*/
 .service{position:relative;min-width:1200px;overflow:hidden;height:100%;background: url(../images/bg_service.jpg) center no-repeat;background-size:cover;}
 .service_con{margin-top:32px;}
-.service_con li{position:relative;width:290px;height:709px;float:left;margin-right:13px;background: url(../images/service_item.jpg) center no-repeat;}
+.service_con li{position:relative;width:290px;height:709px;float:left;margin-right:13px;background: url(../images/service_item2.jpg) center no-repeat;}
 .service_con li.last{margin-right:0;}
 .service_con li h2{width:30px;margin:0 auto;font-size:30px;line-height:32px;margin-top:66px;}
 .service_desc{font-size:16px;-webkit-writing-mode: vertical-rl;position:absolute;right:28px;bottom:10px;width:60px;height:220px;}
@@ -62,7 +62,7 @@
 .news a:hover{ color:#e61717;}
 .news_con{margin-top:34px;height:654px;}
 .news_left{width:685px;height:654px;background:#fff;box-sizing: border-box;padding:5px 0;overflow: hidden;}
-.news_left dl{overflow-y:auto;box-sizing:border-box;height:100%;width:637px;margin:0 auto;padding-top:26px;}
+.news_left dl{box-sizing:border-box;height:100%;width:637px;margin:0 auto;padding-top:26px;}
 .news_left dl dt{height:461px;background:url(../images/news_left.jpg);}
 .news_left dl dd{width:100%;padding-top:15px;}
 .news_left dl dd h2,
