@@ -431,13 +431,20 @@
     </div> -->
 
     <!-- 引入 jquery.js jquery.fullpage.js jquery.fullpage.css 三个文件 -->
-    <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+
+    <!-- <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script> -->
+    <script>
+        $.getScript('js/jquery-1.10.1.min.js', function() {
+            console.log(jsUrl[i] + " 加载完毕...");
+        });
+    </script>
     <script type="text/javascript" src="js/fullpage.min.js"></script>
     
     <script src="js/selectivizr.js"></script>
     <script src="js/base.js"></script>
 
     <script>
+
         // fullpage初始化
         $('#fullpage').fullpage({
             navigation:true,//圆点导航

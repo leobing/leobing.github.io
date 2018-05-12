@@ -12,14 +12,14 @@ $(function(){
   // 服务页面-背景、tag切换
   $('.service_con_item').hover(function() {
     $(this).find('.tag').fadeIn();
-    $(this).parents('.service').css({
-      backgroundImage: 'url(images/bg_about.jpg)',
-    });
+    // $(this).parents('.service').css({
+    //   backgroundImage: 'url(images/bg_about.jpg)',
+    // });
   }, function() {
     $(this).find('.tag').fadeOut();
-    $(this).parents('.service').css({
-      backgroundImage: 'url(images/bg_service.jpg)',
-    });
+    // $(this).parents('.service').css({
+    //   backgroundImage: 'url(images/bg_service.jpg)',
+    // });
   });
 
   //成功案例-list-切换
