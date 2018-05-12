@@ -1,0 +1,77 @@
+.about .slogen{background-image:url(../images/slogen_about_main.jpg);}
+.about .about_tit{padding-top:15px;}
+.about .ex_team .about_tit{padding-top:25px;}
+.about .honor .about_tit{padding-top:25px;}
+.about .about_tit h2{font-size:36px;line-height:38px;}
+.about .about_tit .en{display:block;color:#e61717;font-size:30px;font-weight:bold;line-height: 30px;padding-top:10px;padding-bottom:15px;}
+
+
+/* 第一屏 */
+.company{position:relative;min-width:1200px;overflow:hidden;height:100%;}
+.company_article{line-height:30px;}
+
+/* 第二屏 */
+.ex_team{position:relative;min-width:1200px;overflow:hidden;height:100%;margin-top:162px;}
+.ex_team .img_group{margin:20px 0;}
+.ex_team .img_group li{position:relative;float:left;width:20%;height:300px;background:pink;-webkit-filter: grayscale(100%);-moz-filter: grayscale(100%);-ms-filter: grayscale(100%);-o-filter: grayscale(100%);filter: grayscale(100%);filter: gray;}
+.ex_team .img_group li>dl{display:none;position:absolute;bottom:10px;left:0;text-align:center;width:100%;}
+.ex_team .img_group li:hover dl{display:block;}
+.img_group li>dl h4{color:#fefefe;font-size:24px;line-height:30px;}
+.img_group li>dl dd{color:#fefefe;font-size:18px;line-height:30px;}
+
+.ex_team .img_group li img{width:100%;height:100%;}
+.ex_team .img_group li:hover {-webkit-filter: grayscale(0);-moz-filter: grayscale(0);-ms-filter: grayscale(0);-o-filter: grayscale(0);filter: grayscale(0);filter: none;}
+
+/* 第三屏 */
+.honor{position:relative;min-width:1200px;overflow:hidden;height:100%;margin-top:162px;}
+.swiper-container {
+  width: 100%;
+  height: 430px;
+}
+.swiper-wrapper{
+	height: 427px;
+	padding:20px 0;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+	bottom:0;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  width:273px;
+  height:387px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-pagination-bullet{
+	width:29px;
+	height:7px;
+	background-color:#808080;
+	border-radius:4px;
+	
+}
+.swiper-pagination-bullet-active{
+	background-color:#e61717;
+}
+
+
+/* 底部箭头 */
+.foot_c_top{margin-top:10px;}
+.back_top{transform:rotate(180deg);}
+.main_foot{position: fixed;bottom:0;left:50%;margin-left:-18px;padding-bottom:0;}
+.main_foot .foot_txt{display:none;cursor:pointer;text-align:center;font-size:16px;line-height:16px;color:#000;}
+.rect_cirle {display:block;margin:0 auto;background: rgba( 255, 255, 255, 0.702) center no-repeat;width: 35px;height: 56px;border-radius:20px;}
+.rect_cirle .animated{-webkit-animation-duration:1.4s;animation-duration:1.4s;}
+

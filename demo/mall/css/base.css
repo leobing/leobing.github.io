@@ -1,0 +1,14 @@
+.fr{float: right;}
+.fl{float: left;}
+.or{overflow:hidden;}
+.clearfix:after {content: '';display:block;clear: both;}
+.html-5,
+.mui-bar{min-width:320px;max-width:640px;margin:0 auto;}
+
+/*底部导航栏*/
+nav .nav_item {display: table-cell;overflow: hidden;width: 1%;height: 50px;text-align: center;vertical-align: middle;white-space: nowrap;text-overflow: ellipsis;color: #929292;padding-bottom:2px;}
+nav .nav_label {font-size: 11px;display: block;overflow: hidden;text-overflow: ellipsis;}
+nav .nav_icon{padding-bottom: 0!important;padding-top: 3px!important;}
+nav .tab_active{color:#F0AD4E}
+
+
