@@ -17,14 +17,9 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
-
-    <script src="js/selectivizr.js"></script>
-    
     
 </head>
 <body>
-
-    <!-- 懒加载(默认开启状态)设置 src改成data-src即可 -->
 
     <!-- fullpage基本结构 整体有一个外部容器 每一屏有一个section类 -->
     <div id="fullpage">
@@ -522,8 +517,8 @@
             // 创建地图 
             var map = new AMap.Map('amap_label', {
                 resizeEnable: true,
-                zoom:10, //地图级别
-                // center: [116.350091, 39.999121] //地图显示基点，若不设置将自动定位
+                zoom:11, //地图级别
+                center: [113.931775,35.762852] //地图显示基点，若不设置将自动定位
             });
             map.setMapStyle('amap://styles/normal'); //设置地图样式
 
@@ -531,6 +526,12 @@
                 var toolbar = new AMap.ToolBar();
                 map.addControl(toolbar);
             })
+
+            marker = new AMap.Marker({
+                position: [113.931775,35.762852],
+                title: '河南省新创达建设工程有限公司',
+                map:map,
+            });
         };
     </script>
     <!-- 高德地图API -->

@@ -274,7 +274,7 @@
             var map = new AMap.Map('amap_label', {
                 resizeEnable: true,
                 zoom:10, //地图级别
-                // center: [116.350091, 39.999121] //地图显示基点，若不设置将自动定位
+                center: [113.931775,35.762852] //地图显示基点，若不设置将自动定位
             });
             map.setMapStyle('amap://styles/normal'); //设置地图样式
 
@@ -282,6 +282,12 @@
                 var toolbar = new AMap.ToolBar();
                 map.addControl(toolbar);
             })
+
+            marker = new AMap.Marker({
+                position: [113.931775,35.762852],
+                title: '河南省新创达建设工程有限公司',
+                map:map,
+            });
         };
     </script>
     <!-- 高德地图API -->
