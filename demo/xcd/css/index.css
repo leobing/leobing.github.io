@@ -62,7 +62,7 @@
 .news a:hover{ color:#e61717;}
 .news_con{margin-top:34px;height:654px;}
 .news_left{width:685px;height:654px;background:#fff;box-sizing: border-box;padding:5px 0;overflow: hidden;}
-.news_left dl{overflow-y:auto;box-sizing:border-box;height:100%;width:637px;margin:0 auto;padding-top:26px;}
+.news_left dl{box-sizing:border-box;height:100%;width:637px;margin:0 auto;padding-top:26px;}
 .news_left dl dt{height:461px;background:url(../images/news_left.jpg);}
 .news_left dl dd{width:100%;padding-top:15px;}
 .news_left dl dd h2,
