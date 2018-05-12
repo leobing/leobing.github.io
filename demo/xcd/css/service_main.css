@@ -7,7 +7,7 @@
 
 
 .service_item{position:relative;margin-top:37px;}
-.service_main .service_con_item{position:relative;width:290px;height:709px;float:left;margin-right:13px;background: url(../images/service_item.jpg) center no-repeat;}
+.service_main .service_con_item{position:relative;width:290px;height:709px;float:left;margin-right:13px;background: url(../images/service_item2.jpg) center no-repeat;}
 .service_main .service_con_item.last{margin-right:0;}
 .service_main .service_con_item h2{width:30px;margin:0 auto;font-size:30px;line-height:32px;margin-top:66px;}
 .service_desc{font-size:16px;-webkit-writing-mode: vertical-rl;position:absolute;right:28px;bottom:10px;width:60px;height:220px;}
