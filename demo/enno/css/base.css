@@ -1,0 +1,25 @@
+html,body,div,input,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,section, article, aside, header, footer, nav, dialog, figure,menu,hgroup,iframe{ margin:0; padding:0; border:0; }
+body{ font-family: Arial, "Hiragino Sans GB","PingFang SC","Microsoft YaHei", "微软雅黑"; font-size:14px; line-height:24px; background:#fff;  color:#333; }
+input,textarea{ resize:none; font-family:"Microsoft YaHei"; background: #fff; border: 0;  }
+img{ border:none; vertical-align:middle; }
+ul,li{ list-style:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+a{ text-decoration:none; color:#333; outline:none; }
+a:hover{color:#00ba79;}
+input:focus,textarea:focus{ outline:none; }
+
+.mainbox{width:1200px;margin:0 auto;}
+.fl{float:left;}
+.fr{float:right;}
+/* 竖线 */
+.line{content:'';display:inline-block;width:1px;height:11px;background:#b2b2b2;margin:0 5px;margin-top:6px;}
+
+.en{text-transform:uppercase;}
+
+/*--清除浮动--------------------------------------------------------------------------------------*/
+.clearfix:after { clear:both;content:".";display:block;font-size:0;height:0;visibility:hidden; }
+.clearfix:after { _zoom:1; }
+.or { overflow:hidden; _zoom:1; }
+.clear { clear:both; height:0;font-size:0; overflow:hidden; }
+
+
