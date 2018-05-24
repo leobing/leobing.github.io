@@ -69,11 +69,21 @@
 			</div>
 		</div>
 	</header>
-
+	<!-- banner -->
 	<div class="banner">
-		<a class="banner_bg" href="#">
-			<img src="images/banner.jpg" alt="">
-		</a>		
+		<!-- 轮播 -->
+		<div class="banner_scroll">
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			      <div class="swiper-slide"><a class="banner_bg" href="#"><img src="images/banner.jpg" alt=""></a></div>
+			      <div class="swiper-slide"><a class="banner_bg" href="#"><img src="images/banner.jpg" alt=""></a></div>
+			      <div class="swiper-slide"><a class="banner_bg" href="#"><img src="images/banner.jpg" alt=""></a></div>
+			    </div>
+			    <!-- Add Pagination -->
+			    <div class="swiper-pagination"></div>
+			</div>
+		</div>
+				
 		<div class="con">
 			<aside>
 				<section>
@@ -399,12 +409,12 @@
 			<div class="expert_items swiper-container or">
 				<div class="swiper-container">
 				    <div class="swiper-wrapper">
-				      <div class="swiper-slide"><img src="images/expert_1.jpg" alt=""><div class="txt">宇都宫 一典</div></div>
-				      <div class="swiper-slide"><img src="images/expert_1.jpg" alt=""><div class="txt">宇都宫 一典</div></div>
-				      <div class="swiper-slide"><img src="images/expert_1.jpg" alt=""><div class="txt">宇都宫 一典</div></div>
-				      <div class="swiper-slide"><img src="images/expert_1.jpg" alt=""><div class="txt">宇都宫 一典</div></div>
-				      <div class="swiper-slide"><img src="images/expert_1.jpg" alt=""><div class="txt">宇都宫 一典</div></div>
-				      <div class="swiper-slide"><img src="images/expert_1.jpg" alt=""><div class="txt">宇都宫 一典</div></div>
+				      <div class="swiper-slide"><img src="images/expert_1.jpg" alt=""><div class="txt"><span>宇都宫 一典</span></div></div>
+				      <div class="swiper-slide"><img src="images/expert_1.jpg" alt=""><div class="txt"><span>宇都宫 一典</span></div></div>
+				      <div class="swiper-slide"><img src="images/expert_1.jpg" alt=""><div class="txt"><span>宇都宫 一典</span></div></div>
+				      <div class="swiper-slide"><img src="images/expert_1.jpg" alt=""><div class="txt"><span>宇都宫 一典</span></div></div>
+				      <div class="swiper-slide"><img src="images/expert_1.jpg" alt=""><div class="txt"><span>宇都宫 一典</span></div></div>
+				      <div class="swiper-slide"><img src="images/expert_1.jpg" alt=""><div class="txt"><span>宇都宫 一典</span></div></div>
 				    </div>
 				</div>
 			</div>
@@ -524,7 +534,7 @@
 					<h2>医疗案例</h2>
 					<div class="line_h"></div>
 					<ul>
-						<li>肿瘤</li>
+						<li class="current">肿瘤</li>
 						<li>肿瘤</li>
 						<li>肿瘤</li>
 						<li>肿瘤</li>
@@ -673,6 +683,16 @@
 		  }
 
 		});
+		
+		// banner轮播
+		var swiper = new Swiper('.banner_scroll .swiper-container', {
+	      pagination: {
+	        el: '.swiper-pagination',
+	        clickable:true,
+	      },
+	      autoplay:true,
+	    });
+
 		// 证件轮播
 		var swiper = new Swiper('.intro_s .swiper-container', {
 	      pagination: {

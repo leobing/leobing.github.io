@@ -18,8 +18,16 @@ header .nav li{float:left;width:240px;text-align:center;}
 header .nav li a{color:#fff;display:inline-block;line-height:62px;width:100%;height:100%;}
 header .nav li a:hover{background:#b4d129;}
 header .nav li.active a{background:#b4d129;}
+
+/* 轮播-指示点颜色-全局 */
+.swiper-pagination-bullet{background-color:#413932;opacity:1;}
+.swiper-pagination-bullet-active{background-color:#b4d129;}
+
 /* banner */
 .banner{color:#fff;margin:0 auto;position:relative;min-width:1280px;height:640px;}
+.banner_scroll{width:100%;height:100%;}
+.banner_scroll .swiper-container{width:100%;height:100%;z-index:0;}
+
 .banner a{display:block;width:100%;height:100%;}
 .banner a.banner_bg>img{width:100%;height:100%;}
 .banner .con{width:1200px;position:absolute;left:50%;top:0;margin-left:-600px;height:0;}
@@ -135,8 +143,10 @@ header .nav li.active a{background:#b4d129;}
 /* 轮播 */
 .expert_items{margin-top:29px;}
 .expert_items .swiper-slide{position: relative;;width:170px!important;height:219px;background-color:#ccc;float:left;}
+.expert_items .swiper-slide:hover .txt{height:100%;}
 .expert_items .swiper-slide img{width:100%;height:100%;}
 .expert_items .swiper-slide .txt{position:absolute;bottom:0;left:0;height:43px;color:#fff;font-size:18px;text-align:center;width:100%;line-height:43px;background-color:rgba(41,61,78,0.5);}
+.expert_items .swiper-slide .txt span{position:absolute;bottom:0;left:0;width:100%;}
 
 
 /* 海外服务 */
@@ -177,6 +187,7 @@ header .nav li.active a{background:#b4d129;}
 .case_tab_t ul{margin-top:70px;position:absolute;z-index:10;}
 .case_tab_t ul li{width:162px;height:60px;margin-bottom:20px;font-size:20px;line-height:60px;padding-left:4px;cursor:pointer;}
 .case_tab_t ul li:hover{background-color:#b8d334;}
+.case_tab_t ul li.current{background-color:#b8d334;}
 .z_in{position:relative;z-index:2px;}
 
 .case_tab_c{width:1005px;height:100%;}
