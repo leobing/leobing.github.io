@@ -5,7 +5,7 @@ img{ border:none; vertical-align:middle; }
 ul,li{ list-style:none;}
 h1,h2,h3,h4,h5,h6{font-weight:normal;}
 a{ text-decoration:none; color:#333; outline:none; }
-a:hover{color:#00ba79;}
+/* a:hover{color:#00ba79;} */
 input:focus,textarea:focus{ outline:none; }
 
 .mainbox{width:1200px;margin:0 auto;}
@@ -14,6 +14,7 @@ input:focus,textarea:focus{ outline:none; }
 /* 竖线 */
 .line{content:'';display:inline-block;width:1px;height:11px;background:#b2b2b2;margin:0 5px;margin-top:6px;}
 
+/* 字母大写 */
 .en{text-transform:uppercase;}
 
 /*--清除浮动--------------------------------------------------------------------------------------*/
@@ -22,4 +23,10 @@ input:focus,textarea:focus{ outline:none; }
 .or { overflow:hidden; _zoom:1; }
 .clear { clear:both; height:0;font-size:0; overflow:hidden; }
 
-
+/* 多行文本 */
+.txt_rows{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
