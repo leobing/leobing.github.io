@@ -26,13 +26,17 @@ $(function(){
 	$(tab_a[0]).click(function(event) {
 		
 		$('.er_tab_t li').removeClass('current')
+		$('.tab_c table').removeClass('current')
+
 		$(t).addClass('current')
 		$(con).addClass('current')
-		console.log(1);
 	});
 	$(tab_a[1]).click(function(event) {
 		
 		$('.er_tab_t li').removeClass('current')
+		$('.tab_c table').removeClass('current')
+		
+
 		$(t1).addClass('current')
 		$(con1).addClass('current')
 		console.log(1);
