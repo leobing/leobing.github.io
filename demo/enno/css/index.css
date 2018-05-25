@@ -59,30 +59,42 @@ header .nav li.active a{background:#b4d129;}
 .solution  .detail_s{margin:12px 0 38px 0;}
 
 .solution .bottom_left{box-shadow:3px 3px 28px rgba(10,10,10,0.7);position:absolute;width:627px;height:535px;background-color:#fff;margin-left:-45px;}
-.solution .bottom_right{width:618px;height:496px;margin-top:19px;}
-.bottom_left .go_t{color:#fff;width:100%;height:140px;background-color:#b4d129;text-align:center;}
-.bottom_left .go_t h2{font-size:22px;line-height:30px;}
-.bottom_left .go_t .go_icon{padding:30px 0 5px 0;}
-.bottom_left .go_c{padding-left:30px;}
-.bottom_left .go_c article{width:560px;}
-.bottom_left .go_c article h2{font-size:18px;margin:40px 0 25px 0;}
-.bottom_left .go_c article p{color:#8c8c8c;}
 
-.bottom_left .go_c .btn_more{display:inline-block;width:140px;height:40px;border-radius:20px;background-color:#0c3252;font-size:16px;line-height:40px;text-align:center;margin:30px 25px 0 0;}
-.bottom_left .go_c .btn_more a{display: inline-block;width:100%;height:100%;color:#fff;}
-.bottom_left .go_c .go_icon{display:inline-block;width:18px;height:18px;background:url(../images/arrow_right.png) no-repeat center;background-size:cover;margin-right:8px;margin-top: 3px;}
+.solution .bottom{position:relative;text-align:center;}
+.solution .bottom.mainbox{width:1280px;}
+.solution .solution_items{display:inline-block;height:496px;margin-top:19px;}
+.solution_items dl{cursor:pointer;float:left;width:206px;height:100%;background-color:#fff;text-align:center;}
+.solution_items dl:hover dd{background-color:#fff;}
+.solution_items dl>dt{height:139px;background:#072f4f;color:#fff;}
+.solution_items dl>dt .go_icon img{margin:22px 0 10px 0;}
+.solution_items dl>dt h2{color:#d9efff;font-size:20px;font-weight:bold;}
+.solution_items dl>dt span.txt{color:#8dbbdc;font-size:13px;}
+.solution_items dl>dd{height:357px;background:#e7e7e7;color:#373d41;font-size:16px;}
+.solution_items dl>dd li{margin-top:25px;}
+
+.bottom dd .go_c{padding-left:30px;text-align:left;display:none;}
+.bottom dd .go_c article{width:560px;}
+.bottom dd .go_c article h2{font-size:18px;padding:40px 0 25px 0;}
+.bottom dd .go_c article p{color:#8c8c8c;font-size:14px;}
+.bottom dd .go_c .btn_more{display:inline-block;width:140px;height:40px;border-radius:20px;background-color:#0c3252;font-size:16px;line-height:40px;text-align:center;margin:30px 25px 0 0;}
+.bottom dd .go_c .btn_more a{display: inline-block;width:100%;height:100%;color:#fff;}
+.bottom dd .go_c .go_icon{display:inline-block;width:18px;height:18px;background:url(../images/arrow_right.png) no-repeat center;background-size:cover;margin-right:8px;margin-top: 3px;}
+.bottom dd .go_ul li{margin:48px 12px 0 0;width:180px;height:70px;background-color:#f3f3f3;border-radius:3px;float:left;}
+.bottom dd .go_ul li h3{padding:12px 0 0 15px;color:#333;font-size:14px;}
 
 
-.go_ul li{margin:48px 12px 0 0;width:180px;height:70px;background-color:#f3f3f3;border-radius:3px;float:left;}
-.go_ul li h3{padding:12px 0 0 15px;color:#333;}
-.bottom_right>dl{float:left;width:206px;height:100%;background-color:#fff;text-align:center;}
-.bottom_right>dl>dt{height:139px;background:#072f4f;color:#fff;}
-.bottom_right>dl>dt img{margin:22px 0 10px 0;}
-.bottom_right>dl>dt h2{color:#d9efff;font-size:20px;}
-.bottom_right>dl>dt span.txt{color:#8dbbdc;font-size:13px;}
-.bottom_right>dl>dd{height:357px;background:#e7e7e7;color:#373d41;font-size:16px;}
-.bottom_right>dl>dd li{margin-top:25px;}
-.bottom_right>dl:hover dd{background-color:#fff;}
+/* 点击后的样式 */
+.solution_items section{float:left;position:relative;}
+.solution_items dl.current{cursor: default;;box-shadow:2px 8px 28px rgba(0,0,0,0.5);top:-20px;width:627px;height:535px;position:absolute;left:-17px;z-index:1001;}
+.solution_items dl.current ul.info{display:none;}
+.solution_items dl.current dt{background:#b4d129;}
+.solution_items dl.current dt span.txt{color:#fff;}
+.solution_items dl.current dt h2{color:#fff;}
+.solution_items dl.current dd{height:395px;background-color:#fff;}
+.solution_items dl.current .go_c{display:block;}
+.solution_items section.current{width:596px;height:100%;}
+
+
 
 /* 预约 */
 .order{position: relative;;width:100%;height:900px;min-width:1280px;}
