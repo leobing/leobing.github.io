@@ -1,0 +1,156 @@
+banner */
+.chuguo .banner>img{width:100%;height:100%;}
+
+/* 四大方案 */
+.four_solution{text-align: center;background-color:#f9f9f9;min-width:1280px;}
+.tab_tit{border-bottom:1px solid #e0e0e0;}
+.tab_tit ul{display:inline-block;padding:22px 0 16px 0;}
+.tab_tit ul li{cursor:pointer;font-size:24px;float:left;width:250px;height:88px;background:#0b3252;color:#fff;line-height:88px;margin-right:36px;}
+.tab_tit ul li:last-child{margin-right:0;}
+.tab_tit ul li.current{background-color:#b8d334;}
+
+.tab_con{display:none;}
+.tab_con.current{display:block;}
+.tab_con .tab_con_img{display:inline-block;width:900px;height:509px;margin-top:12px;}
+.tab_con .tab_con_img img{width:100%;height:100%;}
+
+.video{width:1150px;margin:0 auto;padding:67px 0 34px 0;}
+.video dl{margin-right:24px;float: left;}
+.video dl:last-child{margin-right:0;}
+.video dl dt{width:563px;height:285px;background-color:pink;}
+
+.video dl dd{font-size:24px;color:#072f4f;line-height:67px;height:67px;}
+
+/* 推荐教授 */
+.recommend{text-align:center;background-color:#fafafa;min-width:1280px;}
+.recommend .tit{color:#072f4f;padding:45px 0 35px 0;}
+.recommend .tit h2{font-size:24px;line-height:30px;padding-bottom:17px;}
+.recommend .tit span{font-size:14px;}
+
+.recommend .con{margin-bottom:15px;width:1152px;}
+.recommend .con .teach{box-sizing:border-box;border:1px solid #e6e6e6;width:364px;height:460px;background-color:#fff;margin-right:30px;margin-bottom:40px;}
+.recommend .con .teach:hover{background-color:#083050;}
+.recommend .con .teach:hover dd{color:#fff;}
+.recommend .con .teach:hover .line_h{background-color:#154e7c;}
+.recommend .con .teach:nth-child(3n){margin-right:0;}
+.recommend .line_h{display: inline-block;width:337px;height:1px;background-color:#072f4f;}
+
+/* 推荐医疗机构 */
+.org{background-color:#072f4f;color:#fff;padding-bottom:44px;min-width:1280px;}
+.org .tit{padding:38px 0 35px 0;}
+.org .tit h2{font-size:24px;font-weight:bold;margin-bottom:8px;}
+.org .tit span{font-size:18px;}
+.org .con{height:500px;}
+.org .con dl{position:relative;;width:293px;height:500px;background-color:#fff;color:#333333;text-align:center;}
+.org_link{position:absolute;width:100%;height:100%;}
+.org .con dl dt{width:265px;height:369px;margin:0 auto;padding-top:17px;}
+.org .con dl dt img{width:100%;height:100%;}
+.org .con dl dd{padding-top:20px;font-size:18px;}
+
+/* 看病流程 */
+.process{text-align:center;min-width:1280px;}
+.process .tit{color:#072f4f;padding:50px 0 38px 0;}
+.process .tit h2{font-size:24px;font-weight:bold;line-height:30px;}
+.process .tit span{font-size:18px;}
+.process .top{height:472px;}
+.process .top>img{height:100%;width:100%;}
+.process .bottom{background-color:#f9f9f9;}
+.process .bottom ul{width:1156px;padding:57px 0 70px 0;}
+.process .bottom ul li{padding:22px 0 0 18px;box-sizing:border-box;color:#072f4f;text-align:left;float:left;margin-bottom:27px;width:376px;height:201px;background-color:#fff;color:#072f4f;margin-right:14px;}
+.process .bottom ul li:nth-child(3n){margin-right:0;}
+.process .bottom ul li:hover{color:#fff;background-color:#072f4f;cursor:pointer;}
+.process .bottom ul li h3{line-height:34px;font-weight:bold;font-size:24px;}
+.process .bottom ul li p{line-height:24px;font-size:14px;}
+
+
+/* 定制体检页面 start */
+.dingzhi .banner img{width:100%;height:100%;}
+/* 四大方案 */
+.dingzhi .four_solution .tab_con{color:#0b3252;}
+.dingzhi .four_solution .tab_con .top{margin:60px 0 70px 0;}
+.dingzhi .four_solution .tab_con .top h3{font-size:30px;line-height:32px;}
+.dingzhi .four_solution .tab_con .bottom{padding:62px 0 77px 0;width:1144px;}
+.dingzhi .four_solution .tab_con .bottom dl{float:left;width:272px;height:214px;background-color:#fff;margin-right:18px;}
+.dingzhi .four_solution .tab_con .bottom dl:last-child{margin-right:0;}
+.dingzhi .four_solution .tab_con .bottom dl dt{position:relative;width:132px;height:132px;border-radius:50%;top:-70px;margin:0 auto;}
+.dingzhi .four_solution .tab_con .bottom dl dd h4{font-size:24px;position: relative;top:-50px;}
+.dingzhi .four_solution .tab_con .bottom dl dd p{font-size:16px;width:173px;margin:0 auto;position: relative;top:-40px;}
+
+/* 合作医师 */
+.dingzhi .doctor{text-align:center;/* height:700px; */padding-bottom:65px;background-color:#ededed;min-width:1280px;}
+.dingzhi .doctor_top{padding-top:50px;}
+.dingzhi .doctor_top h2{color:#0b3252;margin-bottom:15px;font-size:30px;line-height:32px;}
+.dingzhi .doctor_top span{font-size:16px;}
+.dingzhi .doctor_items{width:1100px;margin-top:30px;}
+.dingzhi .doctor_items dl{float: left;margin:20px 60px 0 0;}
+.dingzhi .doctor_items dl:nth-child(5n){margin-right:0;}
+.dingzhi .doctor_items dt{width:172px;height:172px;border-radius:50%;}
+.dingzhi .doctor_items dt img{width:100%;height:100%;}
+.dingzhi .doctor_items dd{margin-top:20px;font-size:18px;}
+
+/* 项目全面 */
+.dingzhi .project{text-align:center;min-width:1280px;}
+.dingzhi .project_top{padding-top:50px;}
+.dingzhi .project_top h2{color:#0b3252;margin-bottom:15px;font-size:30px;line-height:32px;}
+.dingzhi .project_top span{font-size:16px;}
+.project_bottom{margin:80px auto 145px auto;}
+.project_bottom ul{float: left;text-align:left;}
+.project_bottom .col{color:#21969f;}
+.pro_left{margin:50px 0 0 90px;width:150px;}
+.pro_center{margin:50px 0 0 75px;width:150px;}
+.pro_center li,
+.pro_left li{margin-bottom:10px;}
+.pro_img{width:350px;height:379px;float:left;}
+
+.pro_right{text-align:left;width:220px;font-size:12px;margin:50px 0 0 95px;}
+.pro_right dt{font-size:16px;}
+.pro_right dd{line-height:18px;}
+
+/* 检治一体 */
+.dingzhi .check{text-align:center;background-color:#ededed;padding-bottom:50px;min-width:1280px;}
+.dingzhi .check_top{padding-top:50px;}
+.dingzhi .check_top h2{color:#0b3252;margin-bottom:15px;font-size:30px;line-height:32px;}
+.dingzhi .check_top span{font-size:16px;}
+.check_bottom{margin-top:42px;width:1150px;}
+.check_left{width:575px;}
+.img_top{height:287px;background-color:#333;}
+.check_left img{width:100%;height:100%;}
+.check_left ul{width:575px;height:175px;}
+.check_left ul li{width:189px;margin:4px 4px 0 0;background-color:#333;height:100%;float:left;}
+.check_left ul li:last-child{margin-right:0;}
+
+.check_right{width:540px;margin-left:35px;text-align:left;}
+.check_tit{font-size:25px;line-height:30px;color:#ff7a00;margin-top:20px;}
+.check_item{margin-top:20px;width:430px;}
+.check_item h3{font-size:20px;font-weight:bold;}
+.check_item p{color:#666;}
+
+/* 服务现实实景 */
+.dingzhi .service_local{text-align:center;padding-bottom:50px;min-width:1280px;}
+.dingzhi .service_local_top{padding-top:50px;padding-bottom:56px;}
+.dingzhi .service_local_top h2{color:#0b3252;margin-bottom:15px;font-size:30px;line-height:32px;}
+
+.service_local_bottom{width:1150px;}
+.service_local_bottom .swiper-slide{width:560px;height:210px;}
+.dingzhi .swiper-pagination{}
+.swiper-container-horizontal>.swiper-pagination-bullets{bottom:-40px;}
+
+.swiper-container{overflow:visible;}
+.service_local_bottom p{margin:0 auto;margin-top:110px;font-size:16px;width:865px;}
+
+/* 服务套餐 */
+.dingzhi .state{height:auto;padding:50px 0;min-width:1280px;}
+.taocan{text-align:center;}
+.taocan h2{color:#072f4f;font-size:24px;line-height:26px;font-weight:bold;margin-bottom:35px;}
+.taocan ul li{box-sizing:border-box;border:2px solid #fff;width:376px;height:425px;background-color:#fff;float:left;margin-right:14px;}
+.taocan ul li:last-child{margin-right:0;}
+.taocan ul li:hover{border:2px solid rgb( 180, 209, 41 ); box-shadow: 2px 3.464px 12px 0px rgba(0,0,0,0.5);}
+.taocan ul li h5{font-size:16px;padding:18px 0 20px 0;}
+.taocan ul li i{font-size:30px;display:block;}
+.taocan ul li .btn{display:block;width:120px;height:50px;background-color:#ff7a00;border-radius:3px;margin:0 auto;line-height:50px;text-align:center;color:#fff;font-size:16px;margin-top:50px;}
+.taocan ul li p{width:300px;margin:0 auto;text-align:left;margin-top:30px;}
+
+
+.dingzhi .state_tab_c{display:block;}
+
+/* 定制体检页面 end

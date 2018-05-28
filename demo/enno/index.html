@@ -434,11 +434,16 @@
 			<div class="bottom_con or">
 				<dl class="teach fl">
 					<dt>
-						<img src="" alt="">
+						<img src="images/teach.png" alt="">
 					</dt>
 					<dd>
 						<h3>铃木健司<span>教授</span></h3>
-						<p>日本顺天堂呼吸外科主任肺癌三期治疗5年生存率43%世界达芬奇机器人设备研发团队核心成员日本治疗肺癌手术排名第一</p>
+						<div class="txt">
+							<p>日本顺天堂呼吸外科主任</p>
+							<p>肺癌三期治疗5年生存率43%</p>
+							<p>世界达芬奇机器人设备研发团队核心成员</p>
+							<p>日本治疗肺癌手术排名第一</p>
+						</div>
 						<div class="line_h"></div>
 						<p>擅长：肺癌 转移性肺癌 恶性胸膜间皮瘤</p>
 					</dd>
@@ -1004,20 +1009,16 @@
 		  ,done: function(value, date){
 		  		var dt = date.year+'-'+ date.month+'-'+date.date;
 				var mark_obj = ins1["config"].mark;
-
-				for (var prop in mark_obj) {
-				  console.log("obj." + prop + " = " + mark_obj[prop]);
-				}
-				var a = $(mark_obj).has('2018-5-15');
 				
-				// forEach(mark_date, function(key, value){
-				// 	// console.log(key, value);
-				// 	if(dt === key){
-				// 		pop();
-				// 	}else{
-				// 		alert('不可预约')
-				// 	}
-				// })
+				forEach(mark_obj, function(key, value){
+					if(dt === key){
+						console.log(key, value);
+						pop();
+						return false;
+					}
+				})
+				console.log('不可预约');
+				pop();
 		  }
 
 		});

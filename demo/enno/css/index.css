@@ -109,12 +109,12 @@ header .nav li.active a{background:#b4d129;}
 
 .order .bottom_con{height:555px;width:100%;background-color:#fff;}
 .order .bottom_con .teach{width:364px;height:460px;border:1px solid #000;margin:13px 0 0 34px;}
-.teach dt{width:170px;height:170px;border-radius:50%;background-color:pink;margin:0 auto;margin-top:24px;}
+.teach dt{width:170px;height:170px;border-radius:50%;margin:0 auto;margin-top:24px;}
 .teach dd{text-align:center;color:#072f4f;}
 .teach dd h3{font-size:24px;margin:30px 0 22px 0;}
 .teach dd h3 span{font-size:16px;}
-.teach dd p{width:260px;margin:0 auto;}
-.line_h{display: inline-block;width:337px;height:1px;background-color:#072f4f;}
+.teach dd p{width:260px;margin:0 auto;line-height:30px;}
+.order .line_h{display: inline-block;width:337px;height:1px;background-color:#072f4f;}
 
 .calendar{width:757px;height:458px;background-color:pink;margin:13px 0 0 11px;}
 /* 日历样式-插件 */
@@ -198,7 +198,7 @@ header .nav li.active a{background:#b4d129;}
 .case_tab_t{position:relative;height:100%;width:195px;color:#fff;}
 .case_tab_t .left_bg{position:absolute;left:-360px;top:0;width:555px;height:100%;background-color:pink;}
 .case_tab_t h2{font-size:24px;padding-top:78px;}
-.line_h{height:2px;width:47px;margin-top:10px;background-color:#fff;}
+.case .line_h{height:2px;width:47px;margin-top:10px;background-color:#fff;}
 .case_tab_t ul{margin-top:70px;position:absolute;z-index:10;}
 .case_tab_t ul li{width:162px;height:60px;margin-bottom:20px;font-size:20px;line-height:60px;padding-left:4px;cursor:pointer;}
 .case_tab_t ul li:hover{background-color:#b8d334;}

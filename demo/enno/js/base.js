@@ -23,6 +23,12 @@ $(function(){
 	var tab_con_state = $('.state_tab .state_tab_c');
 	tabSwitch(tab_a_state,tab_con_state);
 
+
+	// 出国治病页面-四大方案-切换
+	var tab_a_four = $('.four_solution .tab_tit ul li');
+	var tab_con_four = $('.four_solution .tab_con');
+	tabSwitch(tab_a_four,tab_con_four);
+
 	
 
 })
