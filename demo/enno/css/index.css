@@ -170,7 +170,7 @@ header .nav li.active a{background:#b4d129;}
 .service .top{padding-top:110px;text-align:center;}
 .service .top span{font-size:18px;font-weight:bold;}
 .service .top h2{font-size:24px;font-weight:bold;margin-top:10px;}
-.service .top .line_h{width:108px;height:2px;background-color:#373d41;}
+.service .top .line_h{width:108px;height:2px;background-color:#373d41;margin: 0 auto;margin-top:10px;}
 
 .service .bottom{position:relative;height:450px;width:100%;margin-top:45px;}
 .service_item_bg{position:absolute;top:0;left:0;z-index:-1;width:100%;height:100%;}
@@ -196,7 +196,7 @@ header .nav li.active a{background:#b4d129;}
 .case_tab{height:100%;}
 
 .case_tab_t{position:relative;height:100%;width:195px;color:#fff;}
-.case_tab_t .left_bg{position:absolute;left:-360px;top:0;width:555px;height:100%;background-color:pink;}
+.case_tab_t .left_bg{position:absolute;left:-360px;top:0;width:555px;height:100%;}
 .case_tab_t h2{font-size:24px;padding-top:78px;}
 .case .line_h{height:2px;width:47px;margin-top:10px;background-color:#fff;}
 .case_tab_t ul{margin-top:70px;position:absolute;z-index:10;}

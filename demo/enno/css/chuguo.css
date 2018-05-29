@@ -1,4 +1,6 @@
-banner */
+
+/* banner */
+.chuguo .banner{height:499px;}
 .chuguo .banner>img{width:100%;height:100%;}
 
 /* 四大方案 */
@@ -126,9 +128,9 @@ banner */
 .check_item p{color:#666;}
 
 /* 服务现实实景 */
-.dingzhi .service_local{text-align:center;padding-bottom:50px;min-width:1280px;}
-.dingzhi .service_local_top{padding-top:50px;padding-bottom:56px;}
-.dingzhi .service_local_top h2{color:#0b3252;margin-bottom:15px;font-size:30px;line-height:32px;}
+.dingzhi .service_local{text-align:center;padding-bottom:50px;min-width:1280px;height:858px;background:url(../images/service_local.jpg) no-repeat center;background-size:cover;color:#fff;}
+.dingzhi .service_local_top{padding:75px 0;}
+.dingzhi .service_local_top h2{color:#fff;margin-bottom:15px;font-size:30px;line-height:32px;}
 
 .service_local_bottom{width:1150px;}
 .service_local_bottom .swiper-slide{width:560px;height:210px;}
@@ -153,4 +155,139 @@ banner */
 
 .dingzhi .state_tab_c{display:block;}
 
-/* 定制体检页面 end
+/* 定制体检页面 end */
+
+
+/* 远程会诊-页面 start */
+
+/* 四大方案 */
+.remote .four_solution article{margin-top:50px;}
+.remote .four_solution article p{font-size:16px;line-height:24px;margin-bottom:20px;}
+.remote .four_solution .tab_con .bottom{width:1200px;padding-top:0;}
+.remote .four_solution .bottom .item{margin-bottom:10px;margin-right:10px;height:80px;width:595px;background:#fff;}
+.remote .four_solution .bottom .item:nth-child(2n){margin-right:0;}
+.remote .four_solution .bottom .item .tit{width:230px;background-color:#7a9bc0;height:100%;color:#fff;line-height:80px;font-size:16px;}
+.remote .four_solution .bottom .item .item_c{width:365px;text-align:left;height:100%;padding:5px;box-sizing:border-box;}
+
+/* 帮助 */
+.help{height:802px;width:100%;min-width:1280px;background-color:#f0f0f0;}
+.help_left{margin-left:-359px;}
+.help_right{color:#072f4f;width:850px;padding-left:20px;box-sizing:border-box;}
+.help_right h2{font-size:30px;line-height:32px;margin-top:48px;}
+.help_right .txt{font-size:16px;margin-top:40px;}
+.help_right .txt dd{margin:10px 0;}
+.help_right .line_h{width:47px;height:2px;background-color:#0b3352;margin-top:20px;}
+
+
+/* 咨询 */
+.consult{text-align:center;height:1006px;min-width:1280px;margin:0 auto;}
+.consult_top h2{padding:70px 0 35px 0;}
+.consult_top p{margin-bottom:90px;}
+.consult_flow .top h3,
+.consult_item .top h3{text-align:left;border-left:4px solid #0b3252;height:40px;line-height:40px;font-size:24px;padding-left:20px;}
+.consult_item .bottom{margin-top:38px;}
+.consult_item .bottom li{width:355px;color:#0b3252;float: left;margin-right:67px;}
+.consult_item .bottom li:nth-child(3n){margin-right:0;}
+.consult_item .bottom li .img{width:100%;height:230px;}
+.consult_item .bottom li .img img{width:100%;height:100%;}
+.consult_item .bottom li h4{font-size:24px;line-height:60px;height:60px;}
+.consult_item .btn{display:block;margin:0 auto;margin-top:45px;width:210px;height:50px;border-radius:2px;color:#fff;background-color:#ffbb42;text-align:center;line-height:50px;font-size:20px;}
+.consult_flow .bottom{height:132px;margin-top:32px;}
+.consult_flow .bottom>img{height:100%;width:100%;}
+
+/* 远程咨询案例 */
+.anli .service_local_top{padding:50px 0;}
+.anli dl{position: relative;;width:293px;height: 316px;float:left;color:#000;background-color:#fff;margin-right:9px;margin-bottom:30px;}
+.anli dl:nth-child(4n){margin-right:0;}
+.anli dl:hover{color:#fff;background-color:#b8d334;}
+.anli dl a{position:absolute;width:100%;height:100%;}
+.anli dl dt{width:275px;height:192px;margin:0 auto;margin-top:12px;}
+.anli dl dt img{width:100%;height:100%;}
+.anli dl dd h3{font-size:24px;line-height:26px;margin:14px 0 15px 0;}
+.anli dl dd p{font-size:14px;}
+
+/* 媒体报道 */
+.remote .state .top{padding-top:0;}
+
+/* 远程会诊-页面 end */
+
+/* 案例中心-页面  start */
+.case_page .case{height:1359px;}
+.case_page .case_item{position:relative;}
+.case_page .case_tab_c .case_item{margin-top:20px;}
+.case_page .pagination{position: absolute;bottom:-50px;left:50%;margin-left:-80px;}
+.case_page .pagination ul{}
+.case_page .pagination li{float:left;width:40px;height:40px;background-color:#fff;margin:1px;text-align:center;line-height:40px;}
+.case_page .pagination li a{display:inline-block;width:100%;height:100%;}
+.case_page .pagination li.current a{color:#fff;background-color:#0b3252;}
+
+.path{font-size:16px;padding:35px 0 35px 11px;color:#0b3252;}
+.path a{color:#0b3252;}
+
+.type{width:995px;min-height:130px;background-color:#fff;margin-left:11px;box-sizing:border-box;padding:20px 25px;}
+.type .items{width:865px;line-height:30px;}
+.type span{width:80px;}
+.type a{padding:8px 12px;white-space:nowrap;border-radius:5px;}
+.type a:hover{color:#fff;background-color:#072f4f;}
+.type a.current{color:#fff;background-color:#072f4f;}
+
+
+
+/* 案例中心-页面  end */
+
+/* 案例中心详情-页面  start */
+
+.case_detail .wrap{background-color:#fafafa;min-width:1280px;}
+
+.case_con{max-width:1200px;margin:0 auto;}
+.case_con_left{width:776px;float:left;}
+.case_con_left article{background-color:#fff;padding:15px;}
+.case_con_left article p{color:#808080;}
+.case_con_right{margin-left:788px;width:412px;margin-bottom:20px;}
+
+.case_con_left h2{color:#072f4f;font-weight:bold;font-size:30px;line-height:32px;margin:15px 0 10px 0;}
+.case_con_left .time{color:#072f4f;font-weight:bold;font-size:14px;}
+.case_con_left .info_intro span{margin-right:30px;font-weight:bold;color:#4c4c4c;}
+.info_txt{width:747px;padding:12px;background-color:#f5f5f5;color:#808080;box-sizing:border-box;margin:30px 0;}
+.case_con_left p{margin:10px 0;}
+.case_con_left p img{width:100%;}
+.case_con_left .about_article{width:100%;background-color:#fff;margin:7px 0 20px 0;padding:20px 0 0 15px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+.article_item{padding:16px 0 12px 0;}
+.article_item dl{position: relative;;float:left;width:239px;height:176px;border:1px solid #ccc;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;margin-right:5px;}
+.article_item dl:nth-child(3n){margin-right:0;}
+.article_item dl:hover{color:#fff;background-color:#b8d334;}
+.article_item dl a{position: absolute;width:100%;height:100%;}
+.article_item dt{width:100%;height:110px;}
+.article_item dt img{width:100%;height:100%;}
+.article_item dd h3{font-size:18px;padding:10px 0 0 15px;}
+
+.case_con_right .case_intro{width:100%;height:421px;background-color:#fff;text-align:center;}
+.case_con_right .case_intro dt{padding-top:38px;}
+.case_con_right .case_intro dd{color:#072f4f;}
+.case_con_right .case_intro dd h3{font-size:24px;line-height:26px;margin:35px 0 20px 0;}
+.case_con_right .line_h{display: inline-block;width:100%;height:1px;background-color:#ebebeb;}
+.case_con_right .case_intro dd .btn{display:inline-block;width:120px;height:40px;border-radius:4px;color:#fff;text-align:center;line-height:40px;background-color:#072f4f;margin:0 auto;margin-top:8px;}
+
+.case_con_right .case_org{width:100%;/* height:454px; */background-color:#fff;margin-top:10px;padding:23px 20px;box-sizing:border-box;-moz-box-sizing:border-box; /* Firefox */-webkit-box-sizing:border-box; /* Safari */}
+.case_detail .case_tit h2{font-size:18px;color:#072f4f;height:28px;line-height:28px;border-left:5px solid #072f4f;padding-left:8px;font-weight:bold;}
+.case_con_right .case_org ul{margin:34px;}
+.case_con_right .case_org ul li{border-bottom:1px solid #ebebeb;margin-bottom:15px;}
+.case_con_right .case_org ul li h3{font-size:16px;margin:5px 0;}
+.case_con_right .case_org ul li p{font-size:15px;color:#666;margin:5px 0;}
+
+.case_con_right .case_example{width:100%;/* height:454px; */background-color:#fff;margin-top:10px;padding:23px 20px;box-sizing:border-box;-moz-box-sizing:border-box; /* Firefox */-webkit-box-sizing:border-box; /* Safari */border-bottom:1px solid #ebebeb;}
+.case_example .example{margin-left:20px;}
+.case_example .example dl{margin-top:20px;border-bottom:1px solid #ebebeb;padding-bottom:10px;}
+.case_example .example dt{width:135px;height:80px;}
+.case_example .example dt img{width:100%;height:100%;}
+.case_example .example dd{width:200px;margin-left:17px;}
+.case_example .example dd a{color:#072f4f;font-size:16px;}
+
+
+.case_detail .side{position:fixed;top:50%;margin-top:-164px;right:20px;text-align:center;}
+.case_detail .side dl{color:#0b3252;font-size:16px;border-radius:2px;width:80px;height:80px;background-color:#fff;margin-top:2px;cursor:pointer;}
+.case_detail .side dl:hover{color:#fff;background-color:#b4d129;}
+.case_detail .side dl dt{height:50px;line-height:50px;}
+
+
+/* 案例中心详情-页面  end */
