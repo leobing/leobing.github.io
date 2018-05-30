@@ -1,0 +1,443 @@
+
+/* banner */
+.chuguo .banner{height:499px;}
+.chuguo .banner>img{width:100%;height:100%;}
+
+/* 四大方案 */
+.four_solution{text-align: center;background-color:#f9f9f9;min-width:1280px;}
+.tab_tit{border-bottom:1px solid #e0e0e0;}
+.tab_tit ul{display:inline-block;padding:22px 0 16px 0;}
+.tab_tit ul li{font-size:24px;float:left;width:250px;height:88px;background:#0b3252;line-height:88px;margin-right:36px;}
+.tab_tit ul li a{display:inline-block;width:100%;height:100%;color:#fff;}
+.tab_tit ul li:last-child{margin-right:0;}
+.tab_tit ul li.current{background-color:#b8d334;}
+
+.tab_con .tab_con_img{display:inline-block;width:900px;height:509px;margin-top:12px;}
+.tab_con .tab_con_img img{width:100%;height:100%;}
+
+.video{width:1150px;margin:0 auto;padding:67px 0 34px 0;}
+.video dl{margin-right:24px;float: left;}
+.video dl:last-child{margin-right:0;}
+.video dl dt{width:563px;height:285px;background-color:pink;}
+
+.video dl dd{font-size:24px;color:#072f4f;line-height:67px;height:67px;}
+
+/* 推荐教授 */
+.recommend{text-align:center;background-color:#fafafa;min-width:1280px;}
+.recommend .tit{color:#072f4f;padding:45px 0 35px 0;}
+.recommend .tit h2{font-size:24px;line-height:30px;padding-bottom:17px;}
+.recommend .tit span{font-size:14px;}
+
+.recommend .con{margin-bottom:15px;width:1152px;}
+.recommend .con .teach{box-sizing:border-box;border:1px solid #e6e6e6;width:364px;height:460px;background-color:#fff;margin-right:30px;margin-bottom:40px;}
+.recommend .con .teach:hover{background-color:#083050;}
+.recommend .con .teach:hover dd{color:#fff;}
+.recommend .con .teach:hover .line_h{background-color:#154e7c;}
+.recommend .con .teach:nth-child(3n){margin-right:0;}
+.recommend .line_h{display: inline-block;width:337px;height:1px;background-color:#072f4f;}
+
+/* 推荐医疗机构 */
+.org{background-color:#072f4f;color:#fff;padding-bottom:44px;min-width:1280px;}
+.org .tit{padding:38px 0 35px 0;}
+.org .tit h2{font-size:24px;font-weight:bold;margin-bottom:8px;}
+.org .tit span{font-size:18px;}
+.org .con{height:500px;}
+.org .con dl{position:relative;;width:293px;height:500px;background-color:#fff;color:#333333;text-align:center;}
+.org_link{position:absolute;width:100%;height:100%;}
+.org .con dl dt{width:265px;height:369px;margin:0 auto;padding-top:17px;}
+.org .con dl dt img{width:100%;height:100%;}
+.org .con dl dd{padding-top:20px;font-size:18px;}
+
+/* 看病流程 */
+.process{text-align:center;min-width:1280px;}
+.process .tit{color:#072f4f;padding:50px 0 38px 0;}
+.process .tit h2{font-size:24px;font-weight:bold;line-height:30px;}
+.process .tit span{font-size:18px;}
+.process .top{height:472px;}
+.process .top>img{height:100%;width:100%;}
+.process .bottom{background-color:#f9f9f9;}
+.process .bottom ul{width:1156px;padding:57px 0 70px 0;}
+.process .bottom ul li{padding:22px 0 0 18px;box-sizing:border-box;color:#072f4f;text-align:left;float:left;margin-bottom:27px;width:376px;height:201px;background-color:#fff;color:#072f4f;margin-right:14px;}
+.process .bottom ul li:nth-child(3n){margin-right:0;}
+.process .bottom ul li:hover{color:#fff;background-color:#072f4f;cursor:pointer;}
+.process .bottom ul li h3{line-height:34px;font-weight:bold;font-size:24px;}
+.process .bottom ul li p{line-height:24px;font-size:14px;}
+
+
+/* 定制体检页面 start */
+.dingzhi .banner img{width:100%;height:100%;}
+/* 四大方案 */
+.dingzhi .four_solution .tab_con{color:#0b3252;}
+.dingzhi .four_solution .tab_con .top{margin:60px 0 70px 0;}
+.dingzhi .four_solution .tab_con .top h3{font-size:30px;line-height:32px;}
+.dingzhi .four_solution .tab_con .bottom{padding:62px 0 77px 0;width:1144px;}
+.dingzhi .four_solution .tab_con .bottom dl{float:left;width:272px;height:214px;background-color:#fff;margin-right:18px;}
+.dingzhi .four_solution .tab_con .bottom dl:last-child{margin-right:0;}
+.dingzhi .four_solution .tab_con .bottom dl dt{position:relative;width:132px;height:132px;border-radius:50%;top:-70px;margin:0 auto;}
+.dingzhi .four_solution .tab_con .bottom dl dd h4{font-size:24px;position: relative;top:-50px;}
+.dingzhi .four_solution .tab_con .bottom dl dd p{font-size:16px;width:173px;margin:0 auto;position: relative;top:-40px;}
+
+/* 合作医师 */
+.dingzhi .doctor{text-align:center;/* height:700px; */padding-bottom:65px;background-color:#ededed;min-width:1280px;}
+.dingzhi .doctor_top{padding-top:50px;}
+.dingzhi .doctor_top h2{color:#0b3252;margin-bottom:15px;font-size:30px;line-height:32px;}
+.dingzhi .doctor_top span{font-size:16px;}
+.dingzhi .doctor_items{width:1100px;margin-top:30px;}
+.dingzhi .doctor_items dl{float: left;margin:20px 60px 0 0;}
+.dingzhi .doctor_items dl:nth-child(5n){margin-right:0;}
+.dingzhi .doctor_items dt{width:172px;height:172px;border-radius:50%;}
+.dingzhi .doctor_items dt img{width:100%;height:100%;}
+.dingzhi .doctor_items dd{margin-top:20px;font-size:18px;}
+
+/* 项目全面 */
+.dingzhi .project{text-align:center;min-width:1280px;}
+.dingzhi .project_top{padding-top:50px;}
+.dingzhi .project_top h2{color:#0b3252;margin-bottom:15px;font-size:30px;line-height:32px;}
+.dingzhi .project_top span{font-size:16px;}
+.project_bottom{margin:80px auto 145px auto;}
+.project_bottom ul{float: left;text-align:left;}
+.project_bottom .col{color:#21969f;}
+.pro_left{margin:50px 0 0 90px;width:150px;}
+.pro_center{margin:50px 0 0 75px;width:150px;}
+.pro_center li,
+.pro_left li{margin-bottom:10px;}
+.pro_img{width:350px;height:379px;float:left;}
+
+.pro_right{text-align:left;width:220px;font-size:12px;margin:50px 0 0 95px;}
+.pro_right dt{font-size:16px;}
+.pro_right dd{line-height:18px;}
+
+/* 检治一体 */
+.dingzhi .check{text-align:center;background-color:#ededed;padding-bottom:50px;min-width:1280px;}
+.dingzhi .check_top{padding-top:50px;}
+.dingzhi .check_top h2{color:#0b3252;margin-bottom:15px;font-size:30px;line-height:32px;}
+.dingzhi .check_top span{font-size:16px;}
+.check_bottom{margin-top:42px;width:1150px;}
+.check_left{width:575px;}
+.img_top{height:287px;background-color:#333;}
+.check_left img{width:100%;height:100%;}
+.check_left ul{width:575px;height:175px;}
+.check_left ul li{width:189px;margin:4px 4px 0 0;background-color:#333;height:100%;float:left;}
+.check_left ul li:last-child{margin-right:0;}
+
+.check_right{width:540px;margin-left:35px;text-align:left;}
+.check_tit{font-size:25px;line-height:30px;color:#ff7a00;margin-top:20px;}
+.check_item{margin-top:20px;width:430px;}
+.check_item h3{font-size:20px;font-weight:bold;}
+.check_item p{color:#666;}
+
+/* 服务现实实景 */
+.dingzhi .service_local{text-align:center;padding-bottom:50px;min-width:1280px;height:858px;background:url(../images/service_local.jpg) no-repeat center;background-size:cover;color:#fff;}
+.dingzhi .service_local_top{padding:75px 0;}
+.dingzhi .service_local_top h2{color:#fff;margin-bottom:15px;font-size:30px;line-height:32px;}
+
+.service_local_bottom{width:1150px;}
+.service_local_bottom .swiper-slide{width:560px;height:210px;}
+.dingzhi .swiper-pagination{}
+.swiper-container-horizontal>.swiper-pagination-bullets{bottom:-40px;}
+
+.swiper-container{overflow:visible;}
+.service_local_bottom p{margin:0 auto;margin-top:110px;font-size:16px;width:865px;}
+
+/* 服务套餐 */
+.dingzhi .state{height:auto;padding:50px 0;min-width:1280px;}
+.taocan{text-align:center;}
+.taocan h2{color:#072f4f;font-size:24px;line-height:26px;font-weight:bold;margin-bottom:35px;}
+.taocan ul li{box-sizing:border-box;border:2px solid #fff;width:376px;height:425px;background-color:#fff;float:left;margin-right:14px;}
+.taocan ul li:last-child{margin-right:0;}
+.taocan ul li:hover{border:2px solid rgb( 180, 209, 41 ); box-shadow: 2px 3.464px 12px 0px rgba(0,0,0,0.5);}
+.taocan ul li h5{font-size:16px;padding:18px 0 20px 0;}
+.taocan ul li i{font-size:30px;display:block;}
+.taocan ul li .btn{display:block;width:120px;height:50px;background-color:#ff7a00;border-radius:3px;margin:0 auto;line-height:50px;text-align:center;color:#fff;font-size:16px;margin-top:50px;}
+.taocan ul li p{width:300px;margin:0 auto;text-align:left;margin-top:30px;}
+
+
+.dingzhi .state_tab_c{display:block;}
+
+/* 定制体检页面 end */
+
+
+/* 远程会诊-页面 start */
+
+/* 四大方案 */
+.remote .four_solution article{margin-top:50px;}
+.remote .four_solution article p{font-size:16px;line-height:24px;margin-bottom:20px;}
+.remote .four_solution .tab_con .bottom{width:1200px;padding-top:0;}
+.remote .four_solution .bottom .item{margin-bottom:10px;margin-right:10px;height:80px;width:595px;background:#fff;}
+.remote .four_solution .bottom .item:nth-child(2n){margin-right:0;}
+.remote .four_solution .bottom .item .tit{width:230px;background-color:#7a9bc0;height:100%;color:#fff;line-height:80px;font-size:16px;}
+.remote .four_solution .bottom .item .item_c{width:365px;text-align:left;height:100%;padding:5px;box-sizing:border-box;}
+
+/* 帮助 */
+.help{height:802px;width:100%;min-width:1280px;background-color:#f0f0f0;}
+.help_left{margin-left:-359px;}
+.help_right{color:#072f4f;width:850px;padding-left:20px;box-sizing:border-box;}
+.help_right h2{font-size:30px;line-height:32px;margin-top:48px;}
+.help_right .txt{font-size:16px;margin-top:40px;}
+.help_right .txt dd{margin:10px 0;}
+.help_right .line_h{width:47px;height:2px;background-color:#0b3352;margin-top:20px;}
+
+
+/* 咨询 */
+.consult{text-align:center;height:1006px;min-width:1280px;margin:0 auto;}
+.consult_top h2{padding:70px 0 35px 0;}
+.consult_top p{margin-bottom:90px;}
+.consult_flow .top h3,
+.consult_item .top h3{text-align:left;border-left:4px solid #0b3252;height:40px;line-height:40px;font-size:24px;padding-left:20px;}
+.consult_item .bottom{margin-top:38px;}
+.consult_item .bottom li{width:355px;color:#0b3252;float: left;margin-right:67px;}
+.consult_item .bottom li:nth-child(3n){margin-right:0;}
+.consult_item .bottom li .img{width:100%;height:230px;}
+.consult_item .bottom li .img img{width:100%;height:100%;}
+.consult_item .bottom li h4{font-size:24px;line-height:60px;height:60px;}
+.consult_item .btn{display:block;margin:0 auto;margin-top:45px;width:210px;height:50px;border-radius:2px;color:#fff;background-color:#ffbb42;text-align:center;line-height:50px;font-size:20px;}
+.consult_flow .bottom{height:132px;margin-top:32px;}
+.consult_flow .bottom>img{height:100%;width:100%;}
+
+/* 远程咨询案例 */
+.anli .service_local_top{padding:50px 0;}
+.anli dl{position: relative;;width:293px;height: 316px;float:left;color:#000;background-color:#fff;margin-right:9px;margin-bottom:30px;}
+.anli dl:nth-child(4n){margin-right:0;}
+.anli dl:hover{color:#fff;background-color:#b8d334;}
+.anli dl a{position:absolute;width:100%;height:100%;}
+.anli dl dt{width:275px;height:192px;margin:0 auto;margin-top:12px;}
+.anli dl dt img{width:100%;height:100%;}
+.anli dl dd h3{font-size:24px;line-height:26px;margin:14px 0 15px 0;}
+.anli dl dd p{font-size:14px;}
+
+/* 媒体报道 */
+.remote .state .top{padding-top:0;}
+
+/* 远程会诊-页面 end */
+
+/* 案例中心-页面  start */
+.case_page .case{height:1359px;}
+.case_page .case_item{position:relative;}
+.case_page .case_tab_c .case_item{margin-top:20px;}
+.case_page .pagination{position: absolute;bottom:-50px;left:50%;margin-left:-80px;}
+.case_page .pagination li{float:left;width:40px;height:40px;background-color:#fff;margin:1px;text-align:center;line-height:40px;}
+.case_page .pagination li a{display:inline-block;width:100%;height:100%;}
+.case_page .pagination li.current a{color:#fff;background-color:#0b3252;}
+
+.path{font-size:16px;padding:35px 0 35px 11px;color:#0b3252;}
+.path a{color:#0b3252;}
+
+.type{width:995px;min-height:130px;background-color:#fff;margin-left:11px;box-sizing:border-box;padding:20px 25px;}
+.type .items{width:865px;line-height:30px;}
+.type span{width:80px;}
+.type a{padding:8px 12px;white-space:nowrap;border-radius:5px;}
+.type a:hover{color:#fff;background-color:#072f4f;}
+.type a.current{color:#fff;background-color:#072f4f;}
+
+
+
+/* 案例中心-页面  end */
+
+/* 案例中心详情-页面  start */
+
+.case_detail .wrap{background-color:#fafafa;min-width:1280px;}
+
+.case_con{max-width:1200px;margin:0 auto;}
+.case_con_left{width:776px;float:left;}
+.case_con_left article{background-color:#fff;padding:15px;}
+.case_con_left article p{color:#808080;}
+.case_con_right{margin-left:788px;width:412px;margin-bottom:20px;}
+
+.case_con_left h2{color:#072f4f;font-weight:bold;font-size:30px;line-height:32px;margin:15px 0 10px 0;}
+.case_con_left .time{color:#072f4f;font-weight:bold;font-size:14px;}
+.case_con_left .info_intro span{margin-right:30px;font-weight:bold;color:#4c4c4c;}
+.info_txt{width:747px;padding:12px;background-color:#f5f5f5;color:#808080;box-sizing:border-box;margin:30px 0;}
+.case_con_left p{margin:10px 0;}
+.case_con_left p img{width:100%;}
+.case_con_left .about_article{width:100%;background-color:#fff;margin:7px 0 20px 0;padding:20px 0 0 15px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+.article_item{padding:16px 0 12px 0;}
+.article_item dl{position: relative;;float:left;width:239px;height:176px;border:1px solid #ccc;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;margin-right:5px;}
+.article_item dl:nth-child(3n){margin-right:0;}
+.article_item dl:hover{color:#fff;background-color:#b8d334;}
+.article_item dl a{position: absolute;width:100%;height:100%;}
+.article_item dt{width:100%;height:110px;}
+.article_item dt img{width:100%;height:100%;}
+.article_item dd h3{font-size:18px;padding:10px 0 0 15px;}
+
+.case_con_right .case_intro{width:100%;height:421px;background-color:#fff;text-align:center;}
+.case_con_right .case_intro dt{padding-top:38px;}
+.case_con_right .case_intro dd{color:#072f4f;}
+.case_con_right .case_intro dd h3{font-size:24px;line-height:26px;margin:35px 0 20px 0;}
+.case_con_right .line_h{display: inline-block;width:100%;height:1px;background-color:#ebebeb;}
+.case_con_right .case_intro dd .btn{display:inline-block;width:120px;height:40px;border-radius:4px;color:#fff;text-align:center;line-height:40px;background-color:#072f4f;margin:0 auto;margin-top:8px;}
+
+.case_con_right .case_org{width:100%;/* height:454px; */background-color:#fff;margin-top:10px;padding:23px 20px;box-sizing:border-box;-moz-box-sizing:border-box; /* Firefox */-webkit-box-sizing:border-box; /* Safari */}
+.case_detail .case_tit h2{font-size:18px;color:#072f4f;height:28px;line-height:28px;border-left:5px solid #072f4f;padding-left:8px;font-weight:bold;}
+.case_con_right .case_org ul{margin:34px;}
+.case_con_right .case_org ul li{border-bottom:1px solid #ebebeb;margin-bottom:15px;}
+.case_con_right .case_org ul li h3{font-size:16px;margin:5px 0;}
+.case_con_right .case_org ul li p{font-size:15px;color:#666;margin:5px 0;}
+
+.case_con_right .case_example{width:100%;/* height:454px; */background-color:#fff;margin-top:10px;padding:23px 20px;box-sizing:border-box;-moz-box-sizing:border-box; /* Firefox */-webkit-box-sizing:border-box; /* Safari */border-bottom:1px solid #ebebeb;}
+.case_example .example{margin-left:20px;}
+.case_example .example dl{margin-top:20px;border-bottom:1px solid #ebebeb;padding-bottom:10px;}
+.case_example .example dt{width:135px;height:80px;}
+.case_example .example dt img{width:100%;height:100%;}
+.case_example .example dd{width:200px;margin-left:17px;}
+.case_example .example dd a{color:#072f4f;font-size:16px;}
+
+
+.case_detail .side{position:fixed;top:50%;margin-top:-164px;right:20px;text-align:center;}
+.case_detail .side dl{color:#0b3252;font-size:16px;border-radius:2px;width:80px;height:80px;background-color:#fff;margin-top:2px;cursor:pointer;}
+.case_detail .side dl:hover{color:#fff;background-color:#b4d129;}
+.case_detail .side dl dt{height:50px;line-height:50px;}
+
+
+/* 案例中心详情-页面  end */
+
+
+/* 合作医生-页面  start */
+.doctor_page .case{height:auto;}
+.doctor_page .case_item{display:block;}
+.doctor_page .type{width:100%;min-height:auto;margin:0;}
+.doctor_page .case_tab_c{width:100%;}
+.doctor_page .teach{background-color:#fff;}
+.doctor_page .teach dt{width:170px;height:170px;border-radius:50%;}
+.doctor_page .case_item{margin-left:0;margin-bottom:100px;}
+.doctor_page .case_item dl{height:460px;width:364px;margin-right:54px;border:2px solid #fff;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+.doctor_page .case_item dl:hover{color:#072f4f;background-color:#fff;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;border:2px solid #072f4f;box-shadow:1px 5px 25px rgba(54, 54, 54, 0.361);}
+.doctor_page .case_item dl:nth-child(3n){margin-right:0;}
+.doctor_page .line_h{display: inline-block;width:337px;height:1px;background-color:#072f4f;}
+.doctor_page .case_item dl dd p{margin-top:4px;}
+
+
+/* 合作医生-页面  end */
+
+
+/* 合作医生详情-页面  start */
+.doctor_detail .case_org .scroll{width:220px;height:312px;background-color:#f00;margin:0 auto;margin-top:50px;}
+
+/* 合作医生详情-页面  end */
+
+
+/* 合作医院-页面  start */
+.hospital .case_con{padding-bottom:40px;}
+.hospital .case_con_right{width:320px;margin-left: 880px;}
+
+.hospital .case_con_right .tit{color:#0b3252;}
+.hospital .case_con_right .tit h2{font-size:30px;line-height:32px;}
+.hospital .case_con_right .tit h3{font-size:18px;}
+.hospital .case_con_right .tit img{width:282px;height:117px;margin:10px 0;}
+.hospital .case_con_right .case_org ul{margin:0;}
+.hospital .case_con_right .case_org ul li{border:0;width:282px;height:61px;font-size:18px;line-height:61px;background-color:#f9f9f9;}
+.hospital .case_con_right .case_org ul li a{width:100%;height:100%;display:inline-block;padding-left:15px;box-sizing:border-box;}
+.hospital .case_con_right .case_org ul li.current a{background-color:#0b3252;color:#fff;}
+
+.hospital .case_con_left{width:871px;margin-top:10px;display:none;}
+.hospital .case_con_left.current{display:block;}
+
+.hospital .case_con_left .case_tit{background-color:#fff;padding:16px 0;}
+.hospital .case_con_left .case_tit h2{margin-left:15px;font-size:24px;font-weight:bold;line-height:30px;height:30px;}
+.hospital_item{position: relative;}
+.hospital_item dl{width:100%;height:188px;background-color:#fff;margin-top:10px;box-sizing:border-box;padding:25px;}
+.hospital_item dl dt{height:137px;width:189px;}
+.hospital_item dl dt img{height:100%;width:100%;}
+.hospital_item dl dd{width:565px;margin-left:15px;}
+.hospital_item dl dd h2{margin:5px 0;}
+.hospital_item dl dd .mark{margin-top:10px;color:#666;}
+.hospital_item dl dd .mark span{color:#0b3252;}
+.hospital_item dl dd p{color:#0b3252;margin-top:15px;}
+
+.hospital_item .pagination{margin-top:10px;}
+.hospital_item .pagination li{float:left;width:40px;height:40px;background-color:#fff;margin:1px;text-align:center;line-height:40px;}
+.hospital_item .pagination li a{display:inline-block;width:100%;height:100%;}
+.hospital_item .pagination li.current a{color:#fff;background-color:#0b3252;}
+
+/* 合作协议 */
+.hospital .agreement{padding-bottom:50px;}
+.hospital .agreement .top h2{color:#0b3252;font-size:24px;line-height:26px;}
+.hospital .agreement .line_h{display: block;width:62px;height:2px;background-color:#072f4f;margin-top:10px;}
+.hospital .agreement .bottom{margin-top:20px;}
+.hospital .swiper-container{width:100%;height:100%;overflow:hidden;margin-bottom:50px;}
+.hospital .swiper-container-horizontal>.swiper-pagination-bullets{bottom:10px;}
+.hospital .agreement .bottom .swiper-slide{width:294px;height:294px;background-color:#fff;text-align:center;}
+.hospital .agreement .bottom .swiper-slide .pic{width:185px;height:262px;margin:0 auto;margin-top:15px;}
+.hospital .agreement .bottom .swiper-slide .pic img{width:100%;height:100%;}
+
+
+
+/* 合作医院-页面  end */
+
+
+/* 合作医院详情-页面  start */
+.hospital_detail .case_con_right .case_org{margin-top:0;}
+.hospital_intro{background-color:#fff;margin-bottom:10px;height:420px;padding:40px 0 0 40px;box-sizing:border-box;}
+.hospital_intro .hospital_intro_left{width:530px;height:340px;background-color:#ccc;}
+.hospital_intro .hospital_intro_left img{width:100%;height:100%;}
+.hospital_intro_right{width:580px;margin-left:38px;}
+.hospital_intro_right h2{font-size:30px;line-height:32px;font-weight:bold;}
+.hospital_intro_right .intro_order span{font-size:17px;color:#fff;display:inline-block;background-color:#eb6f19;width:64px;padding:3px 0;text-align:center;border-radius:8px;margin:15px 10px 15px 0;}
+.hospital_intro_right .intro_order i{color:#eb6f19;}
+.hospital_intro_right .goodness span,
+.hospital_intro_right .intro_address span{font-size:15px;font-weight:bold;}
+
+.goodness{margin-top:5px;}
+.goodness span{margin-right:2px;line-height:40px;}
+.goodness_item{width:430px;}
+.goodness_item i{display:inline-block;width:130px;height:40px;background-color:#f7f7f7;margin: 0 10px 10px 0;text-align:center;line-height:40px;border-radius:3px;}
+
+.hospital_intro_right .btn{width:140px;height:44px;line-height:44px;text-align:center;color:#fff;background-color:#b4d129;font-size:18px;border-radius:5px;margin-top:5px;cursor:pointer;}
+
+/* 弹出框 */
+.mask{ position:fixed; left:0;top:0; width:100%; height:100%; background:#000; opacity:0.6; filter:alpha(opacity=60);-moz-opacity:0.6;  z-index:105; display:none;}
+.popover{width:726px; height:796px;  position:fixed; left:50%; top:50%;margin:-398px 0 0 -363px;z-index:1001;display:none;}
+.popover .pop_con{border:1px solid #b4d129;  background:#fff;    text-align:center; z-index:6;height:100%;text-align:center; font-size:14px;  box-shadow:0px 1px 3px rgba(0,0,0,.1);  }
+.popover .top .close{ position:absolute; top:10px; right:10px; font-size:20px; color:#666;}
+.popover .top .logo{width:89px;height:83px;background:url(../images/logo.png) no-repeat center;margin:25px auto;}
+.popover .top h3{color:#063052;font-size:24px;line-height:26px;}
+
+
+.pop_form{font-size:24px;line-height:26px;width:500px;margin:0 auto;margin-top:30px;}
+.pop_form .form_item{margin-bottom:10px;line-height:55px;}
+.pop_form .form_item input{width:365px;height:55px;background-color:#f4f4f4;}
+.pop_form .form_item textarea{width:365px;height:185px;background-color:#f4f4f4;}
+.pop_form .need label{margin-left:4px;}
+.pop_form .need textarea{margin-left:6px;line-height:20px;}
+.pop_form input[type="submit"]{width:238px;height:66px;border-radius:4px;background-color:#b4d129;color:#fff;font-size:18px;margin-top:20px;}
+.popover .form_bg{position:relative;margin-left: -44px;margin-top: -260px;width:818px;height:336px;}
+
+.hou_bg{position:absolute;top:-30px;z-index:-1;}
+
+/* 合作医院详情-页面  end */
+
+
+/* 新闻中心-页面  end */
+.news_con{background-color:#fafafa;}
+.news_con .case_tab_c{width:997px;margin-left:8px;}
+.news .news_item{width:997px;display:none;}
+.news .news_item.current{display:block;}
+.news .news_item dl{margin-bottom:10px;height:169px;background-color:#f0f0f0;width:100%;box-sizing:border-box;padding:20px 0 20px 20px;}
+.news .news_item dl dt{width:186px;height:128px;}
+.news .news_item dl dt img{width:100%;height:100%;}
+.news .news_item dl dd{width:720px;margin-left:14px;}
+.news .news_item dl dd h2{font-size:18px;font-weight:bold;line-height:30px;}
+.news .news_item dl dd p{margin-top:20px;}
+.news .news_item dl:hover{color:#fff;background-color:#072f4f;}
+.news .news_item dl:hover a{color:#fff;}
+
+.news .pagination{position:static;margin:0 auto;width:210px;}
+
+/* 新闻中心-页面  end */
+
+
+/* 新闻中心详情-页面  start */
+.news_detail .case{height:auto;}
+.news_detail .news_top{line-height:30px;border-bottom:1px solid #ccc;padding-bottom:5px;margin-top:50px;}
+.news_detail .news_top .path{padding:0;}
+.news_detail .news_top h3{color:#0a3151;font-size:24px;}
+.news_detail .news_article{text-align: center;}
+.news_detail .news_article h2{color:#0a3151;font-size:24px;margin:40px 0 20px 0;}
+.news_detail .news_article .article_info{padding-bottom:50px;border-bottom:1px solid #ccc;}
+.news_detail .news_article .article_txt{padding-bottom:50px;border-bottom:1px solid #ccc;text-align:left;}
+.news_detail .news_article .article_txt p{margin:15px 0;}
+.news_detail .news_article .page_nav{margin-top:10px;}
+.news_detail .news_article .page_nav a:hover{color:#b8d334;}
+
+.news_con .tuijian{margin:50px 0 30px 0;}
+
+/* 新闻中心详情-页面  end */
