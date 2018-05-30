@@ -7,12 +7,11 @@
 .four_solution{text-align: center;background-color:#f9f9f9;min-width:1280px;}
 .tab_tit{border-bottom:1px solid #e0e0e0;}
 .tab_tit ul{display:inline-block;padding:22px 0 16px 0;}
-.tab_tit ul li{cursor:pointer;font-size:24px;float:left;width:250px;height:88px;background:#0b3252;color:#fff;line-height:88px;margin-right:36px;}
+.tab_tit ul li{font-size:24px;float:left;width:250px;height:88px;background:#0b3252;line-height:88px;margin-right:36px;}
+.tab_tit ul li a{display:inline-block;width:100%;height:100%;color:#fff;}
 .tab_tit ul li:last-child{margin-right:0;}
 .tab_tit ul li.current{background-color:#b8d334;}
 
-.tab_con{display:none;}
-.tab_con.current{display:block;}
 .tab_con .tab_con_img{display:inline-block;width:900px;height:509px;margin-top:12px;}
 .tab_con .tab_con_img img{width:100%;height:100%;}
 
@@ -216,7 +215,6 @@
 .case_page .case_item{position:relative;}
 .case_page .case_tab_c .case_item{margin-top:20px;}
 .case_page .pagination{position: absolute;bottom:-50px;left:50%;margin-left:-80px;}
-.case_page .pagination ul{}
 .case_page .pagination li{float:left;width:40px;height:40px;background-color:#fff;margin:1px;text-align:center;line-height:40px;}
 .case_page .pagination li a{display:inline-block;width:100%;height:100%;}
 .case_page .pagination li.current a{color:#fff;background-color:#0b3252;}
@@ -291,3 +289,155 @@
 
 
 /* 案例中心详情-页面  end */
+
+
+/* 合作医生-页面  start */
+.doctor_page .case{height:auto;}
+.doctor_page .case_item{display:block;}
+.doctor_page .type{width:100%;min-height:auto;margin:0;}
+.doctor_page .case_tab_c{width:100%;}
+.doctor_page .teach{background-color:#fff;}
+.doctor_page .teach dt{width:170px;height:170px;border-radius:50%;}
+.doctor_page .case_item{margin-left:0;margin-bottom:100px;}
+.doctor_page .case_item dl{height:460px;width:364px;margin-right:54px;border:2px solid #fff;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+.doctor_page .case_item dl:hover{color:#072f4f;background-color:#fff;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;border:2px solid #072f4f;box-shadow:1px 5px 25px rgba(54, 54, 54, 0.361);}
+.doctor_page .case_item dl:nth-child(3n){margin-right:0;}
+.doctor_page .line_h{display: inline-block;width:337px;height:1px;background-color:#072f4f;}
+.doctor_page .case_item dl dd p{margin-top:4px;}
+
+
+/* 合作医生-页面  end */
+
+
+/* 合作医生详情-页面  start */
+.doctor_detail .case_org .scroll{width:220px;height:312px;background-color:#f00;margin:0 auto;margin-top:50px;}
+
+/* 合作医生详情-页面  end */
+
+
+/* 合作医院-页面  start */
+.hospital .case_con{padding-bottom:40px;}
+.hospital .case_con_right{width:320px;margin-left: 880px;}
+
+.hospital .case_con_right .tit{color:#0b3252;}
+.hospital .case_con_right .tit h2{font-size:30px;line-height:32px;}
+.hospital .case_con_right .tit h3{font-size:18px;}
+.hospital .case_con_right .tit img{width:282px;height:117px;margin:10px 0;}
+.hospital .case_con_right .case_org ul{margin:0;}
+.hospital .case_con_right .case_org ul li{border:0;width:282px;height:61px;font-size:18px;line-height:61px;background-color:#f9f9f9;}
+.hospital .case_con_right .case_org ul li a{width:100%;height:100%;display:inline-block;padding-left:15px;box-sizing:border-box;}
+.hospital .case_con_right .case_org ul li.current a{background-color:#0b3252;color:#fff;}
+
+.hospital .case_con_left{width:871px;margin-top:10px;display:none;}
+.hospital .case_con_left.current{display:block;}
+
+.hospital .case_con_left .case_tit{background-color:#fff;padding:16px 0;}
+.hospital .case_con_left .case_tit h2{margin-left:15px;font-size:24px;font-weight:bold;line-height:30px;height:30px;}
+.hospital_item{position: relative;}
+.hospital_item dl{width:100%;height:188px;background-color:#fff;margin-top:10px;box-sizing:border-box;padding:25px;}
+.hospital_item dl dt{height:137px;width:189px;}
+.hospital_item dl dt img{height:100%;width:100%;}
+.hospital_item dl dd{width:565px;margin-left:15px;}
+.hospital_item dl dd h2{margin:5px 0;}
+.hospital_item dl dd .mark{margin-top:10px;color:#666;}
+.hospital_item dl dd .mark span{color:#0b3252;}
+.hospital_item dl dd p{color:#0b3252;margin-top:15px;}
+
+.hospital_item .pagination{margin-top:10px;}
+.hospital_item .pagination li{float:left;width:40px;height:40px;background-color:#fff;margin:1px;text-align:center;line-height:40px;}
+.hospital_item .pagination li a{display:inline-block;width:100%;height:100%;}
+.hospital_item .pagination li.current a{color:#fff;background-color:#0b3252;}
+
+/* 合作协议 */
+.hospital .agreement{padding-bottom:50px;}
+.hospital .agreement .top h2{color:#0b3252;font-size:24px;line-height:26px;}
+.hospital .agreement .line_h{display: block;width:62px;height:2px;background-color:#072f4f;margin-top:10px;}
+.hospital .agreement .bottom{margin-top:20px;}
+.hospital .swiper-container{width:100%;height:100%;overflow:hidden;margin-bottom:50px;}
+.hospital .swiper-container-horizontal>.swiper-pagination-bullets{bottom:10px;}
+.hospital .agreement .bottom .swiper-slide{width:294px;height:294px;background-color:#fff;text-align:center;}
+.hospital .agreement .bottom .swiper-slide .pic{width:185px;height:262px;margin:0 auto;margin-top:15px;}
+.hospital .agreement .bottom .swiper-slide .pic img{width:100%;height:100%;}
+
+
+
+/* 合作医院-页面  end */
+
+
+/* 合作医院详情-页面  start */
+.hospital_detail .case_con_right .case_org{margin-top:0;}
+.hospital_intro{background-color:#fff;margin-bottom:10px;height:420px;padding:40px 0 0 40px;box-sizing:border-box;}
+.hospital_intro .hospital_intro_left{width:530px;height:340px;background-color:#ccc;}
+.hospital_intro .hospital_intro_left img{width:100%;height:100%;}
+.hospital_intro_right{width:580px;margin-left:38px;}
+.hospital_intro_right h2{font-size:30px;line-height:32px;font-weight:bold;}
+.hospital_intro_right .intro_order span{font-size:17px;color:#fff;display:inline-block;background-color:#eb6f19;width:64px;padding:3px 0;text-align:center;border-radius:8px;margin:15px 10px 15px 0;}
+.hospital_intro_right .intro_order i{color:#eb6f19;}
+.hospital_intro_right .goodness span,
+.hospital_intro_right .intro_address span{font-size:15px;font-weight:bold;}
+
+.goodness{margin-top:5px;}
+.goodness span{margin-right:2px;line-height:40px;}
+.goodness_item{width:430px;}
+.goodness_item i{display:inline-block;width:130px;height:40px;background-color:#f7f7f7;margin: 0 10px 10px 0;text-align:center;line-height:40px;border-radius:3px;}
+
+.hospital_intro_right .btn{width:140px;height:44px;line-height:44px;text-align:center;color:#fff;background-color:#b4d129;font-size:18px;border-radius:5px;margin-top:5px;cursor:pointer;}
+
+/* 弹出框 */
+.mask{ position:fixed; left:0;top:0; width:100%; height:100%; background:#000; opacity:0.6; filter:alpha(opacity=60);-moz-opacity:0.6;  z-index:105; display:none;}
+.popover{width:726px; height:796px;  position:fixed; left:50%; top:50%;margin:-398px 0 0 -363px;z-index:1001;display:none;}
+.popover .pop_con{border:1px solid #b4d129;  background:#fff;    text-align:center; z-index:6;height:100%;text-align:center; font-size:14px;  box-shadow:0px 1px 3px rgba(0,0,0,.1);  }
+.popover .top .close{ position:absolute; top:10px; right:10px; font-size:20px; color:#666;}
+.popover .top .logo{width:89px;height:83px;background:url(../images/logo.png) no-repeat center;margin:25px auto;}
+.popover .top h3{color:#063052;font-size:24px;line-height:26px;}
+
+
+.pop_form{font-size:24px;line-height:26px;width:500px;margin:0 auto;margin-top:30px;}
+.pop_form .form_item{margin-bottom:10px;line-height:55px;}
+.pop_form .form_item input{width:365px;height:55px;background-color:#f4f4f4;}
+.pop_form .form_item textarea{width:365px;height:185px;background-color:#f4f4f4;}
+.pop_form .need label{margin-left:4px;}
+.pop_form .need textarea{margin-left:6px;line-height:20px;}
+.pop_form input[type="submit"]{width:238px;height:66px;border-radius:4px;background-color:#b4d129;color:#fff;font-size:18px;margin-top:20px;}
+.popover .form_bg{position:relative;margin-left: -44px;margin-top: -260px;width:818px;height:336px;}
+
+.hou_bg{position:absolute;top:-30px;z-index:-1;}
+
+/* 合作医院详情-页面  end */
+
+
+/* 新闻中心-页面  end */
+.news_con{background-color:#fafafa;}
+.news_con .case_tab_c{width:997px;margin-left:8px;}
+.news .news_item{width:997px;display:none;}
+.news .news_item.current{display:block;}
+.news .news_item dl{margin-bottom:10px;height:169px;background-color:#f0f0f0;width:100%;box-sizing:border-box;padding:20px 0 20px 20px;}
+.news .news_item dl dt{width:186px;height:128px;}
+.news .news_item dl dt img{width:100%;height:100%;}
+.news .news_item dl dd{width:720px;margin-left:14px;}
+.news .news_item dl dd h2{font-size:18px;font-weight:bold;line-height:30px;}
+.news .news_item dl dd p{margin-top:20px;}
+.news .news_item dl:hover{color:#fff;background-color:#072f4f;}
+.news .news_item dl:hover a{color:#fff;}
+
+.news .pagination{position:static;margin:0 auto;width:210px;}
+
+/* 新闻中心-页面  end */
+
+
+/* 新闻中心详情-页面  start */
+.news_detail .case{height:auto;}
+.news_detail .news_top{line-height:30px;border-bottom:1px solid #ccc;padding-bottom:5px;margin-top:50px;}
+.news_detail .news_top .path{padding:0;}
+.news_detail .news_top h3{color:#0a3151;font-size:24px;}
+.news_detail .news_article{text-align: center;}
+.news_detail .news_article h2{color:#0a3151;font-size:24px;margin:40px 0 20px 0;}
+.news_detail .news_article .article_info{padding-bottom:50px;border-bottom:1px solid #ccc;}
+.news_detail .news_article .article_txt{padding-bottom:50px;border-bottom:1px solid #ccc;text-align:left;}
+.news_detail .news_article .article_txt p{margin:15px 0;}
+.news_detail .news_article .page_nav{margin-top:10px;}
+.news_detail .news_article .page_nav a:hover{color:#b8d334;}
+
+.news_con .tuijian{margin:50px 0 30px 0;}
+
+/* 新闻中心详情-页面  end */

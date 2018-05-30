@@ -23,11 +23,15 @@ $(function(){
 	var tab_con_state = $('.state_tab .state_tab_c');
 	tabSwitch(tab_a_state,tab_con_state);
 
+	//合作医院-切换
+	var tab_a_hos = $('.hospital_tab_t li');
+	var tab_con_hos = $('.hospital .case_con_left');
+	tabSwitch(tab_a_hos,tab_con_hos);
 
-	// 出国治病页面-四大方案-切换
-	var tab_a_four = $('.four_solution .tab_tit ul li');
-	var tab_con_four = $('.four_solution .tab_con');
-	tabSwitch(tab_a_four,tab_con_four);
+	//新闻中心-切换
+	var tab_a_news = $('.news .case_tab_tit li');
+	var tab_con_news = $('.news_con .news_item');
+	tabSwitch(tab_a_news,tab_con_news);
 
 	
 
