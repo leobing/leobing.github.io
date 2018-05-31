@@ -1,5 +1,10 @@
 $(function(){
 
+	//主页-合作教授-切换
+	var tab_a_expert = $('.expert_items .swiper-slide');
+	var tab_con_expert = $('.expert .intro .intro_tab_con');
+	tabSwitch(tab_a_expert,tab_con_expert);
+
 	// 解决方案-切换
 	var solutions = $('.solution_items section');
 	for(var i=0; i<solutions.length; i++){
@@ -32,6 +37,11 @@ $(function(){
 	var tab_a_news = $('.news .case_tab_tit li');
 	var tab_con_news = $('.news_con .news_item');
 	tabSwitch(tab_a_news,tab_con_news);
+
+	//关于我们-核心团队-切换
+	var tab_a_team = $('.about .team .tab_t li');
+	var tab_con_team = $('.about .team .tab_con');
+	tabSwitch(tab_a_team,tab_con_team);
 
 	
 
