@@ -43,14 +43,14 @@
 						</dd>
 					</dl>
 				</div>
-				<div class="fr">
+				<div class="fr or">
 					<div class="search fl">
-						<ul class="fr">
+						<ul class="">
 							<li><a href="#"><i class="square"></i>个人信息保护方案</a></li>
 							<li><a href="#"><i class="square"></i>联系我们</a></li>
 							<li><a href="#"><i class="square"></i>加入我们</a></li>
 						</ul>
-						<form action="" class="">
+						<form action="" class="search_form">
 							<input class="fr" type="button" value="搜索">
 							<input class="fr" type="text">
 						</form>
@@ -58,17 +58,23 @@
 				</div>
 			</div>
 			<div class="nav">
-				<div class="mainbox">
-					<ul>
-						<li>
-							<a href="#">出国看病 帮您快速寻找解决方案</a>
-						</li>
-						<li><a href="#">治疗领域</a></li>
-						<li  class="active"><a href="#">技术实力</a></li>
-						<li><a href="#">研发团队</a></li>
-						<li><a href="#">企业概要</a></li>
-					</ul>
-				</div>
+				<ul class="mainbox">
+					<li>
+						<a href="index.html">出国看病 帮您快速寻找解决方案</a>
+					</li>
+					<li class="tit"><a>解决方案</a>
+						<ul class="ulbox">
+							<li><a href="chuguozb.html">出国治病</a></li>
+							<li><a href="remote.html">远程会诊</a></li>
+							<li><a href="dingzhi.html">定制体验</a></li>
+							<li><a href="hospital.html">合作医院</a></li>
+						</ul>
+					</li>
+					<li><a href="case.html">案例中心</a></li>
+					<li class="active"><a href="doctor.html">合作医生</a></li>
+					<li><a href="news.html">新闻动态</a></li>
+					<li><a href="aboutus.html">关于我们</a></li>
+				</ul>
 			</div>
 		</header>
 		<div class="wrap">
@@ -133,7 +139,7 @@
 								<p>肺癌三期治疗5年生存率43%</p>
 							</div>
 							<div class="line_h"></div>
-							<a href="#" class="btn">立即预约</a>
+							<a href="#" class="btn yuyue">立即预约</a>
 						</dd>
 					</dl>
 					<div class="case_org">
@@ -201,26 +207,40 @@
 			</div>
 
 		</div>
-		<!-- <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"> -->
-		<!-- 侧边栏 -->
-		<!-- <div class="side">
-			<dl>
-				<dt><i class="fa fa-headphones fa-lg"></i></dt>
-				<dd>立即咨询</dd>
-			</dl>
-			<dl>
-				<dt><i class="fa fa-qq fa-lg"></i></dt>
-				<dd>QQ</dd>
-			</dl>
-			<dl>
-				<dt><i class="fa fa-phone fa-lg"></i></dt>
-				<dd>电话</dd>
-			</dl>
-			<dl>
-				<dt><i class="fa fa-wechat fa-lg"></i></dt>
-				<dd>官微</dd>
-			</dl>
-		</div> -->
+		
+		<!-- 弹出表单 -->
+		<div class="mask"></div>
+		<div class="popover">
+			<div class="pop_con">
+				<div class="top">
+					<a href="javascript:;" class="close">╳</a>
+					<div class="logo"></div>
+					<h3>免费获取医学顾问建议</h3>
+				</div>
+				<form class="pop_form" action="">
+					<div class="form_item or">
+						<label class="fl">您的姓名：</label>
+						<input class="fl" type="text">
+					</div>
+					<div class="form_item or">
+						<label class="fl">您的电话：</label>
+						<input class="fl" type="text">
+					</div>
+					<div class="form_item need or">
+						<label class="fl">需求描述：</label>
+						<textarea name="" id="" class="fl" ></textarea>
+					</div>
+					<input type="submit" value="提交信息免费获取建议">
+				</form>
+			</div>
+			<div class="form_bg">
+				<p class="promise">服务承诺：我们将会在一天的时间内为您免费提供海外就医方案，并会严格保护您的隐私数据</p>
+				<img src="images/form_1.png" alt="">
+				<div class="hou_bg">
+					<img src="images/form_2.png" alt="">
+				</div>
+			</div>
+		</div>
 
 
 
@@ -302,6 +322,29 @@
 	    var swiper_export = new Swiper('.doctor_detail .case_org .swiper-container', {
 	      autoplay:true,
 	    });
+
+	    $(function(){
+
+			$(".btn.yuyue").click(function(){
+			  $(".mask").css("display","block");
+			  $(".popover").slideDown();
+			 
+			 })	
+			 
+			$(".close").click(function(){
+			  
+			  $(".mask").css("display","none");
+			  $(".popover").slideUp();
+			 
+			 })	 
+			$(".mask").click(function(){
+			  
+			  $(".mask").css("display","none");
+			  $(".popover").slideUp();
+			 
+			})
+				
+		}) 
 	</script>
 
 </body>

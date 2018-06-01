@@ -1,10 +1,18 @@
 $(function(){
 
+	// 导航
+	$(".tit").hover(function(){
+		$(this).addClass("you").find(".ulbox").fadeIn();  
+	},function(){
+		$(this).removeClass("you").find(".ulbox").fadeOut();  
+	})
+
 	//主页-合作教授-切换
 	var tab_a_expert = $('.expert_items .swiper-slide');
 	var tab_con_expert = $('.expert .intro .intro_tab_con');
 	tabSwitch(tab_a_expert,tab_con_expert);
 
+	
 	// 解决方案-切换
 	var solutions = $('.solution_items section');
 	for(var i=0; i<solutions.length; i++){
@@ -41,27 +49,32 @@ $(function(){
 	//关于我们-核心团队-切换
 	var tab_a_team = $('.about .team .tab_t li');
 	var tab_con_team = $('.about .team .tab_con');
-	tabSwitch(tab_a_team,tab_con_team);
+	tabSwitchOver(tab_a_team,tab_con_team);
 
 	
 
 })
 
 // 弹框
-function pop(){
-	layer.open({
-	  type: 1,
-	  title: '快速预约绿色通道',
-	  shadeClose: true,
-	  shade: false,
-	  area: ['893px', '600px'],
-	  content: ''
+function pop(txt){
+	// layer.open({
+	//   type: 1,
+	//   title: '快速预约绿色通道',
+	//   shadeClose: true,
+	//   shade: false,
+	//   area: ['893px', '600px'],
+	//   content: ''
+	// });
+
+	layer.confirm(txt, {
+		title:'快速预约·绿色通道',
+	  btn: ['好的，知道了'] //按钮
 	});
 
 }
 
 
-// 工具-tab切换
+// 工具-tab-点击切换
 function tabSwitch(tab_index, tab_con){
     //tab_index是切换索引
     //tab_con是切换内容
@@ -78,21 +91,38 @@ function tabSwitch(tab_index, tab_con){
         })
     }
 }
+// 工具-tab-鼠标悬浮切换
+function tabSwitchOver(tab_index, tab_con){
+    //tab_index是切换索引
+    //tab_con是切换内容
+    for (var i = 0; i <= tab_index.length - 1; i++) {
+        tab_index[i].index = i;
+        $(tab_index[i]).bind('mouseover',function(event){
+            
+            $(tab_con).css('display','none');
+            $(tab_con[this.index]).css('display','block');
+    
+            $(tab_index).removeClass('current');
+            $(this).addClass('current');
+            // console.log(this.index);
+        })
+    }
+}
 // 能遍历对象和数组的通用forEach函数
 function forEach(obj, fn){
-			var key;
-			if(obj instanceof Array){
-				// 准确判断是不是数组
-				obj.forEach(function(item, index){
-					fn(index, item);
-				});
-			}else{
-				//不是数组就是对象
-				for(key in obj){
-					if(obj.hasOwnProperty(key)){
-						fn(key, obj[key]);
-					}
-				}
+	var key;
+	if(obj instanceof Array){
+		// 准确判断是不是数组
+		obj.forEach(function(item, index){
+			fn(index, item);
+		});
+	}else{
+		//不是数组就是对象
+		for(key in obj){
+			if(obj.hasOwnProperty(key)){
+				fn(key, obj[key]);
 			}
 		}
+	}
+}
 
