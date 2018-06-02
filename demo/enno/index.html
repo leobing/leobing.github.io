@@ -14,8 +14,6 @@
 
 
   	<link rel="stylesheet" href="css/swiper-4.2.6.min.css">
-	
-
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/index.css">
 	<script src="js/html5.js"></script>
@@ -23,7 +21,7 @@
 <body>
 	<header>
 		<div class="top">
-			<div class="mainbox">
+			<div class="mainbox or">
 				<div class="fl">欢迎来到河南恩诺生命科技有限公司！</div>
 				<ul class="fr">
 					<li><a href="#"><i class="square"></i>中文</a></li>
@@ -31,7 +29,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="bottom mainbox">
+		<div class="bottom or mainbox">
 			<div class="logo fl">
 				<dl class="or">
 					<dt class="fl"><img src="images/logo.png" alt=""></dt>
@@ -41,14 +39,14 @@
 					</dd>
 				</dl>
 			</div>
-			<div class="fr">
+			<div class="fr or">
 				<div class="search fl">
-					<ul class="fr">
+					<ul class="">
 						<li><a href="#"><i class="square"></i>个人信息保护方案</a></li>
-						<li><a href="#"><i class="square"></i>联系我们</a></li>
+						<li><a href="contact.html"><i class="square"></i>联系我们</a></li>
 						<li><a href="#"><i class="square"></i>加入我们</a></li>
 					</ul>
-					<form action="" class="">
+					<form action="" class="search_form">
 						<input class="fr" type="button" value="搜索">
 						<input class="fr" type="text">
 					</form>
@@ -56,17 +54,23 @@
 			</div>
 		</div>
 		<div class="nav">
-			<div class="mainbox">
-				<ul>
-					<li class="active">
-						<a href="#">出国看病 帮您快速寻找解决方案</a>
-					</li>
-					<li><a href="#">治疗领域</a></li>
-					<li><a href="#">技术实力</a></li>
-					<li><a href="#">研发团队</a></li>
-					<li><a href="#">企业概要</a></li>
-				</ul>
-			</div>
+			<ul class="mainbox">
+				<li class="active">
+					<a href="index.html">出国看病 帮您快速寻找解决方案</a>
+				</li>
+				<li class="tit"><a>解决方案</a>
+					<ul class="ulbox">
+						<li><a href="chuguozb.html">出国治病</a></li>
+						<li><a href="remote.html">远程会诊</a></li>
+						<li><a href="dingzhi.html">定制体验</a></li>
+						<li><a href="hospital.html">合作医院</a></li>
+					</ul>
+				</li>
+				<li><a href="case.html">案例中心</a></li>
+				<li><a href="doctor.html">合作医生</a></li>
+				<li><a href="news.html">新闻动态</a></li>
+				<li><a href="aboutus.html">关于我们</a></li>
+			</ul>
 		</div>
 	</header>
 	<!-- banner -->
@@ -462,19 +466,48 @@
 		</div>
 		<div class="bottom mainbox">
 			<div class="intro or">
-				<div class="intro_left fl">
-					<img src="images/expert_big.jpg" alt="">
-				</div>
 				<div class="intro_right fr or">
-					<div class="intro_c fl">
-						<h3>宇都宫 一典 教授</h3>
-						<p>东京慈惠会医科大学附属病院</p>
-						<p>(东京都)</p>
-						<p>糖尿病代谢内分泌内科诊疗部长</p>
-						<p>擅长：糖尿病、糖尿病性肾病、</p>
-						<p>脂质障碍</p>
+					<!-- tab内容 -->
+					<div class="intro_tab_con current fl or">
+						<div class="intro_left fl">
+							<img src="images/expert_big.jpg" alt="">
+						</div>
+						<div class="intro_c fl">
+							<h3>宇都宫 一典 教授</h3>
+							<p>东京慈惠会医科大学附属病院</p>
+							<p>(东京都)</p>
+							<p>糖尿病代谢内分泌内科诊疗部长</p>
+							<p>擅长：糖尿病、糖尿病性肾病、</p>
+							<p>脂质障碍</p>
+						</div>
 					</div>
-					<div class="intro_s fr">
+					<div class="intro_tab_con fl or">
+						<div class="intro_left fl">
+							<img src="images/expert_big.jpg" alt="">
+						</div>
+						<div class="intro_c fl">
+							<h3>宇都宫2 一典 教授</h3>
+							<p>东京慈惠会医科大学附属病院</p>
+							<p>(东京都)</p>
+							<p>糖尿病代谢内分泌内科诊疗部长</p>
+							<p>擅长：糖尿病、糖尿病性肾病、</p>
+							<p>脂质障碍</p>
+						</div>
+					</div>
+					<div class="intro_tab_con fl or">
+						<div class="intro_left fl">
+							<img src="images/expert_big.jpg" alt="">
+						</div>
+						<div class="intro_c fl">
+							<h3>宇都宫3 一典 教授</h3>
+							<p>东京慈惠会医科大学附属病院</p>
+							<p>(东京都)</p>
+							<p>糖尿病代谢内分泌内科诊疗部长</p>
+							<p>擅长：糖尿病、糖尿病性肾病、</p>
+							<p>脂质障碍</p>
+						</div>
+					</div>
+					<div class="intro_s fl">
 						<div class="swiper-container">
 						    <div class="swiper-wrapper">
 						      <div class="swiper-slide"><img src="images/zhengshu.jpg" alt=""></div>
@@ -487,9 +520,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="expert_items swiper-container or">
+			<div class="expert_items or">
 				<div class="swiper-container">
 				    <div class="swiper-wrapper">
+				      <div class="swiper-slide"><img src="images/expert_1.jpg" alt=""><div class="txt"><span>宇都宫 一典</span></div></div>
 				      <div class="swiper-slide"><img src="images/expert_1.jpg" alt=""><div class="txt"><span>宇都宫 一典</span></div></div>
 				      <div class="swiper-slide"><img src="images/expert_1.jpg" alt=""><div class="txt"><span>宇都宫 一典</span></div></div>
 				      <div class="swiper-slide"><img src="images/expert_1.jpg" alt=""><div class="txt"><span>宇都宫 一典</span></div></div>
@@ -997,6 +1031,7 @@
 	<script>
 		
 		//日历
+		var markArr = [];
 		var ins1 = laydate.render({
 		  elem: '#calendar'
 		  ,position: 'static'
@@ -1009,16 +1044,19 @@
 		  ,done: function(value, date){
 		  		var dt = date.year+'-'+ date.month+'-'+date.date;
 				var mark_obj = ins1["config"].mark;
+				var i = 0;
 				
-				forEach(mark_obj, function(key, value){
-					if(dt === key){
-						console.log(key, value);
-						pop();
-						return false;
+				for(key in mark_obj){
+					if(mark_obj.hasOwnProperty(key)){
+						markArr.push(key);
+						
 					}
-				})
-				console.log('不可预约');
-				pop();
+				}
+				if(markArr.indexOf(dt) >= 0){
+					pop('快速预约电话：12536979026');
+				}else{
+					pop('已售完');
+				}
 		  }
 
 		});
@@ -1029,7 +1067,7 @@
 
 
 		// banner轮播
-		var swiper = new Swiper('.banner_scroll .swiper-container', {
+		var swiper_banner = new Swiper('.banner_scroll .swiper-container', {
 	      pagination: {
 	        el: '.swiper-pagination',
 	        clickable:true,
@@ -1038,7 +1076,7 @@
 	    });
 
 		// 证件轮播
-		var swiper = new Swiper('.intro_s .swiper-container', {
+		var swiper_intro = new Swiper('.intro_s .swiper-container', {
 	      pagination: {
 	        el: '.swiper-pagination',
 	        clickable:true,
@@ -1047,11 +1085,18 @@
 	    });
 
 		// 专家轮播
-	    var swiper_export = new Swiper('.expert_items .swiper-container', {
+	    var my_swiper = new Swiper('.expert_items .swiper-container', {
 	      autoplay:true,
 	      slidesPerView: 6,
 	      spaceBetween: 36,
 	    });
+	    var expert = $('.expert_items .swiper-container');
+	    expert.hover(function() {
+	    	my_swiper.autoplay.stop();
+	    }, function() {
+	    	my_swiper.autoplay.start();
+	    });
+
 	</script>
 
 	<script src="js/base.js"></script>
