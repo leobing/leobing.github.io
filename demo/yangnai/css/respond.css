@@ -1,0 +1,49 @@
+/* 响应式 */
+
+@media (min-width: 768px){
+	.collect{display:none;}
+	.navbar-default .navbar-nav>li>a{border:0;}
+	.divider{display:none;}
+	.nav>li>a{padding:10px 12px;}
+
+
+	/* 主页 */
+	.column_top{margin-top:10px;}
+	.leave_word .media-body .list_wrap{height:196px;}
+	.consult .media-body{width:66.66666667%;}
+
+	.leave_word .media-body,
+	.general .media-body{width: 66.66666667%;}
+}
+
+@media (min-width: 992px){
+	.consult .media-body{width:50%;padding-left:0;}
+	.consult .media-body>p{margin-top:18px;}
+	.leave_word .media-body,
+	.general .media-body{width: 66.66666667%;}
+	.leave_word .media-body .list_wrap{height:180px;}
+
+}
+
+@media (min-width: 1200px){
+
+	.consult .media-body{width:50%;padding-left:0;}
+	.leave_word .media-body,
+	.general .media-body{width: 66.66666667%;padding-left:0;}
+
+	.leave_word .media-body .list_wrap{height:160px;}
+}
+
+
+
+
+
+
+@media (max-width: 425px){
+	
+	/* 主页 */
+	/* .enterprise{margin-top:0;} */
+	/* .foot_items>div.col-xs-8{clear:both;} */
+	/* .consult .media-body>p{display:none;} */
+
+}
