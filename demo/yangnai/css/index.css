@@ -1,0 +1,72 @@
+/*
+* @Author: Administrator
+* @Date:   2018-07-06 10:10:16
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-09 15:45:39
+*/
+/* 轮播 */
+/* .carousel{height:400px;} */
+.carousel-indicators li{border: 1px solid #b3a4a4;}
+.carousel-indicators .active{background-color:#ad1b1b;}
+
+
+/* 企业 */
+
+.enterprise{margin-top:20px;}
+
+.consult time{text-align:right;}
+.column_top{}
+.column_top h2{font-size:18px;margin:0;border-bottom:2px solid #0cc;padding-bottom:5px;}
+.column_top .more{padding-right:2px;}
+.consult .media-heading{margin-top:10px;font-size:16px;}
+.consult .time,
+.consult .media-body>p{font-size:13px;}
+.consult .media-body>p{margin-top:26px;}
+.video video{margin-top:10px;}
+
+.consult .list-group-item{border:0;border-bottom:1px dashed #ccc;margin-bottom:0;}
+.consult .list-group-item a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.glyphicon-arrow-right{margin-right:5px;font-size:10px;}
+
+/* 产品展厅 */
+.product{margin-top:20px;overflow:hidden;}
+.product .column_top{border-bottom:1px solid #ccc;padding-bottom:-1px;}
+.product .myslide{height:220px;margin-top:10px;overflow:hidden;}
+.product .myslide .myslide_con{width:9000px;}
+.product .myslide dl{width:200px;float: left;padding:0 10px;}
+.product .myslide dl dt{width:100%;height:160px;overflow:hidden;}
+.product .myslide dl dt img{width:100%;transition:1s;}
+.product .myslide dl dt:hover img{transform:scale(1.5);}
+.product .myslide dl dd{text-align:center;margin:5px 0 2px 0;}
+.myslide_con{position:relative;transition:all;}
+
+
+/* 企业概况 */
+
+.third_floor{margin-top:30px;}
+.leave_word .media,
+.general .media{border:1px solid #ccc;padding:20px;}
+.general .media h2{}
+
+.general .media-body{padding-top:10px;}
+.general .media-body h4 a{color:#6ca63e;}
+.general .media-body p{margin-top:20px;}
+
+.leave_word .list-group-item{border:0;border-bottom:1px dashed #ccc;margin-bottom:0;font-size:13px;padding:0;margin-top:10px;}
+.leave_word_people{color:#6ca63e;margin-bottom:6px;}
+.leave_word .media-body .list_wrap{height:180px;overflow:hidden;}
+.leave_word .media-body .list_wrap .list-group{position:relative;}
+
+
+
+
+
+
+/* foot */
+.foot{margin-top: 30px;background-color:#eee;padding-top:40px;}
+.foot .foot_items dl dt{font-size:16px;margin-bottom:10px;}
+.foot .foot_items dl dd{font-size:13px;margin-bottom:5px;}
+.foot .foot_bottom{margin-bottom:10px;}
+
+
+
