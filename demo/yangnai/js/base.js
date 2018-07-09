@@ -12,6 +12,11 @@ $(function(){
 	var speed_leave = 0.2;
 	var box_width_leave = $(box_leave).height();
 	uniformSpeed(box_leave, speed_leave, box_width_leave, 'top');
+
+
+	$(window).scroll(function(){
+		$('.follow_img').css('margin-top', $(this).scrollTop() + "px");
+	});
 })
 
 

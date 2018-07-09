@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-07-06 10:10:16
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-07-09 15:45:39
+* @Last Modified time: 2018-07-09 17:29:28
 */
 /* 轮播 */
 /* .carousel{height:400px;} */
@@ -69,4 +69,6 @@
 .foot .foot_bottom{margin-bottom:10px;}
 
 
+/* 侧边栏 */
+.follow_img{position:absolute;top:200px;left:0;transition:1s;}
 
