@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+
+        <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- 头部 -->
+    <header class="mainbox">
+      <!-- 顶部 -->
+      <div class="container">
+        <div class="logo">
+          <img src="images/logo.png" height="69" width="234" alt="">
+        </div>
+        <div class="nav">
+          
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+            
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">首页<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">公寓床</a></li>
+                <li><a href="#">书架</a></li>
+                <li><a href="#">文件柜</a></li>
+                <li><a href="#">产品中心</a></li>
+                <li><a href="#">精品案例</a></li>
+                <li><a href="#">新闻中心</a></li>
+                <li><a href="#">关于先导</a></li>
+                <li><a href="#">联系我们</a></li>
+                
+              </ul>
+            </div><!-- /.container-fluid -->
+          </nav>
+
+
+        </div>
+      </div>
+    </header>
+
+    <!-- 轮播 -->
+    <div id="carousel-example-generic" class="carousel slide mainbox banner" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/banner.jpg" alt="...">
+                <div class="carousel-caption">
+                    <!-- 图片描述 -->
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/banner.jpg" alt="...">
+                <div class="carousel-caption">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 热词 -->
+    <div class="container hot mainbox">
+      <div class="hot_left">
+        <div>科技领先&nbsp;&nbsp;导引时尚</div>
+        <div class="bottom_word">公寓床家具供应商</div>
+      </div>
+      <div class="hot_center">
+        
+          <div class="hot-word">
+            <span>热门关键词：</span>
+            <span>公寓床</span>
+            <span>书架</span>
+            <span>文件柜</span>
+            <span>更衣柜</span>
+            <span>密集架</span>
+            <span>钢制家具</span>
+            <span>图书馆家具</span>
+          </div>
+          <div class="form">
+            <form class="navbar-form navbar-left">
+              <div class="form-group fl">
+                <input type="text" class="form-control" placeholder="请输入关键词进行搜索">
+              </div>
+              <button type="submit" class="btn btn-default">
+                <img src="images/search.png" alt="">
+              </button>
+            </form>
+          </div>
+      </div>
+      <div class="hot_right fr">
+        <p>服务热线</p>
+        <p class="phone_num">13937906019</p>
+        <img src="images/phone.png" height="53" width="36" alt="">
+      </div>
+    </div>
+
+    <!-- 关于我们 -->
+    <div class="container about_us or">
+      <div class="about_index_left">
+        <h2>关于我们</h2>
+        <img class="sanjiao" src="images/sanjiao.png" height="20" width="15" alt="">
+        <a class="more" href="#">
+          <img src="images/row.png" height="15" width="19" alt="">
+        </a>
+        <div class="intro">
+          <h2>公司简介</h2>
+          <p>洛阳市先导办公家具有限公司是一家专业从事钢制文件柜、密集架、图书馆书架、公寓床等钢制办公家具的生产企业。公司始建于1998年，历经20多年的开拓进取，现已发展成集产品
+          设计开发、生产制造、销售服务为一体的现代化企业。公司注册资金6800万元，占地面积4万平方米，
+          各种数控设备一应俱全，拥有专业的钣金、喷涂、包装生产线。</p>
+          <ul class="or">
+            <li>
+              <img src="images/gongcheng.png" height="73" width="69" alt="">
+              <p>工程</p>
+            </li>
+            <li>
+              <img src="images/zhotubiao.png" height="74" width="75" alt="">
+              <p>招投标</p>
+            </li>
+            <li>
+              <img src="images/dingzhi.png" height="73" width="88" alt="">
+              <p>定制</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="about_index_right">
+        <video width="320" height="240" controls="controls">
+          <source src="movie.ogg" type="video/ogg">
+          <source src="movie.mp4" type="video/mp4">
+          你的浏览器不支持视频。
+        </video>
+      </div>
+    </div>
+
+    <!-- 产品中心 -->
+    <div class="product mainbox">
+      <div class="tit">
+        <div class="txt">
+          <img src="images/pro.png" height="112" width="412" alt="">
+          <div class="inner_txt">
+            <h2>产品中心</h2>
+            <p>产品工艺精湛、品质优异、批量定制、价格优惠</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="content">
+          <div class="tab">
+            <ul>
+              <li class="active">
+                <img src="images/gongyu.png" height="38" width="42" alt="">
+                <p>公寓床</p>
+              </li>
+              <li>
+                <img src="images/gongyu2.png" height="38" width="42" alt="">
+                <p>公寓床</p>
+              </li>
+              <li>
+                <img src="images/gongyu2.png" height="38" width="42" alt="">
+                <p>公寓床</p>
+              </li>
+              <li>
+                <img src="images/gongyu2.png" height="38" width="42" alt="">
+                <p>公寓床</p>
+              </li>
+              <li>
+                <img src="images/gongyu2.png" height="38" width="42" alt="">
+                <p>公寓床</p>
+              </li>
+              <li>
+                <img src="images/gongyu2.png" height="38" width="42" alt="">
+                <p>公寓床</p>
+              </li>
+              <li>
+                <img src="images/gongyu2.png" height="38" width="42" alt="">
+                <p>公寓床</p>
+              </li>
+            </ul>
+          </div>
+          <div class="con">
+            <ul>
+              <li>
+                <a href="#"></a>
+                <img class="logo" src="images/cahngxiao.png" height="48" width="53" alt="">
+                <img class="image" src="images/pro-.png" alt="">
+                <p>二连公寓床</p>
+              </li>
+              <li>
+                <a href="#"></a>
+                <img class="logo" src="images/cahngxiao.png" height="48" width="53" alt="">
+                <img class="image" src="images/pro-.png" alt="">
+                <p>二连公寓床</p>
+              </li>
+              <li>
+                <a href="#"></a>
+                <img class="logo" src="images/cahngxiao.png" height="48" width="53" alt="">
+                <img class="image" src="images/pro-.png" alt="">
+                <p>二连公寓床</p>
+              </li>
+              <li>
+                <a href="#"></a>
+                <img class="logo" src="images/cahngxiao.png" height="48" width="53" alt="">
+                <img class="image" src="images/pro-.png" alt="">
+                <p>二连公寓床</p>
+              </li>
+              <li>
+                <a href="#"></a>
+                <img class="logo" src="images/cahngxiao.png" height="48" width="53" alt="">
+                <img class="image" src="images/pro-.png" alt="">
+                <p>二连公寓床</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 走进先导 -->
+    <div class="walkIn mainbox">
+      <!-- <div class="main"> -->
+        <div class="tit">
+          <div class="txt">
+            <img src="images/pro.png" height="112" width="412" alt="">
+            <div class="inner_txt">
+              <h2>走进先导</h2>
+              <p>公司规模大、设施齐全、整体实力雄厚</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="content">
+            <div class="top">
+              <div class="txt">
+                <h2>铸就宿舍家具行业优质品牌</h2>
+                <p>洛阳市先导办公家具有限公司是一家专业从事校用公寓床设备、图书档案密集架、书架装具及钢制办公家具的专业生产企业，公司注册资金6800万元，公司占地面积2万平方米，各种建筑厂房规划合理，设施齐全，各种现代化设备一应俱全，拥有专业的钣金生产线、滚压生产线、现代化的喷涂流水生产线、自动化的包装生产线。</p>
+              </div>
+            </div>
+            <div class="fac">
+              <div class="title">
+                <span>厂房厂貌 /</span>
+                <span>Factory  appearance</span>
+              </div>
+              <!-- 轮播  -->
+              <div class="swiper-container fac-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="images/fac1.jpg" height="262" width="392" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/fac2.jpg" height="262" width="392" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/fac3.jpg" height="262" width="392" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/fac3.jpg" height="262" width="392" alt="">
+                  </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="arrow">
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div>
+              </div>
+              <!-- 科技 -->
+              <div class="tt">
+                <h2>先导家具——“以科技创新为动力，以顾客满以为出发”</h2>
+                <div class="hot_phone or">
+                  <div class="left fl">
+                    <span>服务热线</span>
+                    <p>13937906019</p>
+                    <img src="images/phone.png" height="53" width="36" alt="">
+                  </div>
+                  <div class="right fl">
+                    <div class="item">
+                      <span>加厚钢板</span>
+                      <span>款式多样</span>
+                      <span>稳定性好</span>
+                      <span>坚固耐用</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- </div> -->
+    </div>
+
+    <!-- 资质认证 -->
+    <div class="qualification mainbox">
+      <div class="tit">
+        <div class="txt">
+          <img src="images/pro.png" height="112" width="412" alt="">
+          <div class="inner_txt">
+            <h2>资质认证</h2>
+            <!-- <p>公司规模大、设施齐全、整体实力雄厚</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="container">
+          <div class="con_left">
+            <img src="images/logo-red.png" height="69" width="234" >
+            <p>公司于2001年顺利通过了ISO9001国际质量管理体系认证，并自2006年至今连续多年被河南省工商行政管理局评定为“河南省守合同、重信用优秀企业”，所出产品也连年荣获“河南省名牌产品”、“河南省免检产品”、“用户满意产品”、“河南省著名商标”等荣誉称号；于2013年4月通过中国环境标志产品认证；于2018年1月通过5星级售后服务认证证书。</p>
+            <a href="#" class="more">more+</a>
+          </div>
+          <div class="con_right">
+            <!-- 资质轮播 -->
+            <div class="swiper-container qualification-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="images/zizhi1.png" height="203" width="290" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/zizhi1.png" height="203" width="290" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/zizhi1.png" height="203" width="290" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/zizhi1.png" height="203" width="290" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/zizhi1.png" height="203" width="290" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/zizhi1.png" height="203" width="290" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/zizhi1.png" height="203" width="290" alt="">
+                </div>
+              </div>
+
+              <!-- Add Arrows -->
+              <div class="arrow">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- 生产工艺 -->
+    <div class="production mainbox">
+      <div class="tit">
+        <div class="txt">
+          <img src="images/pro.png" height="112" width="412" alt="">
+          <div class="inner_txt">
+            <h2>先导生产工艺</h2>
+            <p>工艺精湛、匠心独运、别具一格</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+          <div class="con_left">
+            <img src="images/gongyi.png" height="664" width="592" alt="">
+          </div>
+          <div class="con_right">
+            <ul>
+              <li>
+                <img src="images/gongyi1.png" height="52" width="67" alt="">
+                <h3>精选板材 质量保证</h3>
+                <p>只选用优质冷轧钢板</p>
+                <p>杜绝拼接版 严格配件</p>
+              </li>
+              <li>
+                <img src="images/gongyi2.png" height="52" width="67" alt="">
+                <h3>生产要求</h3>
+                <p>所有板材及管件要求无毛刺</p>
+                <p>焊接牢固，焊痕光滑、平整</p>
+              </li>
+              <li>
+                <img src="images/gongyi3.png" height="52" width="67" alt="">
+                <h3>钣金试装</h3>
+                <p>对钣金成品件进行试装</p>
+                <p>确保产品喷塑前无误差</p>
+              </li>
+              <li>
+                <img src="images/gongyi4.png" height="52" width="67" alt="">
+                <h3>喷塑前处理 零甲醛</h3>
+                <p>选用优质环保塑粉，保证柜体及架体</p>
+                <p>涂层不脱落，20年不锈蚀</p>
+              </li>
+              <li>
+                <img src="images/gongyi5.png" height="52" width="67" alt="">
+                <h3>成品试装 拒绝残次品</h3>
+                <p>对产品进行二次试装，确保产品出厂</p>
+                <p>前无质量问题</p>
+              </li>
+              <li>
+                <img src="images/gongyi6.png" height="52" width="67" alt="">
+                <h3>包装</h3>
+                <p>选用五层高强度防水瓦楞纸箱，以珍珠</p>
+                <p>棉层层包裹，另加防震牛皮纸护边</p>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+
+    <!-- 工程案例 -->
+    <div class="case mainbox">
+      <div class="tit">
+        <div class="txt">
+          <img src="images/pro.png" height="112" width="412" alt="">
+          <div class="inner_txt">
+            <h2>工程案例</h2>
+            <!-- <p>工艺精湛、匠心独运、别具一格</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="container">
+          <div class="case_bg">
+          </div>
+          <div class="big-bg fl">
+            <img src="images/case1.jpg" height="455" width="565" alt="">
+          </div>
+          <div class="sm-bg fl">
+            <img src="images/case2.png" height="215" width="268" alt="">
+            <img src="images/case3.png" height="215" width="268" alt="">
+          </div>
+          <div class="us fl">
+            <div class="us_top">
+              <h3>我们的客户</h3>
+              <ul class="school-list or">
+                <li>
+                  <img src="images/qinghua.png" height="80" width="80" alt="">
+                  <p>清华大学</p>
+                </li>
+                <li>
+                  <img src="images/fudan.png" height="80" width="80" alt="">
+                  <p>复旦大学</p>
+                </li>
+              </ul>
+              <a href="#" class="genduo">更多 >></a>
+            </div>
+            <div class="us_bottom">
+              <p style="font-size:18px;">服务热线</p>
+              <span style="font-size:30px;">13937906019</span>
+              <h3>联系我们</h3>
+              <img src="images/arrow-right.png" height="10" width="83" alt="">
+              <img class="phone" src="images/phone.png" height="53" width="36" alt="">
+
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- 数据 -->
+    <div class="data-slogen mainbox">
+      <div class="container">
+        <div class="slogen-item">
+          <h2>行业经验</h2>
+          <span>INDUSTRY EXPERIENCE</span>
+          <h1>20+</h1>
+        </div>
+        <div class="slogen-item">
+          <h2>合作厂商</h2>
+          <span>COOPERATION VENDDRS</span>
+          <h1>400+</h1>
+        </div>
+        <div class="slogen-item">
+          <h2>知识产权</h2>
+          <span>INTELLECTUAL PROPERTY</span>
+          <h1>18+</h1>
+        </div>
+        <div class="slogen-item">
+          <h2>全国案例</h2>
+          <span>CASES NATIONWIDE</span>
+          <h1>1000+</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- 服务流程 -->
+    <div class="service-flow mainbox">
+      <div class="container">
+        <div class="top">
+          <h1>服务流程</h1>
+          <p>全面的服务，让您全程无忧</p>
+        </div>
+        <div class="con">
+          <img src="images/service-flow.png" height="154" width="1200" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- 我们的优势 -->
+    <div class="advantage mainbox">
+      <div class="tit">
+        <div class="txt">
+          <img src="images/pro.png" height="112" width="412" alt="">
+          <div class="inner_txt">
+            <h2>我们的优势</h2>
+          </div>
+        </div>
+      </div>
+      <div class="contentItem1 or container">
+        <div class="left fl">
+          <div class="tit">
+            <img src="images/01.png" height="48" width="53" alt="">
+            <h2>品牌保障——</h2>
+            <span>相信品牌 选择实力</span>
+          </div>
+          <p>荣获“河南省名牌产品”、“河南省免检产品”、“用户满意产品”、“河南省著名商标”等荣誉称号；于2013年4月通过中国环境标志产品认证；于2018年1月通过5星级售后服务认证证书。</p>
+        </div>
+        <div class="right fr">
+          <img src="images/00.png" height="369" width="599" alt="">
+        </div>
+      </div>
+      <div class="contentItem2 container">
+        <div class="left fl">
+          <img src="images/02-img.png" height="368" width="960" alt="">
+        </div>
+        <div class="right fr">
+          <div class="tit">
+            <img src="images/02.png" height="48" width="53" alt="">
+            <h2>品质保障——</h2>
+            <span> 先导26年坚持只做优质钢制家具</span>
+          </div>
+          <p>自主研发新型高档木纹、真空热转印技术，美观保障拥有专业的钣金生产线、滚压生产线、现代化的喷涂流水生产线、自动化的包装生产线，产能保障。</p>
+        </div>
+      </div>
+      <div class="contentItem3 clearfix ">
+        <div class="container">
+          <div class="left fl">
+            <div class="tit">
+              <img src="images/03.png" height="48" width="53" alt="">
+              <h2>工程采购——</h2>
+              <span> 上万工程承接经验</span>
+            </div>
+            <p>资质健全，上万工程承接经验，高中标率。专业工程团队全面服务，快速响应，激光切割机快速打样。主导产品公寓床、档案图书装具及钢制办公家具</p>
+          </div>
+          <div class="right fr">
+          </div>
+        </div>
+      </div>
+      <div class="contentItem4 or container">
+        <div class="left fl">
+          <img src="images/04-img.png" height="368" width="600" alt="">
+        </div>
+        <div class="right fr">
+          <div class="tit">
+            <img src="images/04.png" height="48" width="53" alt="">
+            <h2>销量见证——</h2>
+            <span>全球150万用户销量见证 口碑保障</span>
+          </div>
+          <p>公司已在全国30多个省市设有集产品销售、技术服务、配件供应和信息反馈为一体的分公司及一级服务网点，并与日本、意大利等国际著名钢具公司建立了长期战略合作关系，产品销售不仅覆盖全国各地，而且还大量出口日本、欧美、中东等国家和地区。</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 走向世界 -->
+    <div class="to_world mainbox">
+      <div class="tit">
+        <div class="txt">
+          <img src="images/pro.png" height="112" width="412" alt="">
+          <div class="inner_txt">
+            <h2>立足中国、走向世界</h2>
+            <!-- <p>工艺精湛、匠心独运、别具一格</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="container clearfix">
+          <div class="con_left fl">
+            <img src="images/to-world.png" height="314" width="460" alt="">
+            <h2>代言钢制家具  彰显中国制造</h2>
+            <p>Endorsement of steel furniture, highlighting Made in China</p>
+          </div>
+          <div class="con_right fr">
+            <div class="line"></div>
+            <p>公司在全国各大城市设立二十余家分公司和办事处营销网络覆盖广，营销能力强，在全国各地拥有广泛的客户群。公司近三年来销售收入增长率保持在10%以上，2012年实现销售收入8600万元.迄今为止，公司已在全国30多个省、市、自治区、直辖市设有集产品销售、技术服务、配件供应和信息反馈为一体的分公司及一级服务网点，并与日本、意大利等国际著名钢具公司建立了长期战略合作关系，产品销售不仅覆盖全国各地，而且还大量出口日本、欧美、中东等国家和地区在售后服务方面，不但总公司拥有以专业技术人员组成的售后服务部，而且在全国各地设立了30多个分公司及售后服务配件供应和信息反馈为一体的遗迹服务网站，优质快速的服务为客户排除后顾之忧。</p>
+            <a href="#" class="more">more+</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 员工风采 -->
+    <div class="staff_style mainbox">
+      <div class="tit">
+        <div class="txt">
+          <img src="images/pro.png" height="112" width="412" alt="">
+          <div class="inner_txt">
+            <h2>员工风采</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <ul>
+          <li>
+            <img src="images/yuangong1.png" height="261" width="392" alt="">
+          </li>
+          <li>
+            <img src="images/yuangong2.png" height="261" width="392" alt="">
+          </li>
+          <li>
+            <img src="images/yuangong3.png" height="261" width="392" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+    <!-- 新闻中心 -->
+    <div class="news_center mainbox">
+      <div class="tit">
+        <div class="txt">
+          <img src="images/pro.png" height="112" width="412" alt="">
+          <div class="inner_txt">
+            <h2>新闻中心</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="news_left">
+          <div class="top clearfix">
+            <h3>公司新闻</h3>
+            <a href="#" class="more">more+</a>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <div class="time_sq">
+                <h2>14</h2>
+                <span>2018-07-14</span>
+              </div>
+              <!-- <a href="#">
+                <img class="media-object" src="..." alt="...">
+              </a> -->
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">先导公寓床为学生避免更多伤害</h4>
+              <p>现在公寓床的应用十分广泛，最常用到的地方莫过于学生宿舍、员工宿舍、家庭卧房、旅店宾馆等。</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <div class="time_sq">
+                <h2>14</h2>
+                <span>2018-07-14</span>
+              </div>
+              <!-- <a href="#">
+                <img class="media-object" src="..." alt="...">
+              </a> -->
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">先导公寓床为学生避免更多伤害</h4>
+              <p>现在公寓床的应用十分广泛，最常用到的地方莫过于学生宿舍、员工宿舍、家庭卧房、旅店宾馆等。</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <div class="time_sq">
+                <h2>14</h2>
+                <span>2018-07-14</span>
+              </div>
+              <!-- <a href="#">
+                <img class="media-object" src="..." alt="...">
+              </a> -->
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">先导公寓床为学生避免更多伤害</h4>
+              <p>现在公寓床的应用十分广泛，最常用到的地方莫过于学生宿舍、员工宿舍、家庭卧房、旅店宾馆等。</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <div class="time_sq">
+                <h2>14</h2>
+                <span>2018-07-14</span>
+              </div>
+              <!-- <a href="#">
+                <img class="media-object" src="..." alt="...">
+              </a> -->
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">先导公寓床为学生避免更多伤害</h4>
+              <p>现在公寓床的应用十分广泛，最常用到的地方莫过于学生宿舍、员工宿舍、家庭卧房、旅店宾馆等。</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="news_right">
+            <div class="top clearfix">
+              <h3>行业新闻</h3>
+              <a href="#" class="more">more+</a>
+            </div>
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img class="media-object" src="images/hangyenews1.png" height="121" width="225" alt="">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">先导密集架细节更出众开展工作分享及如何开</h4>
+                <p>采购密集架不像买一台文件柜那么简单，有经验的采购者都会直接找密集架厂家来合作。这样不仅在价格方面要比一些经销商和代理商优惠</p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img class="media-object" src="images/hangyenews1.png" height="121" width="225" alt="">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">先导密集架细节更出众开展工作分享及如何开</h4>
+                <p>采购密集架不像买一台文件柜那么简单，有经验的采购者都会直接找密集架厂家来合作。这样不仅在价格方面要比一些经销商和代理商优惠</p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img class="media-object" src="images/hangyenews1.png" height="121" width="225" alt="">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">先导密集架细节更出众开展工作分享及如何开</h4>
+                <p>采购密集架不像买一台文件柜那么简单，有经验的采购者都会直接找密集架厂家来合作。这样不仅在价格方面要比一些经销商和代理商优惠</p>
+              </div>
+            </div>
+        </div>
+        <div class="v-line"></div>
+      </div>
+    </div>
+
+    <!-- 友情链接 -->
+    <div class="friend_link mainbox">
+      <div class="container">
+        <h3>友情链接</h3>
+        <div class="heng_xian">
+          <div class="ic">
+            Link
+
+          </div>
+        </div>
+        <ul class="clearfix">
+          <li><a href="#">公寓床</a></li>
+          <li><a href="#">书架</a></li>
+          <li><a href="#">文件柜</a></li>
+          <li><a href="#">密集架</a></li>
+          <li><a href="#">家用家具</a></li>
+          <li><a href="#">出口家具</a></li>
+          <li><a href="#">营房家具</a></li>
+          <li><a href="#">物品柜</a></li>
+          <li><a href="#">多功能写字桌</a></li>
+          <li><a href="#">保密柜</a></li>
+          <li><a href="#">更衣柜</a></li>
+          <li><a href="#">阳台柜</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="foot mainbox">
+      <div class="container">
+        <div class="foot_logo">
+          <img src="images/logo.png" height="69" width="234" alt="">
+        </div>
+        <div class="contact clearfix">
+          <div class="phone fl">
+            <span>电话：</span>
+            <p>18137954349</p>
+          </div>
+          <div class="address fl">
+            <span>地址：</span>
+            <p>洛阳市伊滨区庞村西庞工业区  </p>
+          </div>
+          <div class="ercode fl">
+            <img src="images/code.png" height="149" width="130" alt="">
+            <p>手机官网</p>
+          </div>
+          <div class="ercode fl">
+            <img src="images/code.png" height="149" width="130" alt="">
+            <p>微信公众号</p>
+          </div>
+          <div class="email fl">
+            <span>邮箱：</span>
+            <p>1340167054@qq.com</p>
+          </div>
+          <div class="webad fl">
+            <span>网址：</span>
+            <p>http:www.lyxiandao.com  </p>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="t clearfix">
+            <h2 class="fl">网站地图</h2>
+            <h2 class="fr">备案号：豫ICP备13008017号</h2>
+          </div>
+          <ul class="clearfix">
+            <li><a href="#">公寓床</a></li>
+            <li><a href="#">书架</a></li>
+            <li><a href="#">文件柜</a></li>
+            <li><a href="#">密集架</a></li>
+            <li><a href="#">家用家具</a></li>
+            <li><a href="#">营房家具</a></li>
+            <li><a href="#">出口家具</a></li>
+            <li><a href="#">关于先导</a></li>
+            <li><a href="#">荣誉资质</a></li>
+            <li><a href="#">工厂实景</a></li>
+            <li><a href="#">合作客户</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+
+
+
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      // 轮播
+      var swiper = new Swiper('.fac-swiper', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+      // 资质轮播
+      var qualificationSwiper = new Swiper('.qualification-swiper', {
+        slidesPerView: 3,
+        slidesPerColumn: 2,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+
+    </script>
+  </body>
+</html>

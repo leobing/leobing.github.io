@@ -1,0 +1,66 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-02 14:19:07
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-09-18 11:23:55
+*/
+/* 顶部-导航 */
+header{
+  background-color: #702524;
+  opacity: 0.902;
+  position: absolute;
+  width:100%;
+  left: -1px;
+  top: -1px;
+  height: 105px;
+  z-index: 18;
+}
+.logo{line-height:105px;float: left;}
+header .navbar-default{background-color:transparent;border-width:0;}
+header .container-fluid{padding:0;height:105px;float: right;}
+header .container-fluid .navbar-nav li a{padding-top:0;padding-bottom:0;color:#f0f0f0;height:105px;line-height:105px;font-size:16px;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	color: #f0f0f0;
+    background-color: #9f4240;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color: #f0f0f0;
+    background-color: #9f4240;
+}
+
+/* banner */
+.banner{position:relative;}
+
+/* 热词 */
+.hot{height: 120px;}
+
+.hot_left{margin-top:30px;float: left;}
+.hot_left>div {
+  font-size: 20px;
+  color: rgb(102, 102, 102);
+  line-height: 1.5;
+}
+.hot_left .bottom_word{letter-spacing:2px;}
+
+
+.hot_center{float: left;margin-left: 128px;width:487px;margin-top:25px;}
+.hot-word{line-height:30px;color:#666666;}
+.form{margin-top:-4px;}
+.navbar-form{padding:0;}
+.form-group .form-control{width:434px;}
+.form .btn{border-radius:0 4px 4px 0;border-left:0;background-color:#c68b46;width:53px;}
+.form .form-control{border-radius:4px 0 0 4px;border-right:0;}
+
+
+.hot_right{width:232px;background-color:#c68b46;height:100%;color:#fff;position:relative;}
+
+.hot_right{font-size:18px;padding:34px 0 0 24px;}
+.phone_num{
+  font-size: 30px;
+  font-family: "Arial";
+  line-height: 0.8;
+}
+.hot_right>img{position:absolute;top:0;right:10px;}
+
+
+
