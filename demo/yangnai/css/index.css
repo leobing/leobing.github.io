@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-07-06 10:10:16
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-07-09 17:29:28
+* @Last Modified time: 2018-07-12 14:21:59
 */
 /* 轮播 */
 /* .carousel{height:400px;} */
@@ -58,10 +58,6 @@
 .leave_word .media-body .list_wrap .list-group{position:relative;}
 
 
-
-
-
-
 /* foot */
 .foot{margin-top: 30px;background-color:#eee;padding-top:40px;}
 .foot .foot_items dl dt{font-size:16px;margin-bottom:10px;}
@@ -70,5 +66,5 @@
 
 
 /* 侧边栏 */
-.follow_img{position:absolute;top:200px;left:0;transition:1s;}
+.follow_img{position:absolute;top:200px;left:0;transition:1s;width:25%;}
 

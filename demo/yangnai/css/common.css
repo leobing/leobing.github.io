@@ -2,18 +2,22 @@
 * @Author: Administrator
 * @Date:   2018-07-06 10:10:01
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-07-09 16:52:28
+* @Last Modified time: 2018-07-26 13:53:46
 */
 /* 通用基础样式 */
+ul,li{ list-style:none;}
 .fr{float: right;}
 .fl{float: left;}
 .or{overflow:hidden;}
 a {color: #333;}
 a:focus, a:hover {color:#de0000;}
 body{padding-top:70px;}
+h3{font-size:16px;}
+ul{padding-left:0;}
 
 
 /* 头部-导航 */
+.navbar{background-color:#fff!important;}
 .collect{font-size:14px;color:#6ca63e;margin-top:10px;}
 .collect>span{cursor:pointer;}
 .glyphicon-star-empty{margin-right:5px;}
@@ -33,6 +37,12 @@ body{padding-top:70px;}
 
 
 /* 文本溢出 */
+.text_overflow2{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
 .text_overflow3{
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
@@ -46,4 +56,11 @@ body{padding-top:70px;}
 	overflow: hidden;
 }
 
+
+/* contact */
+.contact .map{width:500px;height:300px;}
+
+
+/* 产品详情 */
+.article_tit{text-align:center;}
 

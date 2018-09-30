@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>{:cache('Config.sitename')}</title>
+    <meta name="description" content="{:cache('Config.siteinfo')}" />
+    <meta name="keywords" content="{:cache('Config.sitekeywords')}" />
+    <link rel="shortcut icon" type="image/x-icon" href="{$config_siteurl}statics/xcd/images/favicon.ico" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/respond.css">
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/product_show.css">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+    	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="product_show news">
+    <div class="container">
+        <!-- 头部-导航 -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Logo</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                    <div class="collect">
+                        <span class="fr"><span class="glyphicon glyphicon-star-empty"></span>加入收藏</span>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">网站首页</a></li>
+                        <li><a href="#">企业概况</a></li>
+                        <li><a href="#">企业咨询</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">产品展示 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">中荷乳业</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">秦岭羊奶</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">在线留言</a></li>
+                        <li><a href="#">人力资源</a></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </nav>
+
+    </div>
+
+    <!-- 轮播 -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/a1.jpg" alt="...">
+                <div class="carousel-caption">
+                    <!-- 图片描述 -->
+                </div>
+            </div>
+        </div>
+    </div>
+	<!-- 路径导航 -->
+	<div class="container-fluid path">
+		<div class="container">
+			<ol class="breadcrumb">
+				<li><a href="#">您的位置：</a></li>
+				<li><a href="#">首页</a></li>
+				<li><a href="#">产品展示</a></li>
+				<li class="active">中荷乳业</li>
+			</ol>
+		</div>
+	</div>
+
+    <!-- 主内容 -->
+	<div class="container main">
+		<div class="right_side info">
+			<div class="info_tit">
+				中荷乳业
+			</div>
+			<div class="info_con" >
+				<div class="article_tit">
+					<h1>大河印象</h1>
+					<div class="t">
+						<span>2013-07-31 11:01:58</span>
+						<span class="click">点击：</span>
+					</div>
+				</div>
+				<div class="article_con">
+					content
+				</div>
+			</div>
+		</div>
+		<div class="left_side">
+			<div class="column_nav">
+				
+				<div class="column_tit">
+					<h2>栏目导航</h2>
+				</div>
+				<ul class="nav nav-stacked" >
+					<li class="active"><a href="#">中荷乳业 <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+					<li><a href="#">秦岭牛奶<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+				</ul>
+			</div>
+
+			<div class="recom">
+				<div class="column_tit">
+					<h2>推荐产品</h2>
+				</div>
+				<dl>
+					<dt>
+						<a href="#"><img src="images/tanshao.jpg" alt=""></a>
+					</dt>
+					<dd><a href="#">炭烧酸奶</a></dd>
+				</dl>
+				<dl>
+					<dt>
+						<a href="#"><img src="images/tanshao.jpg" alt=""></a>
+					</dt>
+					<dd><a href="#">炭烧酸奶</a></dd>
+				</dl>
+				<dl>
+					<dt>
+						<a href="#"><img src="images/tanshao.jpg" alt=""></a>
+					</dt>
+					<dd><a href="#">炭烧酸奶</a></dd>
+				</dl>
+			</div>
+			<div class="contact">
+				<div class="column_tit">
+					<h2>联系我们</h2>
+				</div>
+				<div class="contact_con">
+					<p>地址：<span>河南省新乡市获嘉县产业集聚区南迎宾大道33号</span></p>
+					<p>电话：<span>400-8220036</span></p>
+					<p>邮箱：<span>123@qq.com</span></p>
+					<img src="images/erweima.jpg" height="118" width="140" alt="">
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<!-- 底部 -->
+	<div class="foot container-fluid">
+		<div class="container">
+			<div class="row foot_items">
+			  <div class="col-md-2 col-sm-2 col-xs-4">
+			  	  <dl>
+			  	  	<dt>企业概况</dt>
+			  	  	<dd><a href="#">公司简介</a></dd>
+			  	  	<dd><a href="#">企业荣誉</a></dd>
+			  	  	<dd><a href="#">企业文化</a></dd>
+			  	  	<dd><a href="#">荣誉墙</a></dd>
+			  	  </dl>
+			  </div>
+			  <div class="col-md-2 col-sm-2 col-xs-4">
+				<dl>
+					<dt>产品中心</dt>
+					<dd><a href="#">中荷乳业</a></dd>
+					<dd><a href="#">秦岭羊奶</a></dd>
+				</dl>
+			  </div>
+			  <div class="col-md-2 col-sm-2 col-xs-4">
+			  	<dl>
+			  		<dt>企业咨询</dt>
+			  		<dd><a href="#"></a></dd>
+			  	</dl>
+			  </div>
+			   <!-- Add the extra clearfix for only the required viewport -->
+			  <div class="clearfix visible-xs-block"></div>
+			  <div class="col-md-4 col-sm-4 col-xs-8">
+			  	<dl>
+			  		<dt>联系我们</dt>
+			  		<dd>地址：河南省新乡市获嘉县产业集聚区南迎宾大道33号</dd>
+			  		<dd>电话：0373-6308098</dd>
+					<dd>邮箱：zhryzjb@163.com</dd>
+			  	</dl>
+			  </div>
+			  <div class="col-md-2 col-sm-2 col-xs-4">
+			  	<dl>
+			  		<dt>关注我们</dt>
+			  		<dd><img class="img-responsive" src="http://www.hnzhry.com/images/index_41.jpg" alt=""></dd>
+			  	</dl>
+			  </div>
+			</div>
+			<div class="foot_bottom">
+				<div class="text-center">
+					<span>CopyRight©2016 河南中荷乳业股份有限公司 版权所有 技术支持：易科互联</span>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 侧边栏 -->
+	<div class="follow_img">	
+		<!-- <img class="img-responsive" src="images/pf.jpg"  alt=""> -->
+	</div>
+
+
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/base.js"></script>
+
+</body>
+
+</html>

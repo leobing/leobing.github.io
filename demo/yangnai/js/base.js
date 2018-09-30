@@ -2,7 +2,7 @@
 $(function(){
 	// 产品展厅-轮播
 	var box = $('.myslide_con')[0];
-	console.log(box);
+	// console.log(box);
 	var speed = 1;
 	var box_width = 1320;
 	uniformSpeed(box, speed, box_width);
@@ -17,6 +17,22 @@ $(function(){
 	$(window).scroll(function(){
 		$('.follow_img').css('margin-top', $(this).scrollTop() + "px");
 	});
+
+
+	// 企业概况--导航栏切换
+	var info_con = $('#info section');
+	var info_link = $('#info_link li');
+	
+	
+	for(var i=0; i<info_link.length; i++){
+		info_link[i].index = i;
+		$(info_link[i]).click(function(event) {
+			info_con.removeClass('current');
+	
+			$(info_con[this.index]).addClass('current');
+		});
+		
+	}
 })
 
 

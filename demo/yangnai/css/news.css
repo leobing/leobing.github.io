@@ -1,0 +1,37 @@
+.path{background-color:#f5f5f5;}
+.breadcrumb{background-color:transparent;margin-bottom:0;}
+
+.main{position:relative;padding:0;margin-top:30px;min-height:1283px;}
+.main .right_side{margin-left:320px;float: left;width:880px;}
+.main .left_side{border:1px solid #ccc;width:300px;position:absolute;}
+
+/* 左边栏 */
+.column_tit{border-bottom:2px solid #4b8938;margin:5px 12px;}
+.main .left_side .nav-stacked li a{transition:1s;padding-left:12px;padding-right:0;margin:auto 12px;border-bottom:1px dashed #ccc;}
+.main .left_side .nav-stacked li a:hover{background-color:#4b8938;color:#fff;}
+.main .left_side .nav-stacked li a .glyphicon{margin-right:10px;font-weight:normal;}
+.main .left_side .recom {margin:5px 12px;}
+.main .left_side .recom dl{text-align:center;}
+.main .left_side .recom dl dt{width:100%;}
+.main .left_side .contact{margin:5px 12px;}
+.main .left_side .contact_con{margin:10px 20px;}
+
+/* 右边栏 */
+.right_side.info>section{display:none;}
+.right_side.info>section.current{display:block;}
+.right_side.info .info_tit{font-size:20px;border-bottom:1px solid #ccc;padding:5px;}
+
+.info_con ul{padding:0 5px;}
+.info_con li{border-bottom:1px dashed #ccc;margin-bottom:10px;}
+.info_con li .clearfix{height:auto;}
+.info_con li .time,
+.info_con li .intro{font-size:14px;color:#666;}
+
+
+.info_con li .time{margin-top:10px;}
+
+
+
+.left_side .nav-stacked li a{cursor:pointer;}
+
+

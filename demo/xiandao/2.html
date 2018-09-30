@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>先导-产品中心</title>
+    <meta name="description" content="{:cache('Config.siteinfo')}" />
+    <meta name="keywords" content="{:cache('Config.sitekeywords')}" />
+    <link rel="shortcut icon" type="image/x-icon" href="{$config_siteurl}statics/xcd/images/favicon.ico"/>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/pro_center.css">
+
+        <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target="#myScrollspy">
+    <!-- 头部 -->
+    <header class="mainbox">
+      <!-- 顶部 -->
+      <div class="container">
+        <div class="logo">
+          <img src="images/logo.png" height="69" width="234" alt="">
+        </div>
+        <div class="nav">
+          
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+            
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">首页<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">公寓床</a></li>
+                <li><a href="#">书架</a></li>
+                <li><a href="#">文件柜</a></li>
+                <li><a href="#">产品中心</a></li>
+                <li><a href="#">精品案例</a></li>
+                <li><a href="#">新闻中心</a></li>
+                <li><a href="#">关于先导</a></li>
+                <li><a href="#">联系我们</a></li>
+                
+              </ul>
+            </div><!-- /.container-fluid -->
+          </nav>
+
+
+        </div>
+      </div>
+    </header>
+
+    <!-- 通栏 -->
+    <div id="carousel-example-generic" class="carousel slide mainbox banner" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/pro-detail-banner.png" height="835" width="1920" alt="...">
+                <div class="carousel-caption">
+                    <!-- 图片描述 -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 热词 -->
+    <div class="hot mainbox">
+      <div class="container">
+        <div class="hot_left">
+          <div>科技领先&nbsp;&nbsp;导引时尚</div>
+          <div class="bottom_word">公寓床家具供应商</div>
+        </div>
+        <div class="hot_center">
+          
+            <div class="hot-word">
+              <span>热门关键词：</span>
+              <span>公寓床</span>
+              <span>书架</span>
+              <span>文件柜</span>
+              <span>更衣柜</span>
+              <span>密集架</span>
+              <span>钢制家具</span>
+              <span>图书馆家具</span>
+            </div>
+            <div class="form">
+              <form class="navbar-form navbar-left">
+                <div class="form-group fl">
+                  <input type="text" class="form-control" placeholder="请输入关键词进行搜索">
+                </div>
+                <button type="submit" class="btn btn-default">
+                  <img src="images/search.png" alt="">
+                </button>
+              </form>
+            </div>
+        </div>
+        <div class="hot_right fr">
+          <p>服务热线</p>
+          <p class="phone_num">13937906019</p>
+          <img src="images/phone.png" height="53" width="36" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- 免费设计 -->
+    <div class="design mainbox">
+      <div class="container clearfix">
+        <dl>
+          <dt>
+            <div class="txt_d fl">
+              <h2>免费设计</h2>
+              <span>FREE DESIGN</span>
+            </div>
+            <img src="images/free.png" height="48" width="49" alt="">
+          </dt>
+        </dl>
+        <dl>
+          <dt>
+            <div class="txt_d fl">
+              <h2>个性定制</h2>
+              <span>CUSTOMIZED</span>
+            </div>
+            <img src="images/free2.png" height="48" width="49" alt="">
+          </dt>
+        </dl>
+        <dl>
+          <dt>
+            <div class="txt_d fl" style="margin-left:-20px;">
+              <h2>免费安装</h2>
+              <span>FREE INSTALLATION</span>
+            </div>
+            <img src="images/free3.png" height="48" width="49" alt="">
+          </dt>
+        </dl>
+        <dl>
+          <dt>
+            <div class="txt_d fl" style="margin-left:-10px;">
+              <h2>售后服务</h2>
+              <span>AFTER SERVICE</span>
+            </div>
+            <img src="images/free4.png" height="48" width="49" alt="">
+          </dt>
+        </dl>
+      </div>
+    </div>
+
+    <!-- 产品专题 -->
+    <div class="pro_subject mainbox">
+      <div class="tit">
+        <div class="txt">
+          <img src="images/pro_sm.png" height="95" width="253" alt="">
+          <div class="inner_txt">
+            <h2>产品专题</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <ul>
+          <li class="clearfix">
+            <a href="#"></a>
+            <div class="left fl">
+              <h3>公寓床专题</h3>
+              <span>休息 储物 学习</span>
+            </div>
+            <div class="right fl">
+              <img src="images/zhuanti1.png" height="100" width="139" alt="">
+            </div>
+          </li>
+          <li class="clearfix">
+            <a href="#"></a>
+            <div class="left fl">
+              <h3>书架专题</h3>
+              <span>全新设计结构 美观 耐用</span>
+            </div>
+            <div class="right fl">
+              <img src="images/zhuanti2.png" height="129" width="109" alt="">
+            </div>
+          </li>
+          <li class="clearfix">
+            <a href="#"></a>
+            <div class="left fl">
+              <h3>书架专题</h3>
+              <span>全新设计结构 美观 耐用</span>
+            </div>
+            <div class="right fl">
+              <img src="images/zhuanti2.png" height="129" width="109" alt="">
+            </div>
+          </li>
+          <li class="clearfix">
+            <a href="#"></a>
+            <div class="left fl">
+              <h3>书架专题</h3>
+              <span>全新设计结构 美观 耐用</span>
+            </div>
+            <div class="right fl">
+              <img src="images/zhuanti2.png" height="129" width="109" alt="">
+            </div>
+          </li>
+          <li class="clearfix">
+            <a href="#"></a>
+            <div class="left fl">
+              <h3>书架专题</h3>
+              <span>全新设计结构 美观 耐用</span>
+            </div>
+            <div class="right fl">
+              <img src="images/zhuanti2.png" height="129" width="109" alt="">
+            </div>
+          </li>
+          <li class="clearfix">
+            <a href="#"></a>
+            <div class="left fl">
+              <h3>书架专题</h3>
+              <span>全新设计结构 美观 耐用</span>
+            </div>
+            <div class="right fl">
+              <img src="images/zhuanti2.png" height="129" width="109" alt="">
+            </div>
+          </li>
+          <li class="clearfix">
+            <a href="#"></a>
+            <div class="left fl">
+              <h3>书架专题</h3>
+              <span>全新设计结构 美观 耐用</span>
+            </div>
+            <div class="right fl">
+              <img src="images/zhuanti2.png" height="129" width="109" alt="">
+            </div>
+          </li>
+          <li class="clearfix last">
+              <a href="#">更多分类 >></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 畅销产品 -->
+    <div class="pro_sellwell mainbox">
+      <div class="tit">
+        <div class="txt">
+          <img src="images/pro_sm.png" height="95" width="253" alt="">
+          <div class="inner_txt">
+            <h2>畅销产品</h2>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="container">
+          <!-- 畅销轮播 -->
+          <div class="swiper-container sellwell-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/sellwell1.png" height="407" width="1200" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/sellwell1.png" height="407" width="1200" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/sellwell1.png" height="407" width="1200" alt="">
+              </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- 中间轮播 -->
+    <div class="mainbox" style="margin-top:60px;">
+      <div class="container">
+        <div class="swiper-container swiper-middle">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#"></a>
+              <div class="sw-logo">
+                <img src="images/middle-logo.png" height="33" width="33" alt="">
+              </div>
+              <div class="m_img">
+                <img src="images/zhong1.png" height="170" width="237" alt="">
+              </div>
+              <p class="t">2连2侧梯</p>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"></a>
+              <div class="sw-logo">
+                <img src="images/middle-logo.png" height="33" width="33" alt="">
+              </div>
+              <div class="m_img">
+                <img src="images/zhong2.png" height="221" width="249" alt="">
+              </div>
+              <p class="t">2连2中梯</p>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"></a>
+              <div class="sw-logo">
+                <img src="images/middle-logo.png" height="33" width="33" alt="">
+              </div>
+              <div class="m_img">
+                <img src="images/zhong3.png" height="212" width="257" alt="">
+              </div>
+              <p class="t">单人位</p>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"></a>
+              <div class="sw-logo">
+                <img src="images/middle-logo.png" height="33" width="33" alt="">
+              </div>
+              <div class="m_img">
+                <img src="images/zhong1.png" height="170" width="237" alt="">
+              </div>
+              <p class="t">2连2侧梯</p>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"></a>
+              <div class="sw-logo">
+                <img src="images/middle-logo.png" height="33" width="33" alt="">
+              </div>
+              <div class="m_img">
+                <img src="images/zhong2.png" height="221" width="249" alt="">
+              </div>
+              <p class="t">2连2中梯</p>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"></a>
+              <div class="sw-logo">
+                <img src="images/middle-logo.png" height="33" width="33" alt="">
+              </div>
+              <div class="m_img">
+                <img src="images/zhong3.png" height="212" width="257" alt="">
+              </div>
+              <p class="t">单人位</p>
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 楼梯效果开始 -->
+    <div class="container">
+      <div class="stair" id="myScrollspy" >
+        <ul class="nav nav-stacked" data-spy="affix" data-offset-top="2960">
+          <li class="active"><a href="#section-1">公寓床</a></li>
+          <li><a href="#section-2">密集架</a></li>
+          <li><a href="#section-3">文件柜</a></li>
+          <li><a href="#section-4">书架</a></li>
+          <li><a href="#section-5">家用家具</a></li>
+          <li><a href="#section-6">营房家具</a></li>
+          <li><a href="#section-7">出口家具</a></li>
+          <li><a href="#" class="goTop">
+            <span>
+              顶部
+            </span>
+              <i class="sanjiao"></i>
+          </a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 公寓床 -->
+    <div id="section-1" class="bed mainbox">
+      <div class="tit container">
+        <div class="txt">
+          <img src="images/pro_sm.png" height="95" width="253" alt="">
+          <div class="inner_txt">
+            <h2>公寓床</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="content" >
+          <!-- tab标签 -->
+          <ul id="myTab" class="nav nav-tabs">
+             <li class="active">
+                <a href="#home" data-toggle="tab">
+                   学生课桌椅
+                </a>
+             </li>
+           
+             <li>
+              <a href="#ios" data-toggle="tab">
+                  学生公寓床
+              </a>
+             </li>
+          </ul>
+          <!-- 每个tab页对应的内容 -->
+          <div id="myTabContent" class="tab-content">
+             <div class="tab-pane fade in active" id="home">
+                <ul class="clearfix">
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/zhong1.png" height="170" width="237" alt="">
+                    </div>
+                    <p class="t">2连2侧梯</p>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/zhong1.png" height="170" width="237" alt="">
+                    </div>
+                    <p class="t">2连2中梯</p>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/zhong1.png" height="170" width="237" alt="">
+                    </div>
+                    <p class="t">2连3</p>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/zhong1.png" height="170" width="237" alt="">
+                    </div>
+                    <p class="t">单人位</p>
+                  </li>
+                </ul>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+             <div class="tab-pane fade" id="ios">
+                <p>iOS 是一个由苹果公司开发和发布的手机操作系统。</p>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 密集架 -->
+    <div id="section-2" class="bed mainbox">
+      <div class="tit container">
+        <div class="txt">
+          <img src="images/pro_sm.png" height="95" width="253" alt="">
+          <div class="inner_txt">
+            <h2>密集架</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="content">
+          <!-- tab标签 -->
+          <ul id="myTab" class="nav nav-tabs">
+             <li class="active">
+                <a href="#m1" data-toggle="tab">
+                   电动密集架
+                </a>
+             </li>
+             <li>
+              <a href="#m2" data-toggle="tab">
+                  手动密集架
+              </a>
+             </li>
+             <li>
+              <a href="#m3" data-toggle="tab">
+                  智能密集架
+              </a>
+             </li>
+          </ul>
+          <!-- 每个tab页对应的内容 -->
+          <div id="myTabContent" class="tab-content">
+             <div class="tab-pane fade in active" id="m1">
+                <ul class="clearfix">
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/m1.png" height="206" width="228" alt="">
+                    </div>
+                    <p class="t">电动密集架</p>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/m1.png" height="206" width="228" alt="">
+                    </div>
+                    <p class="t">电动密集架</p>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/m1.png" height="206" width="228" alt="">
+                    </div>
+                    <p class="t">电动密集架</p>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/m1.png" height="206" width="228" alt="">
+                    </div>
+                    <p class="t">电动密集架</p>
+                  </li>
+                </ul>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+             <div class="tab-pane fade" id="m2">
+                <p>iOS 是一个由苹果公司开发和发布的手机操作系统。</p>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+              <div class="tab-pane fade" id="m3">
+                <p>iOS 是一个由苹果公司开发和发布的手机操作系统。</p>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 文件柜 -->
+    <div id="section-3" class="bed mainbox">
+      <div class="tit container">
+        <div class="txt">
+          <img src="images/pro_sm.png" height="95" width="253" alt="">
+          <div class="inner_txt">
+            <h2>文件柜</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="content">
+          <!-- tab标签 -->
+          <ul id="myTab" class="nav nav-tabs">
+             <li class="active">
+                <a href="#b1" data-toggle="tab">
+                   文件柜
+                </a>
+             </li>
+             <li>
+              <a href="#b2" data-toggle="tab">
+                  文件矮柜
+              </a>
+             </li>
+             <li>
+              <a href="#b3" data-toggle="tab">
+                  更衣柜
+              </a>
+             </li>
+             <li>
+              <a href="#b4" data-toggle="tab">
+                  保密柜
+              </a>
+             </li>
+          </ul>
+          <!-- 每个tab页对应的内容 -->
+          <div id="myTabContent" class="tab-content">
+             <div class="tab-pane fade in active" id="b1">
+                <ul class="clearfix">
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/w1.png" height="239" width="131" alt="">
+                    </div>
+                    <p class="t">二斗下节玻门上节组合文件柜</p>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/w1.png" height="239" width="131" alt="">
+                    </div>
+                    <p class="t">上玻下铁组合文件柜</p>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/w1.png" height="239" width="131" alt="">
+                    </div>
+                    <p class="t">二斗下节铁门上节组合文件柜</p>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/w1.png" height="239" width="131" alt="">
+                    </div>
+                    <p class="t">玻门组合文件柜</p>
+                  </li>
+                </ul>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+             <div class="tab-pane fade" id="b2">
+                <p>iOS 是一个由苹果公司开发和发布的手机操作系统。</p>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+             <div class="tab-pane fade" id="b3">
+                <p>iOS 是一个由苹果公司开发和发布的手机操作系统。</p>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+             <div class="tab-pane fade" id="b4">
+                <p>iOS 是一个由苹果公司开发和发布的手机操作系统。</p>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 书架 -->
+    <div id="section-4" class="bed mainbox">
+      <div class="tit container">
+        <div class="txt">
+          <img src="images/pro_sm.png" height="95" width="253" alt="">
+          <div class="inner_txt">
+            <h2>书架</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="content">
+          <!-- tab标签 -->
+          <ul id="myTab" class="nav nav-tabs">
+             <li class="active">
+                <a href="#s1" data-toggle="tab">
+                   书架
+                </a>
+             </li>
+             <li>
+              <a href="#s2" data-toggle="tab">
+                  阅览桌椅
+              </a>
+             </li>
+          </ul>
+          <!-- 每个tab页对应的内容 -->
+          <div id="myTabContent" class="tab-content">
+             <div class="tab-pane fade in active" id="s1">
+                <ul class="clearfix">
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/s1.png" height="211" width="226" alt="">
+                    </div>
+                    <p class="t">转印复柱双面六层书架</p>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/s1.png" height="211" width="226" alt="">
+                    </div>
+                    <p class="t">复柱双面六层书架（转印压型护板）</p>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/s1.png" height="211" width="226" alt="">
+                    </div>
+                    <p class="t">复柱双面六层书架</p>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/s1.png" height="211" width="226" alt="">
+                    </div>
+                    <p class="t">复柱双面六层书架（实木护板）</p>
+                  </li>
+                </ul>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+             <div class="tab-pane fade" id="s2">
+                <p>iOS 是一个由苹果公司开发和发布的手机操作系统。</p>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 家用家具 -->
+    <div id="section-5" class="bed mainbox">
+      <div class="tit container">
+        <div class="txt">
+          <img src="images/pro_sm.png" height="95" width="253" alt="">
+          <div class="inner_txt">
+            <h2>家用家具</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="content">
+          <!-- tab标签 -->
+          <ul id="myTab" class="nav nav-tabs">
+             <li class="active">
+                <a href="#j1" data-toggle="tab">
+                   鞋柜
+                </a>
+             </li>
+             <li>
+              <a href="#j2" data-toggle="tab">
+                  二门家用柜
+              </a>
+             </li>
+             <li>
+              <a href="#j3" data-toggle="tab">
+                  三门家用柜
+              </a>
+             </li>
+             <li>
+              <a href="#j4" data-toggle="tab">
+                  四门家用柜
+              </a>
+             </li>
+             <li>
+              <a href="#j5" data-toggle="tab">
+                  家用移门柜
+              </a>
+             </li>
+             <li>
+              <a href="#j6" data-toggle="tab">
+                  组合家用衣柜
+              </a>
+             </li>
+          </ul>
+          <!-- 每个tab页对应的内容 -->
+          <div id="myTabContent" class="tab-content">
+             <div class="tab-pane fade in active" id="j1">
+                <ul class="clearfix">
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/w1.png" height="239" width="131" alt="">
+                    </div>
+                    <p class="t">二门二斗鞋柜</p>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/w1.png" height="239" width="131" alt="">
+                    </div>
+                    <p class="t">二门二斗鞋柜</p>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/w1.png" height="239" width="131" alt="">
+                    </div>
+                    <p class="t">三门鞋柜</p>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/w1.png" height="239" width="131" alt="">
+                    </div>
+                    <p class="t">二门二斗鞋柜</p>
+                  </li>
+                </ul>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+             <div class="tab-pane fade" id="j2">
+                <p>iOS 是一个由苹果公司开发和发布的手机操作系统。</p>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+             <div class="tab-pane fade" id="j3">
+                <p>iOS 是一个由苹果公司开发和发布的手机操作系统。</p>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+             <div class="tab-pane fade" id="j4">
+                <p>iOS 是一个由苹果公司开发和发布的手机操作系统。</p>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+
+             <div class="tab-pane fade" id="j5">
+                <p>iOS 是一个由苹果公司开发和发布的手机操作系统。</p>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+
+             <div class="tab-pane fade" id="j6">
+                <p>iOS 是一个由苹果公司开发和发布的手机操作系统。</p>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 营房家具 -->
+    <div id="section-6" class="bed mainbox">
+      <div class="tit container">
+        <div class="txt">
+          <img src="images/pro_sm.png" height="95" width="253" alt="">
+          <div class="inner_txt">
+            <h2>营房家具</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="content">
+          <!-- tab标签 -->
+          <ul id="myTab" class="nav nav-tabs">
+             <li class="active">
+                <a href="#y1" data-toggle="tab">
+                   双层床
+                </a>
+             </li>
+             <li>
+              <a href="#y2" data-toggle="tab">
+                  二门家用柜
+              </a>
+             </li>
+             <li>
+              <a href="#y3" data-toggle="tab">
+                  三门家用柜
+              </a>
+             </li>
+             <li>
+              <a href="#y4" data-toggle="tab">
+                  四门家用柜
+              </a>
+             </li>
+             <li>
+              <a href="#y5" data-toggle="tab">
+                  家用移门柜
+              </a>
+             </li>
+             <li>
+              <a href="#y6" data-toggle="tab">
+                  组合家用衣柜
+              </a>
+             </li>
+          </ul>
+          <!-- 每个tab页对应的内容 -->
+          <div id="myTabContent" class="tab-content">
+             <div class="tab-pane fade in active" id="y1">
+                <ul class="clearfix">
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/y1.png" height="181" width="237" alt="">
+                    </div>
+                    <p class="t">二门二斗鞋柜</p>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/y1.png" height="181" width="237" alt="">
+                    </div>
+                    <p class="t">二门二斗鞋柜</p>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/y1.png" height="181" width="237" alt="">
+                    </div>
+                    <p class="t">三门鞋柜</p>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/y1.png" height="181" width="237" alt="">
+                    </div>
+                    <p class="t">二门二斗鞋柜</p>
+                  </li>
+                </ul>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+             <div class="tab-pane fade" id="y2">
+                <p>iOS 是一个由苹果公司开发和发布的手机操作系统。</p>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+             <div class="tab-pane fade" id="y3">
+                <p>iOS 是一个由苹果公司开发和发布的手机操作系统。</p>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+             <div class="tab-pane fade" id="y4">
+                <p>iOS 是一个由苹果公司开发和发布的手机操作系统。</p>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+
+             <div class="tab-pane fade" id="y5">
+                <p>iOS 是一个由苹果公司开发和发布的手机操作系统。</p>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+
+             <div class="tab-pane fade" id="y6">
+                <p>iOS 是一个由苹果公司开发和发布的手机操作系统。</p>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 出口家具 -->
+    <div id="section-7" class="bed mainbox">
+      <div class="tit container">
+        <div class="txt">
+          <img src="images/pro_sm.png" height="95" width="253" alt="">
+          <div class="inner_txt">
+            <h2>出口家具</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="content">
+          <!-- tab标签 -->
+          <ul id="myTab" class="nav nav-tabs">
+             <li class="active">
+                <a href="#c1" data-toggle="tab">
+                   储物柜
+                </a>
+             </li>
+             <li>
+              <a href="#c2" data-toggle="tab">
+                  阳台柜
+              </a>
+             </li>
+             <li>
+              <a href="#c3" data-toggle="tab">
+                  文件矮柜
+              </a>
+             </li>
+             <li>
+              <a href="#c4" data-toggle="tab">
+                  宽边文件柜
+              </a>
+             </li>
+          </ul>
+          <!-- 每个tab页对应的内容 -->
+          <div id="myTabContent" class="tab-content">
+             <div class="tab-pane fade in active" id="c1">
+                <ul class="clearfix">
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/y1.png" height="181" width="237" alt="">
+                    </div>
+                    <p class="t">二门二斗鞋柜</p>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/y1.png" height="181" width="237" alt="">
+                    </div>
+                    <p class="t">二门二斗鞋柜</p>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/y1.png" height="181" width="237" alt="">
+                    </div>
+                    <p class="t">三门鞋柜</p>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/y1.png" height="181" width="237" alt="">
+                    </div>
+                    <p class="t">二门二斗鞋柜</p>
+                  </li>
+                </ul>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+             <div class="tab-pane fade" id="c2">
+                <p>iOS 是一个由苹果公司开发和发布的手机操作系统。</p>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+             <div class="tab-pane fade" id="c3">
+                <p>iOS 是一个由苹果公司开发和发布的手机操作系统。</p>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+             <div class="tab-pane fade" id="c4">
+                <p>iOS 是一个由苹果公司开发和发布的手机操作系统。</p>
+                <a href="#" class="genduo">查看更多</a>
+             </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+      
+
+ 
+    
+
+
+
+
+
+
+
+
+    <!-- 底部 -->
+    <div class="foot mainbox">
+      <div class="container">
+        <div class="foot_logo">
+          <img src="images/logo.png" height="69" width="234" alt="">
+        </div>
+        <div class="contact clearfix">
+          <div class="phone fl">
+            <span>电话：</span>
+            <p>18137954349</p>
+          </div>
+          <div class="address fl">
+            <span>地址：</span>
+            <p>洛阳市伊滨区庞村西庞工业区  </p>
+          </div>
+          <div class="ercode fl">
+            <img src="images/code.png" height="149" width="130" alt="">
+            <p>手机官网</p>
+          </div>
+          <div class="ercode fl">
+            <img src="images/code.png" height="149" width="130" alt="">
+            <p>微信公众号</p>
+          </div>
+          <div class="email fl">
+            <span>邮箱：</span>
+            <p>1340167054@qq.com</p>
+          </div>
+          <div class="webad fl">
+            <span>网址：</span>
+            <p>http:www.lyxiandao.com  </p>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="t clearfix">
+            <h2 class="fl">网站地图</h2>
+            <h2 class="fr">备案号：豫ICP备13008017号</h2>
+          </div>
+          <ul class="clearfix">
+            <li><a href="#">公寓床</a></li>
+            <li><a href="#">书架</a></li>
+            <li><a href="#">文件柜</a></li>
+            <li><a href="#">密集架</a></li>
+            <li><a href="#">家用家具</a></li>
+            <li><a href="#">营房家具</a></li>
+            <li><a href="#">出口家具</a></li>
+            <li><a href="#">关于先导</a></li>
+            <li><a href="#">荣誉资质</a></li>
+            <li><a href="#">工厂实景</a></li>
+            <li><a href="#">合作客户</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/base.js"></script>
+
+
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+
+      // 畅销轮播
+      var swiperSell = new Swiper('.sellwell-swiper', {
+        pagination: {
+          el: '.swiper-pagination',
+          clickable:true,
+        },
+      });
+
+      // 中间轮播
+      var swiper = new Swiper('.swiper-middle', {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+
+
+      $('.goTop').click(function(event) {
+        backTop(2690);
+        
+      });
+    </script>
+  </body>
+</html>
