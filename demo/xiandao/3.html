@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>先导-产品详情</title>
+    <meta name="description" content="{:cache('Config.siteinfo')}" />
+    <meta name="keywords" content="{:cache('Config.sitekeywords')}" />
+    <link rel="shortcut icon" type="image/x-icon" href="{$config_siteurl}statics/xcd/images/favicon.ico"/>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/pro_detail.css">
+
+        <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target="#myScrollspy">
+    <!-- 头部 -->
+    <header class="mainbox">
+      <!-- 顶部 -->
+      <div class="container">
+        <div class="logo">
+          <img src="images/logo.png" height="69" width="234" alt="">
+        </div>
+        <div class="nav">
+          
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+            
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">首页<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">公寓床</a></li>
+                <li><a href="#">书架</a></li>
+                <li><a href="#">文件柜</a></li>
+                <li><a href="#">产品中心</a></li>
+                <li><a href="#">精品案例</a></li>
+                <li><a href="#">新闻中心</a></li>
+                <li><a href="#">关于先导</a></li>
+                <li><a href="#">联系我们</a></li>
+                
+              </ul>
+            </div><!-- /.container-fluid -->
+          </nav>
+
+
+        </div>
+      </div>
+    </header>
+
+    <!-- 通栏 -->
+    <div id="carousel-example-generic" class="carousel slide mainbox banner" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/pro-detail-banner.png" height="835" width="1920" alt="...">
+                <div class="carousel-caption">
+                    <!-- 图片描述 -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 热词 -->
+    <div class="hot mainbox">
+      <div class="container">
+        <div class="hot_left">
+          <div>科技领先&nbsp;&nbsp;导引时尚</div>
+          <div class="bottom_word">公寓床家具供应商</div>
+        </div>
+        <div class="hot_center">
+          
+            <div class="hot-word">
+              <span>热门关键词：</span>
+              <span>公寓床</span>
+              <span>书架</span>
+              <span>文件柜</span>
+              <span>更衣柜</span>
+              <span>密集架</span>
+              <span>钢制家具</span>
+              <span>图书馆家具</span>
+            </div>
+            <div class="form">
+              <form class="navbar-form navbar-left">
+                <div class="form-group fl">
+                  <input type="text" class="form-control" placeholder="请输入关键词进行搜索">
+                </div>
+                <button type="submit" class="btn btn-default">
+                  <img src="images/search.png" alt="">
+                </button>
+              </form>
+            </div>
+        </div>
+        <div class="hot_right fr">
+          <p>服务热线</p>
+          <p class="phone_num">13937906019</p>
+          <img src="images/phone.png" height="53" width="36" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- 路径导航 -->
+    <div class="path mainbox">
+      <div class="container">
+        <ul class="clearfix">
+          <li><i class="map_icon"></i>当前位置：></li>
+          <li>首页 ></li>
+          <li>产品中心 ></li>
+          <li>公寓床 ></li>
+          <li>2连2侧梯 ></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 产品页 -->
+    <div class="pro-top mainbox">
+      <div class="container">
+        <div class="left fl">
+          <div id="myTabContent" class="tab-content">
+              <div class="tab-pane fade in active" id="d1">
+                <div class="sw-logo">
+                  <img src="images/pro-logo.png" height="69" width="69" alt="">
+                </div>
+                <div class="m_img">
+                  <img src="images/pro-detail.png" height="291" width="407" alt="">
+                </div>
+              </div>
+              <div class="tab-pane fade" id="d2">
+                <div class="sw-logo">
+                  <img src="images/pro-logo.png" height="69" width="69" alt="">
+                </div>
+                <div class="m_img">
+                  <img src="images/pro-detail.png" height="291" width="407" alt="">
+                </div>
+              </div>
+              <div class="tab-pane fade" id="d3">
+                <div class="sw-logo">
+                  <img src="images/pro-logo.png" height="69" width="69" alt="">
+                </div>
+                <div class="m_img">
+                  <img src="images/pro-detail.png" height="291" width="407" alt="">
+                </div>
+              </div>
+              <div class="tab-pane fade" id="d4">
+                <div class="sw-logo">
+                  <img src="images/pro-logo.png" height="69" width="69" alt="">
+                </div>
+                <div class="m_img">
+                  <img src="images/pro-detail.png" height="291" width="407" alt="">
+                </div>
+              </div>
+          </div>
+          <ul id="myTab" class="nav nav-tabs">
+              <li class="active">
+                  <a href="#d1" data-toggle="tab"></a>
+                  <div class="sw-logo">
+                    <img src="images/xs-logo.png" height="21" width="21" alt="">
+                  </div>
+                  <div class="m_img">
+                    <img src="images/pro-detail.png" height="291" width="407" alt="">
+                  </div>
+              </li>
+              <li>
+                <a href="#d2" data-toggle="tab"></a>
+                <div class="sw-logo">
+                  <img src="images/xs-logo.png" height="21" width="21" alt="">
+                </div>
+                <div class="m_img">
+                  <img src="images/pro-detail.png" height="291" width="407" alt="">
+                </div>
+              </li>
+              <li>
+                <a href="#d3" data-toggle="tab"></a>
+                <div class="sw-logo">
+                  <img src="images/xs-logo.png" height="21" width="21" alt="">
+                </div>
+                <div class="m_img">
+                  <img src="images/pro-detail.png" height="291" width="407" alt="">
+                </div>
+              </li>
+              <li>
+                <a href="#d4" data-toggle="tab"></a>
+                <div class="sw-logo">
+                  <img src="images/xs-logo.png" height="21" width="21" alt="">
+                </div>
+                <div class="m_img">
+                  <img src="images/pro-detail.png" height="291" width="407" alt="">
+                </div>
+              </li>
+          </ul>
+        </div>
+        <div class="right fr">
+          <h1>二连二人位中间侧梯公寓床</h1>
+          <ul>
+            <li>
+              产品编号：D22CZ 
+            </li>
+            <li>
+              规格（mm）：H2020*W3970*D900mm 
+            </li>
+            <li>
+              颜色：床架：XD704皱纹；组合柜：白枫木纹转印（可选）
+            </li>
+            <li>
+              材质：优质冷轧钢板
+            </li>
+            <li class="tese clearfix">
+              <div class="fl">特色：</div>
+              <ul class="fl">
+                <li>
+                  品质好，选用一级冷轧钢板
+                </li>
+                <li>
+                  寿命长，加厚板材坚固耐用
+                </li>
+                <li>
+                  外形美，表面光滑不易变形
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="group_btn">
+              <a href="#" class="genduo">免费咨询</a>
+              <a href="#" class="genduo">在线咨询</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- 产品详情 -->
+    <div class="pro-detail mainbox">
+      <div class="container">
+        <div class="left" id="myScrollspy">
+          <!-- tab标签 -->
+          <ul class="nav nav-stacked" data-spy="affix" data-offset-top="1560" >
+            <li class="active"><a href="#section-1">产品详情</a></li>
+            <li><a href="#section-2">生产定制</a></li>
+            <li><a href="#section-3">产品配送</a></li>
+          </ul>
+
+          <!-- 内容页 -->
+          <div class="con">
+            <div id="section-1">
+              <img src="images/d1.png" height="2011" width="897" alt="">
+            </div>
+            <div id="section-2">
+              <img src="images/d2.png" height="1318" width="897" alt="">
+            </div>
+            <div id="section-3">
+              <img src="images/d3.png" height="2011" width="897" alt="">
+            </div>
+          </div>
+
+          <p>上一页——————下一页</p>
+
+          <!-- 预约 -->
+          <div class="order">
+            <h3>快速预约</h3>
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">姓名：</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="姓名" required>
+              </div>
+              <div class="form-group clearfix">
+                <label for="exampleInputEmail1">电话：</label>
+                <input type="tel" class="form-control" id="exampleInputEmail1" placeholder="电话" required>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">邮箱：</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="邮箱" required>
+              </div>
+              <div class="form-group clearfix">
+                <label for="exampleInputEmail1">地址：</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="地址" required>
+              </div>
+              <div class="form-group">
+                <label for="t">采购意向：</label>
+                <textarea class="t fl" class="form-control" rows="3" required></textarea>
+              </div>
+              <button class="genduo" type="submit" class="btn btn-default">提交信息</button>
+              <button class="genduo" type="reset" class="btn btn-default">重新填写</button>
+            </form>
+          </div>
+
+          <!-- 相关产品 -->
+          <div class="about_product mainbox clearfix">
+            <div class="tit">
+              <div class="txt">
+                <img src="images/pro_sm.png" height="95" width="253" alt="">
+                <div class="inner_txt">
+                  <h2>相关产品</h2>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="swiper-container fac-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/zhong1.png" height="170" width="237" alt="">
+                    </div>
+                    <p class="t">单人位</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/zhong1.png" height="170" width="237" alt="">
+                    </div>
+                    <p class="t">单人位</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/zhong1.png" height="170" width="237" alt="">
+                    </div>
+                    <p class="t">单人位</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/zhong1.png" height="170" width="237" alt="">
+                    </div>
+                    <p class="t">单人位</p>
+                  </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="arrow">
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 相关资讯 -->
+          <div class="about_news mainbox">
+            <div class="tit">
+              <div class="txt">
+                <img src="images/pro_sm.png" height="95" width="253" alt="">
+                <div class="inner_txt">
+                  <h2>相关资讯</h2>
+                </div>
+              </div>
+            </div>
+            <div class="container clearfix">
+              <div class="media">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="images/about_news.png" height="121" width="184" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading"><a href="#">公寓床会保养能用的更久</a></h4>
+                  <p class="text_overflow2">采购公寓床大家都想要质量好的，能用的久的。但不管质量再好的公寓床基本上也要五一换。究其原因是因为公寓床作为公共用品，大家在 </p>
+                  <time>2018-08-13</time>
+                </div>
+              </div>
+              <div class="media">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="images/about_news.png" height="121" width="184" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading"><a href="#">公寓床会保养能用的更久</a></h4>
+                  <p class="text_overflow2">采购公寓床大家都想要质量好的，能用的久的。但不管质量再好的公寓床基本上也要五一换。究其原因是因为公寓床作为公共用品，大家在 </p>
+                  <time>2018-08-13</time>
+                </div>
+              </div>
+              <div class="media">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="images/about_news.png" height="121" width="184" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading"><a href="#">公寓床会保养能用的更久</a></h4>
+                  <p class="text_overflow2">采购公寓床大家都想要质量好的，能用的久的。但不管质量再好的公寓床基本上也要五一换。究其原因是因为公寓床作为公共用品，大家在 </p>
+                  <time>2018-08-13</time>
+                </div>
+              </div>
+              <div class="media">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="images/about_news.png" height="121" width="184" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading"><a href="#">公寓床会保养能用的更久</a></h4>
+                  <p class="text_overflow2">采购公寓床大家都想要质量好的，能用的久的。但不管质量再好的公寓床基本上也要五一换。究其原因是因为公寓床作为公共用品，大家在 </p>
+                  <time>2018-08-13</time>
+                </div>
+              </div>
+              <a href="#" class="more">more+</a>
+
+            </div>
+          </div>
+
+
+
+        </div>
+        <!-- 侧边栏 -->
+        <div class="right">
+          <!-- 畅销产品 -->
+          <dl>
+            <dt>
+              <h2>畅销产品</h2>
+            </dt>
+            <dd>
+              <div class="swiper-container swiper-middle">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/zhong1.png" height="170" width="237" alt="">
+                    </div>
+                    <p class="t">单人位</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/zhong2.png" height="221" width="249" alt="">
+                    </div>
+                    <p class="t">单人位</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/zhong3.png" height="212" width="257" alt="">
+                    </div>
+                    <p class="t">单人位</p>
+                  </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+
+
+            </dd>
+          </dl>
+
+          <!-- 产品推荐 -->
+          <dl>
+            <dt>
+              <h2>产品推荐</h2>
+            </dt>
+            <dd>
+              <div class="swiper-container swiper-middle">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/zhong1.png" height="170" width="237" alt="">
+                    </div>
+                    <p class="t">2连3</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/zhong2.png" height="221" width="249" alt="">
+                    </div>
+                    <p class="t">2连3</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/zhong3.png" height="212" width="257" alt="">
+                    </div>
+                    <p class="t">2连3</p>
+                  </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+            </dd>
+          </dl>
+          <!-- 电话咨询 -->
+          <div class="contact">
+            <p>电话咨询</p>
+            <span>13937906019</span>
+            <img src="images/lp.png" height="45" width="60" alt="">
+          </div>
+          
+          <!-- 工程案例 -->
+          <dl>
+            <dt>
+              <h2>工程案例</h2>
+            </dt>
+            <dd>
+              <div class="swiper-container swiper-middle">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/zhong1.png" height="170" width="237" alt="">
+                    </div>
+                    <p class="t">清华大学</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/zhong2.png" height="221" width="249" alt="">
+                    </div>
+                    <p class="t">清华大学</p>
+
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#"></a>
+                    <div class="sw-logo">
+                      <img src="images/middle-logo.png" height="33" width="33" alt="">
+                    </div>
+                    <div class="m_img">
+                      <img src="images/zhong3.png" height="212" width="257" alt="">
+                    </div>
+                    <p class="t">清华大学</p>
+
+                  </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- 底部 -->
+    <div id="t123" class="foot mainbox">
+      <div class="container">
+        <div class="foot_logo">
+          <img src="images/logo.png" height="69" width="234" alt="">
+        </div>
+        <div class="contact clearfix">
+          <div class="phone fl">
+            <span>电话：</span>
+            <p>18137954349</p>
+          </div>
+          <div class="address fl">
+            <span>地址：</span>
+            <p>洛阳市伊滨区庞村西庞工业区  </p>
+          </div>
+          <div class="ercode fl">
+            <img src="images/code.png" height="149" width="130" alt="">
+            <p>手机官网</p>
+          </div>
+          <div class="ercode fl">
+            <img src="images/code.png" height="149" width="130" alt="">
+            <p>微信公众号</p>
+          </div>
+          <div class="email fl">
+            <span>邮箱：</span>
+            <p>1340167054@qq.com</p>
+          </div>
+          <div class="webad fl">
+            <span>网址：</span>
+            <p>http:www.lyxiandao.com  </p>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="t clearfix">
+            <h2 class="fl">网站地图</h2>
+            <h2 class="fr">备案号：豫ICP备13008017号</h2>
+          </div>
+          <ul class="clearfix">
+            <li><a href="#">公寓床</a></li>
+            <li><a href="#">书架</a></li>
+            <li><a href="#">文件柜</a></li>
+            <li><a href="#">密集架</a></li>
+            <li><a href="#">家用家具</a></li>
+            <li><a href="#">营房家具</a></li>
+            <li><a href="#">出口家具</a></li>
+            <li><a href="#">关于先导</a></li>
+            <li><a href="#">荣誉资质</a></li>
+            <li><a href="#">工厂实景</a></li>
+            <li><a href="#">合作客户</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      // console.log($('#hah').offset().top);
+      // 中间轮播
+      var swiper = new Swiper('.swiper-middle', {
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+
+      // 轮播
+      var swiper = new Swiper('.fac-swiper', {
+        slidesPerView: 3,
+        spaceBetween: 0,
+
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+
+    </script>
+  </body>
+</html>

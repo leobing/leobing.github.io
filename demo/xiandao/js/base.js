@@ -5,7 +5,9 @@ $(function(){
 })
 
 
-
+function backTop(val){
+  $("html,body").animate({scrollTop:val + "px"},666);
+}
 
 //阻止浏览器的默认行为 
 function stopDefault( e ) { 
